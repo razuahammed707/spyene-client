@@ -8,7 +8,7 @@ export const SwiperNavButtons = () => {
   const swiper = useSwiper();
 
   return (
-    <div className="space-x-3 mt-4">
+    <div className="space-x-3">
       <Button
         className="border rounded-full py-3 px-[7px]"
         onClick={() => swiper.slidePrev()}
