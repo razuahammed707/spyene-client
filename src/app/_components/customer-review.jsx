@@ -28,8 +28,8 @@ const CustomerReview = () => {
               .map((el, i) => (
                 <SwiperSlide key={i}>
                   <div
-                    style={{ backgroundImage: "url(/review-card-bg.png)" }}
-                    class="bg-cover  text-white p-5 rounded-lg w-64 relative"
+                    style={{  }}
+                    class="bg-cover  text-black border p-5 rounded-lg w-64 relative"
                   >
                     <div class="flex items-center mb-3">
                       <span>5.0</span>
