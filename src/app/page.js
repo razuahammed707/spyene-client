@@ -10,7 +10,7 @@ import Supports from "./_components/supports";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen max-w-[1440px] border flex-col items-center justify-between mx-auto ps-[256px]">
+    <main className="flex min-h-screen max-w-[1440px] w-full flex-col items-center justify-between mx-auto ps-[256px]">
       <Header />
       <Services />
       <Supports />
