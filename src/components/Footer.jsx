@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="flex flex-col">
+    <div className="flex max-w-[1440px] flex-col mx-auto">
       <div className="flex flex-wrap items-center w-full text-sm text-white min-h-[349px] max-md:max-w-full">
         <div className="flex overflow-hidden relative flex-col flex-1 shrink items-center self-stretch px-20 pt-40 pb-20 my-auto basis-0 min-h-[349px] min-w-[240px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
         <Image 
