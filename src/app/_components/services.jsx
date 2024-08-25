@@ -43,7 +43,9 @@ export const Services = () => {
               </SwiperSlide>
             ))}
 
-          <SwiperNavButtons />
+          <div className="mt-2">
+            <SwiperNavButtons />
+          </div>
         </Swiper>
       </div>
     </>

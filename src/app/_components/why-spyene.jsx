@@ -11,8 +11,8 @@ const images = [
 
 function WhySpyene() {
   return (
-    <div className="ms-[-256px] space-y-4  py-[128px]">
-      <h2 className="text-[30px] text-[#0F172A] font-medium mb-4">
+    <div className="ms-[-256px] space-y-4  pt-[128px] pb-[73px]">
+      <h2 className="text-[30px] text-[#0F172A] font-semibold mb-4">
         Why Choose Spyene Technologies?
       </h2>
       <p className="text-sm text-[#0F172A]">
