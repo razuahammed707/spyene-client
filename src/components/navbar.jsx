@@ -1,8 +1,8 @@
 import { fetchServices } from "@/shared/helpers/fetch-services";
 import Image from "next/image";
 import { DropdownNavItem } from "./dropdown-nav-item";
-import Link from 'next/link';
- 
+import Link from "next/link";
+
 const Navbar = async () => {
   const services = await fetchServices();
   return (
@@ -20,8 +20,7 @@ const Navbar = async () => {
             <div className="flex gap-6 justify-between items-center self-stretch my-auto min-w-[240px] w-[308px]">
               <div className="flex gap-4 items-center self-stretch h-full">
                 <DropdownNavItem title="Services" menus={services} />
-                <DropdownNavItem title="Services" menus={services} />
-              </div>
+               </div>
               <div className="flex flex-col self-stretch my-auto w-[41px]">
                 <div className="gap-1 self-stretch">About</div>
               </div>

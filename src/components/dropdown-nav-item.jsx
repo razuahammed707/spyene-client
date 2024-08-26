@@ -29,7 +29,10 @@ export function DropdownNavItem(props) {
           {props?.menus?.map((menu) => (
             <Fragment key={menu?.id}>
               <DropdownMenuItem>
-                <Link href="#" className="hover:text-red-600">
+                <Link
+                  href={`/services/${menu.attributes.Slug}`}
+                  className="hover:text-red-600"
+                >
                   {menu.attributes.Title}
                 </Link>
               </DropdownMenuItem>
@@ -37,7 +40,7 @@ export function DropdownNavItem(props) {
             </Fragment>
           ))}
           <DropdownMenuItem>
-            <Link href="#" className="hover:text-red-600">
+            <Link href="/services" className="hover:text-red-600">
               View All
             </Link>
             <ArrowRight className="ms-2 h-3 w-3" />
