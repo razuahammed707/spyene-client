@@ -37,7 +37,9 @@ export function DropdownNavItem(props) {
             </Fragment>
           ))}
           <DropdownMenuItem>
-            <span>View All</span>
+            <Link href="#" className="hover:text-red-600">
+              View All
+            </Link>
             <ArrowRight className="ms-2 h-3 w-3" />
           </DropdownMenuItem>
         </DropdownMenuContent>
