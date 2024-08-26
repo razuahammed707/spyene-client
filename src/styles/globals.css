@@ -1,12 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'swiper/css';
+@import "swiper/css";
 
- 
-
-.container {
-  padding-right: 256px;
-  padding-left: 0;
-}
- 

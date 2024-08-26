@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Supports = () => {
   return (
-    <div className="flex w-full py-[128px] pr-[265px] justify-between items-center space-x-[48px]">
+    <div className="flex px-[256px] py-[128px] pr-[265px] justify-between items-center space-x-[48px]">
       <div className="w-full">
         <div className="mb-[21px] flex space-x-2 items-center">
           <Image src="/palm.svg" width={24} height={24} alt="svg icon" />

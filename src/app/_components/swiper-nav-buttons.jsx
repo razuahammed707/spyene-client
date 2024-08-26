@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ChevronLeft } from "lucide-react";
-import { ChevronRight } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import React from "react";
 import { useSwiper } from "swiper/react";
 
@@ -10,18 +10,18 @@ export const SwiperNavButtons = () => {
   return (
     <div className="space-x-3">
       <Button
-        className="border rounded-full py-3 px-[7px]"
+        className="w-[60px] h-[60px] border border-[1px solid #CBD5E1] rounded-full"
         onClick={() => swiper.slidePrev()}
       >
         {" "}
-        <ChevronLeft color="#EF8A22" />
+        <ArrowLeft color="#CBD5E1" />
       </Button>
 
       <Button
-        className="border rounded-full py-3 px-[7px]"
+        className="w-[60px] h-[60px] border border-[1px solid #CBD5E1] rounded-full"
         onClick={() => swiper.slideNext()}
       >
-        <ChevronRight color="#EF8A22" />
+        <ArrowRight color="#CBD5E1" />
       </Button>
     </div>
   );

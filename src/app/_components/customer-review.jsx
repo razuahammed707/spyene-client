@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const CustomerReview = () => {
   return (
-    <div className="w-full text-center my-[128px]">
+    <div className="ps-[256px] w-full text-center my-[128px]">
       <div className="w-full">
         <h2 className="text-[30px] text-[#0F172A] font-semibold">
           What our customers say about us
@@ -18,16 +18,30 @@ const CustomerReview = () => {
       <Swiper
         spaceBetween={15}
         slidesPerView={2.75}
-        onSlideChange={() => console.log("slide change")}
+        onSlideChange={(e) => console.log("slide change", e)}
+        onReachEnd={e=> console.log("end",e)
+        }
         onSwiper={(swiper) => console.log(swiper)}
         className="ps-[336px]  mt-[48px]"
       >
         <div className="bg-left absolute  bg-white top-0 left-0 z-10 pr-4">
           <div
-            style={{ backgroundImage: "url(/bg-reviews.png)" }}
-            className="w-[320px] bg-cover bg-no-repeat  h-[393px] flex items-end pb-3 ps-4"
+            style={{
+              backgroundImage:
+                "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 21.18%, #FFF 87.19%), url(/hardhat.png)",
+            }}
+            className="w-[320px] bg-right bg-no-repeat border-[1px solid #FFFF]  h-[393px] flex items-end "
           >
-            <SwiperNavButtons />
+            <div className="space-y-6 text-start">
+              <h1 className="text-[48px] text-[#EF8A22] font-extrabold">
+                5.00
+              </h1>
+              <p className="w-[280px] text-sm text-[#1045AD] leading-6">
+                Clutch average based on 70+ reviews. All chances are you’ll be
+                impressed too.
+              </p>
+              <SwiperNavButtons />
+            </div>
           </div>
         </div>
         {Array(12)
