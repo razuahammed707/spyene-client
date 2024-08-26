@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PopUp from "@/components/ui/popup";
 const GetQuotation = () => {
   return (
     <div className=" ">
@@ -23,10 +24,7 @@ const GetQuotation = () => {
               Spyene Technology has dedicated, experienced, and trained staff.
               We ensure the best services across the state.
             </div>
-            <div className="gap-2 self-start px-4 py-3 mt-2 font-medium text-white bg-orange-500 rounded-md min-h-[40px]">
-              Get a quote
-            </div>
-          </div>
+            <PopUp/></div>
         </div>
       </div>
     </div>
