@@ -1,10 +1,6 @@
 import { fetchServices } from "@/shared/helpers/fetch-services";
 import Image from "next/image";
-<<<<<<< HEAD
-import Link from 'next/link';
-=======
 import { DropdownNavItem } from "./dropdown-nav-item";
->>>>>>> f5d95fa (drop-down menu added)
 
 const Navbar = async () => {
   const services = await fetchServices();
@@ -33,13 +29,7 @@ const Navbar = async () => {
               </div>
 
               <div className="flex flex-col self-stretch my-auto w-[54px]">
-              
-
-                <button className="gap-1 self-stretch">
-                  <Link href="/contact">Contact</Link>
-                </button>
-
-
+                <div className="gap-1 self-stretch">Contact</div>
               </div>
             </div>
           </div>
