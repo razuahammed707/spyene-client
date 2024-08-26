@@ -1,9 +1,8 @@
 import Image from "next/image";
 const GetQuotation = () => {
   return (
-    <div>
-      {" "}
-      <div className="flex ms-[-255px] gap-8 justify-center items-center self-stretch px-64 py-20 bg-blue-800  ">
+    <div className=" ">
+      <div className="flex w-full gap-8 justify-center items-center self-stretch px-64 py-20 bg-blue-800  ">
         <div className="flex flex-wrap flex-1 shrink gap-8 items-center self-stretch my-auto w-full basis-0 min-w-[240px] max-md:max-w-full">
           <div className="flex flex-col flex-1 shrink justify-center self-stretch my-auto text-white basis-0 min-h-[97px] min-w-[240px] max-md:max-w-full">
             <div className="flex gap-2 items-center self-start text-sm font-bold leading-none whitespace-nowrap">

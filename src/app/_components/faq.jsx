@@ -7,7 +7,7 @@ function FAQ() {
         backgroundImage:
           "linear-gradient(270deg, rgba(255, 255, 255, 0) 11.82%, #FFF 52.49%), url(/bg-faq.png)",
       }}
-      className=" bg-cover bg-no-repeat pt-[55px] bg-right w-full flex gap-10 justify-center items-center   text-slate-900 max-md:px-5"
+      className="ps-[256px] bg-cover bg-no-repeat pt-[55px] bg-right w-full flex gap-10 justify-center items-center   text-slate-900 max-md:px-5"
     >
       <div className="flex flex-col flex-1 shrink self-stretch space-y-4 w-full basis-0    max-md:max-w-full">
         <div className="text-3xl font-semibold text-[#0F172A] tracking-tight leading-tight max-md:max-w-full">
