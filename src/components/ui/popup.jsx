@@ -11,38 +11,50 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export function Dialog() {
+export function PopUp() {
   return (
-    <Dialog>
+    <Dialog >
       <DialogTrigger asChild>
-        <Button variant="outline">Edit Profile</Button>
+        <Button className="bg-orange-400 max-w-[140px]">Get a Free Quote</Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="flex p-8 flex-col items-right gap-4 rounded-md bg-[#0F172A] w-[1000px]">
         <DialogHeader>
-          <DialogTitle>Contact Us</DialogTitle>
-          <DialogDescription>
-            Make changes to your profile here. Click save when you're done.
+          <DialogTitle className="text-[#F8FAFC] text-[24px] font-normal leading-[20px] font-inter items-stretch gap-2">Get a free quote !</DialogTitle>
+          <DialogDescription className="text-[#F8FAFC] text-[14px] font-normal leading-[20px] font-inter items-stretch">
+          We're here to help you harness the power of the sun and provide reliable energy storage options. Whether you have questions, need a quote, or want to learn more about our products and services, we'd love to hear from you.
           </DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="name" className="text-right">
-              Name
+              
             </Label>
-            <Input id="name" value="Pedro Duarte" className="col-span-3" />
+            <Input id="name" value="Name" className="col-span-3 bg-white" />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="username" className="text-right">
-              Username
+              
             </Label>
-            <Input id="username" value="@peduarte" className="col-span-3" />
+            <Input id="Email" value="Email" className="col-span-3 bg-white" />
+          </div>
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="email" className="text-right">
+              
+            </Label>
+            <Input id="mobile" value="Mobile" className="col-span-3 bg-white" />
+          </div>
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="mobile" className="text-right">
+             
+            </Label>
+            <Input id="message" value="Message" className="col-span-3 bg-white" />
           </div>
         </div>
         <DialogFooter>
-          <Button type="submit">Save changes</Button>
+          <Button className="bg-orange-600" type="submit">Submit</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>
   )
 }
-export default Dialog
+export default PopUp

@@ -1,5 +1,6 @@
 import { fetchServices } from "@/shared/helpers/fetch-services";
 import Image from "next/image";
+import Link from 'next/link';
 
 const Navbar = async () => {
   const services = await fetchServices();
@@ -37,7 +38,13 @@ const Navbar = async () => {
               </div>
 
               <div className="flex flex-col self-stretch my-auto w-[54px]">
-                <div className="gap-1 self-stretch">Contact</div>
+              
+
+                <button className="gap-1 self-stretch">
+                  <Link href="/contact">Contact</Link>
+                </button>
+
+
               </div>
             </div>
           </div>

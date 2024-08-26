@@ -4,48 +4,9 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className="flex max-w-[1440px] flex-col mx-auto">
-      <div className="flex flex-wrap items-center w-full text-sm text-white min-h-[349px] max-md:max-w-full">
-        <div className="flex overflow-hidden relative flex-col flex-1 shrink items-center self-stretch px-20 pt-40 pb-20 my-auto basis-0 min-h-[349px] min-w-[240px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
-        <Image 
-        src="/Component 3.png" // Path to your image file in the public directory
-        alt="SPYENE" // A description of the image for accessibility
-        width={720} // Set the desired width of the image
-        height={349} 
-        className="object-cover absolute inset-0 size-full"// Set the desired height of the image
-      />
+      <div className="flex flex-wrap items-center w-full text-sm text-white min-h-[128px] max-md:max-w-full">
         
-          <div className="flex relative flex-col w-52 max-w-full">
-            <div className="text-3xl font-semibold tracking-tight leading-tight">
-              Explore
-            </div>
-            <div className="mt-2 leading-none text-slate-50">
-              Know more about Spyene.
-            </div>
-            <div className="gap-2 self-start px-4 py-3 mt-2 font-medium whitespace-nowrap bg-orange-500 rounded-md min-h-[40px]">
-              Services
-            </div>
-          </div>
-        </div>
-        <div className="flex overflow-hidden relative flex-col flex-1 shrink items-center self-stretch px-20 pt-40 pb-20 my-auto basis-0 min-h-[349px] min-w-[240px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
-        <Image 
-        src="/Component 71.png" // Path to your image file in the public directory
-        alt="SPYENE" // A description of the image for accessibility
-        width={720} // Set the desired width of the image
-        height={349} 
-        className="object-cover absolute inset-0 size-full"// Set the desired height of the image
-      />
-          <div className="flex relative flex-col w-52 max-w-full">
-            <div className="text-3xl font-semibold tracking-tight leading-tight">
-              Conact us
-            </div>
-            <div className="mt-2 leading-none text-slate-50">
-              Consult with us.
-            </div>
-            <div className="gap-2 self-start px-4 py-3 mt-2 font-medium bg-orange-500 rounded-md min-h-[40px]">
-              Speak with us
-            </div>
-          </div>
-        </div>
+    
       </div>
       <div className="flex flex-col justify-center px-64 py-12 w-full bg-slate-900 max-md:px-5 max-md:max-w-full">
         <div className="flex flex-wrap gap-10 justify-between w-full max-md:max-w-full">

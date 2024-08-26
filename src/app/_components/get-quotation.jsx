@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PopUp from "@/components/ui/popup";
 const GetQuotation = () => {
   return (
     <div className=" ">
@@ -19,14 +20,11 @@ const GetQuotation = () => {
             </div>
           </div>
           <div className="flex flex-col flex-1 shrink justify-center self-stretch my-auto text-sm basis-0 min-w-[240px] max-md:max-w-full">
-            <div className="leading-6 text-slate-50 max-md:max-w-full">
+            <div className="leading-6 text-slate-50 max-md:max-w-full pb-[20px]">
               Spyene Technology has dedicated, experienced, and trained staff.
               We ensure the best services across the state.
             </div>
-            <div className="gap-2 self-start px-4 py-3 mt-2 font-medium text-white bg-orange-500 rounded-md min-h-[40px]">
-              Get a quote
-            </div>
-          </div>
+            <PopUp/></div>
         </div>
       </div>
     </div>

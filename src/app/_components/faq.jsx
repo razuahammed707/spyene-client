@@ -10,7 +10,7 @@ function FAQ() {
       className="ps-[256px] bg-cover bg-no-repeat pt-[55px] bg-right w-full flex gap-10 justify-center items-center   text-slate-900 max-md:px-5"
     >
       <div className="flex flex-col flex-1 shrink self-stretch space-y-4 w-full basis-0    max-md:max-w-full">
-        <div className="text-3xl font-semibold text-[#0F172A] tracking-tight leading-tight max-md:max-w-full">
+        <div className="text-3xl font-semibold text-[#0F172A] tracking-tight leading-tight max-md:max-w-full pt-[128px]">
           Frequently asked questions
         </div>
         <div className="flex flex-col items-start mt-4 w-full text-5xl font-extrabold tracking-tight leading-none max-md:max-w-full max-md:text-4xl">
