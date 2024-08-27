@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PopUp from "@/components/ui/popup";
+import PopUp from "@/components/popup";
 const GetQuotation = () => {
   return (
     <div className=" ">
@@ -24,7 +24,8 @@ const GetQuotation = () => {
               Spyene Technology has dedicated, experienced, and trained staff.
               We ensure the best services across the state.
             </div>
-            <PopUp/></div>
+            <PopUp />
+          </div>
         </div>
       </div>
     </div>
