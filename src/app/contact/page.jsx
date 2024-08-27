@@ -1,9 +1,11 @@
+import Header from "@/components/header";
 import FAQ from "../_components/faq";
 import GetQuotation from "../_components/get-quotation";
 
 const ContactPage = () => {
   return (
     <div className="flex w-full flex-col items-center">
+      <Header />
       <div className="flex w-full max-w-[928px]  mx-auto flex-col text-sm font-semibold leading-5 text-slate-900 max-md:px-5">
         <div className="flex flex-col w-full max-md:max-w-full">
           <div className="text-3xl tracking-tight leading-tight max-md:max-w-full pt-[128px]">
