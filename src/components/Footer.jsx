@@ -3,21 +3,17 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="flex max-w-[1440px] flex-col mx-auto">
-      <div className="flex flex-wrap items-center w-full text-sm text-white min-h-[128px] max-md:max-w-full">
-        
-    
-      </div>
-      <div className="flex flex-col justify-center px-64 py-12 w-full bg-slate-900 max-md:px-5 max-md:max-w-full">
+    <div className="w-full flex justify-center bg-slate-900 mx-auto">
+      <div className="flex w-full max-w-[928px] flex-col justify-center py-12 ">
         <div className="flex flex-wrap gap-10 justify-between w-full max-md:max-w-full">
           <div className="flex flex-col items-start min-w-[240px] w-[390px]">
-                <Image 
-                src="/SPYENE.png" // Path to your image file in the public directory
-                alt="SPYENE" // A description of the image for accessibility
-                width={82} // Set the desired width of the image
-                height={28} // Set the desired height of the image
+            <Image
+              src="/SPYENE.png" // Path to your image file in the public directory
+              alt="SPYENE" // A description of the image for accessibility
+              width={82} // Set the desired width of the image
+              height={28} // Set the desired height of the image
             />
-          
+
             <div className="self-stretch mt-4 text-xs leading-5 text-white">
               Solar and Electrical Solutions is a forward-thinking company
               dedicated to providing sustainable energy solutions for
@@ -28,30 +24,30 @@ function Footer() {
               installations, and smart home automation.
             </div>
             <div className="flex gap-6 items-center mt-4">
-            <Image 
+              <Image
                 src="/facebookIcon.png" // Path to your image file in the public directory
                 alt="fb" // A description of the image for accessibility
                 width={16} // Set the desired width of the image
                 height={16} // Set the desired height of the image
-            />
-              <Image 
+              />
+              <Image
                 src="/instagramIcon.png" // Path to your image file in the public directory
                 alt="fb" // A description of the image for accessibility
                 width={16} // Set the desired width of the image
                 height={16} // Set the desired height of the image
-            />
-              <Image 
+              />
+              <Image
                 src="/xIcon.png" // Path to your image file in the public directory
                 alt="fb" // A description of the image for accessibility
                 width={16} // Set the desired width of the image
                 height={16} // Set the desired height of the image
-            />
-             <Image 
+              />
+              <Image
                 src="/mailIcon.png" // Path to your image file in the public directory
                 alt="fb" // A description of the image for accessibility
                 width={16} // Set the desired width of the image
                 height={16} // Set the desired height of the image
-            />
+              />
             </div>
           </div>
           <div className="flex gap-8 items-start self-start min-w-[240px]">
@@ -107,4 +103,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;

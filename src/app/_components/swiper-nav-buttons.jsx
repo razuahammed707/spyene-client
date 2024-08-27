@@ -10,7 +10,7 @@ export const SwiperNavButtons = () => {
   return (
     <div className="space-x-3">
       <Button
-        className="w-[60px] h-[60px] border border-[1px solid #CBD5E1] rounded-full"
+        className="w-[60px] bg-transparent  h-[60px] border border-[1px solid #CBD5E1] rounded-full"
         onClick={() => swiper.slidePrev()}
       >
         {" "}
@@ -18,7 +18,7 @@ export const SwiperNavButtons = () => {
       </Button>
 
       <Button
-        className="w-[60px] h-[60px] border border-[1px solid #CBD5E1] rounded-full"
+        className="w-[60px] bg-transparent h-[60px] border border-[1px solid #CBD5E1] rounded-full"
         onClick={() => swiper.slideNext()}
       >
         <ArrowRight color="#CBD5E1" />

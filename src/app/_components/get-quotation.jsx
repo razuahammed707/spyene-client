@@ -2,8 +2,8 @@ import Image from "next/image";
 import PopUp from "@/components/popup";
 const GetQuotation = () => {
   return (
-    <div className=" ">
-      <div className="flex w-full gap-8 justify-center items-center self-stretch px-64 py-20 bg-blue-800  ">
+    <div className="w-full flex justify-center bg-blue-800">
+      <div className="flex w-full max-w-[928px] gap-8 justify-center items-center self-stretch py-20 ">
         <div className="flex flex-wrap flex-1 shrink gap-8 items-center self-stretch my-auto w-full basis-0 min-w-[240px] max-md:max-w-full">
           <div className="flex flex-col flex-1 shrink justify-center self-stretch my-auto text-white basis-0 min-h-[97px] min-w-[240px] max-md:max-w-full">
             <div className="flex gap-2 items-center self-start text-sm font-bold leading-none whitespace-nowrap">

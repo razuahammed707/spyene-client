@@ -6,38 +6,46 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { X } from "lucide-react";
-import { ShieldCloseIcon } from "lucide-react";
-import { CrossIcon } from "lucide-react";
-import { Cross } from "lucide-react";
+import { Cross2Icon } from "@radix-ui/react-icons";
+import { Mail } from "lucide-react";
+import { Twitter } from "lucide-react";
+import { Instagram } from "lucide-react";
+import { Facebook } from "lucide-react";
 
 export function PopUp() {
   return (
     <Dialog className="">
       <DialogTrigger asChild>
-        <Button className="bg-orange-400 max-w-[140px]">
+        <Button className="bg-orange-400 max-w-[140px] ">
           Get a Free Quote
         </Button>
       </DialogTrigger>
-      <DialogContent className="flex p-8 max-w-[913px] space-x-[48px] border-none justify-between rounded-md bg-[#0F172A]">
-        <div className=" w-full space-y-6 mt-12">
-          <h3 className="text-[#F8FAFC] text-[24px] font-semibold leading-[20px] font-inter items-stretch gap-2">
-            Get a free quote !
-          </h3>
-          <p className="text-[#F2F2F2] text-[14px] font-normal leading-[20px] items-stretch">
-            We're here to help you harness the power of the sun and provide
-            reliable energy storage options. Whether you have questions, need a
-            quote, or want to learn more about our products and services, we'd
-            love to hear from you.
-          </p>
+      <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[370px] space-x-[48px] border-none justify-between rounded-md bg-[#0F172A]">
+        <div className="w-full  flex flex-col justify-between">
+          <div className="space-y-6">
+            <h3 className="text-[#F8FAFC] text-[24px] font-semibold leading-[20px] font-inter items-stretch gap-2">
+              Get a free quote !
+            </h3>
+            <p className="text-[#F2F2F2] text-[14px] font-normal leading-[20px] items-stretch">
+              We're here to help you harness the power of the sun and provide
+              reliable energy storage options. Whether you have questions, need
+              a quote, or want to learn more about our products and services,
+              we'd love to hear from you.
+            </p>
+          </div>
+          <div className="flex space-x-8">
+            <Facebook color="#EF8A22" className="h-4 w-4" />{" "}
+            <Instagram color="#EF8A22" className="h-4 w-4" />{" "}
+            <Twitter color="#EF8A22" className="h-4 w-4" />{" "}
+            <Mail color="#EF8A22" className="h-4 w-4" />
+          </div>
         </div>
-        <div className="w-full ">
+        <div className="w-full">
           <div className="space-y-2 mb-[25px]">
-            <Input id="name" value="Name" className="  bg-white" />
-            <Input id="Email" value="Email" className="  bg-white" />
-            <Input id="mobile" value="Mobile" className="  bg-white" />
+            <Input id="name" placeholder="Name" className="  bg-white" />
+            <Input id="Email" placeholder="Email" className="  bg-white" />
+            <Input id="mobile" placeholder="Mobile" className="  bg-white" />
             <Textarea placeholder="Message" className="bg-white" />
           </div>
           <Button
@@ -48,11 +56,12 @@ export function PopUp() {
           </Button>
         </div>
         <DialogClose asChild>
-          <span
-            className="absolute top-2 right-4 bg-red-300 "
+          <button
+            className="absolute top-8 right-8 p-2 rounded-full bg-[rgba(255,255,255,0.25)] hover:bg-white hover:bg-opacity-40 text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200"
+            aria-label="Close"
           >
-            <X />{" "}
-          </span>
+            <Cross2Icon color="#FFFF" className="h-4 w-4" />
+          </button>
         </DialogClose>
       </DialogContent>
     </Dialog>

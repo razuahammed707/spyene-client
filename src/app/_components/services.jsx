@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Services = () => {
   return (
     <>
-      <div className="px-[256px]">
+      <div className="w-full max-w-[928px]">
         <h2 className="text-[30px] text-[#0F172A] mb-4 font-semibold leadding-[36px]">
           Our Services
         </h2>
