@@ -1,17 +1,15 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Navbar from "@/components/navbar";
 import Services from "./_components/services";
 import CustomerReview from "./_components/customer-review";
 import FAQ from "./_components/faq";
 import GetQuotation from "./_components/get-quotation";
 import WhySpyene from "./_components/why-spyene";
 import Supports from "./_components/supports";
+import LandingHeader from "@/components/landing-header";
 
 export default function Home() {
   return (
     <main className="flex w-full flex-col items-center mx-auto">
-      <Header />
+      <LandingHeader />
       <Services />
       <Supports />
       <GetQuotation />
