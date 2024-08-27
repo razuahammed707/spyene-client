@@ -8,10 +8,10 @@ function Footer() {
         <div className="flex flex-wrap gap-10 justify-between w-full max-md:max-w-full">
           <div className="flex flex-col items-start min-w-[240px] w-[390px]">
             <Image
-              src="/SPYENE.png" // Path to your image file in the public directory
-              alt="SPYENE" // A description of the image for accessibility
-              width={82} // Set the desired width of the image
-              height={28} // Set the desired height of the image
+              src="/SPYENE.png" 
+              alt="SPYENE" 
+              width={82} 
+              height={28} 
             />
 
             <div className="self-stretch mt-4 text-xs leading-5 text-white">
@@ -23,33 +23,35 @@ function Footer() {
               maintenance of solar power systems, energy-efficient electrical
               installations, and smart home automation.
             </div>
+
             <div className="flex gap-6 items-center mt-4">
               <Image
-                src="/facebookIcon.png" // Path to your image file in the public directory
-                alt="fb" // A description of the image for accessibility
-                width={16} // Set the desired width of the image
-                height={16} // Set the desired height of the image
+                src="/facebookIcon.png"
+                alt="fb" 
+                width={16} 
+                height={16} 
               />
               <Image
-                src="/instagramIcon.png" // Path to your image file in the public directory
-                alt="fb" // A description of the image for accessibility
-                width={16} // Set the desired width of the image
-                height={16} // Set the desired height of the image
+                src="/instagramIcon.png" 
+                alt="fb"
+                width={16} 
+                height={16} 
               />
               <Image
-                src="/xIcon.png" // Path to your image file in the public directory
-                alt="fb" // A description of the image for accessibility
-                width={16} // Set the desired width of the image
-                height={16} // Set the desired height of the image
+                src="/xIcon.png" 
+                alt="fb" 
+                width={16} 
+                height={16} 
               />
               <Image
-                src="/mailIcon.png" // Path to your image file in the public directory
-                alt="fb" // A description of the image for accessibility
-                width={16} // Set the desired width of the image
-                height={16} // Set the desired height of the image
+                src="/mailIcon.png" 
+                alt="fb" 
+                width={16} 
+                height={16} 
               />
             </div>
           </div>
+
           <div className="flex gap-8 items-start self-start min-w-[240px]">
             <div className="flex flex-col justify-center w-[101px]">
               <div className="text-base font-bold leading-none text-orange-500">

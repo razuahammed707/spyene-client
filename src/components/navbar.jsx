@@ -8,10 +8,10 @@ const Navbar = async () => {
   return (
        <div className="flex  max-w-[928px] mx-auto flex-wrap gap-10 justify-between items-center py-4 w-full border-b border-white min-h-[60px] max-md:max-w-full">
         <Image
-          src="/SPYENE.png" // Path to your image file in the public directory
-          alt="SPYENE" // A description of the image for accessibility
-          width={82} // Set the desired width of the image
-          height={28} // Set the desired height of the image
+          src="/SPYENE.png" 
+          alt="SPYENE" 
+          width={82} 
+          height={28} 
         />
 
         <div className="flex gap-6 justify-between items-center self-stretch my-auto min-w-[240px] w-[308px]">
