@@ -63,7 +63,7 @@ const Residential = () => {
     <div className="w-1/2">
       <ul className="list-disc pl-5">
         <li>Hot tub and spa wiring</li>
-        <li>Hot tub and spa wiring</li>
+        <li>Indoor & Outdoor Lighting</li>
         <li>Outlet and switch installation</li>
         <li>Generator installation and maintenance</li>
         <li>Safety Switches</li>
