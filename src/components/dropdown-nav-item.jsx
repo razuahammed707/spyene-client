@@ -18,9 +18,9 @@ export function DropdownNavItem(props) {
       <div /* onMouseLeave={handleMouseLeave} */>
         <DropdownMenuTrigger
           onMouseEnter={() => setOpen(true)}
-          className="outline-none"
+          className="outline-none !cursor-pointer"
         >
-          {props.title}
+          <Link href="/services">{props.title}</Link>
         </DropdownMenuTrigger>
         <DropdownMenuContent
           onMouseLeave={() => setOpen(false)}
