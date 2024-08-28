@@ -16,8 +16,8 @@ export default function HorizontalScroll() {
         </div>
       </div>
 
-      {/* Right Div (Fixed) */}
-      <div className="pl-[12px] sticky right-0 top-0" style={{ width: '242px', height: '256px' }}>
+      {/* Right Div (Fixed with 48px gap) */}
+      <div className="sticky right-0 top-0" style={{ width: '242px', height: '256px', marginLeft: '48px' }}>
         <div className="h-full bg-green-200">
           {/* Content of the right div */}
           Fixed content here
