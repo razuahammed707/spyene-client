@@ -1,20 +1,13 @@
 import {
   Breadcrumb,
-  BreadcrumbEllipsis,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-  BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
-export function DynamicBreadcrumb() {
+export function DynamicBreadcrumb({crumbs}) {
+  let current_crumb = "";
   return (
     <Breadcrumb>
       <BreadcrumbList>
@@ -23,12 +16,18 @@ export function DynamicBreadcrumb() {
             <span className="text-sm text-white font-medium">Home</span>
           </BreadcrumbLink>
         </BreadcrumbItem>
-        <BreadcrumbSeparator className="text-white" />
-        <BreadcrumbItem>
-          <BreadcrumbLink href="/">
-            <span className="text-sm text-white font-medium">Contact</span>
-          </BreadcrumbLink>
-        </BreadcrumbItem>
+        {crumbs?.map((crumb, i) => (
+          <>
+            <BreadcrumbSeparator className="text-white" />
+            <BreadcrumbItem>
+              <BreadcrumbLink href={`${(current_crumb += "/" + crumb)}`}>
+                <span className="text-sm text-white font-medium">
+                  {crumb?.[0].toUpperCase() + crumb?.slice(1)}
+                </span>
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+          </>
+        ))}
       </BreadcrumbList>
     </Breadcrumb>
   );
