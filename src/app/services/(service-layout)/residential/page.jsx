@@ -1,3 +1,5 @@
+import Grid from "./grid";
+
 const Residential = () => {
   return (
     <>
@@ -49,43 +51,11 @@ const Residential = () => {
       </div>
 
       <div className="flex w-full max-w-[928px]  mx-auto flex-col text-sm font-normal leading-5 text-slate-900 max-md:px-5">
-        <div className="pt-[128px] justify-center items-center pb-[128px] max-w-[928px] ">
+        <div className="pt-[128px] justify-center items-center max-w-[928px] ">
           <h2 className="text-2xl font-bold mb-4">Our Services</h2>
+          <Grid/>
 
-          <div className="flex justify-between">
-            <div className="w-1/2 ">
-              <ul className="list-disc pl-5">
-                <li>Air Condition Installation & Repair</li>
-                <li>CCTV and home security installation</li>
-                <li>Ceiling Fans Circuit breaker upgrades</li>
-                <li>EV charging station installation</li>
-                <li>Electrical panel upgrades</li>
-                <li>Electrical safety inspections</li>
-                <li>Electrical system inspections</li>
-                <li>Energy-efficient lighting solutions</li>
-                <li>Fuse Box Repairs </li>
-                <li>Home automation system installation</li>
-                <li>Home theater wiring and installation</li>
-                <li>House wiring and rewiring</li>
-              </ul>
-            </div>
-
-            <div className="w-1/2">
-              <ul className="list-disc pl-5">
-                <li>Hot tub and spa wiring</li>
-                <li>Indoor & Outdoor Lighting</li>
-                <li>Outlet and switch installation</li>
-                <li>Generator installation and maintenance</li>
-                <li>Safety Switches</li>
-                <li>Smart home device integration</li>
-                <li>Smoke Alarm Installation</li>
-                <li>Socket installation and repair</li>
-                <li>Switchboard Installation</li>
-                <li>Underground Power</li>
-                <li>Whole Home Surge Protection</li>
-              </ul>
-            </div>
-          </div>
+          
         </div>
       </div>
 
