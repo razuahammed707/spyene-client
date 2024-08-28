@@ -21,13 +21,13 @@ export function PopUp() {
           Get a Free Quote
         </Button>
       </DialogTrigger>
-      <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[370px] space-x-[48px] border-none justify-between rounded-md bg-[#0F172A]">
+      <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[370px] space-x-[48px] border-none justify-between rounded-md bg-[#ffffff]">
         <div className="w-full  flex flex-col justify-between">
           <div className="space-y-6">
-            <h3 className="text-[#F8FAFC] text-[24px] font-semibold leading-[20px] font-inter items-stretch gap-2">
+            <h3 className="text-[64748B] text-[24px] font-semibold leading-[20px] font-inter items-stretch gap-2">
               Get a free quote !
             </h3>
-            <p className="text-[#F2F2F2] text-[14px] font-normal leading-[20px] items-stretch">
+            <p className="text-[64748B] text-[14px] font-normal leading-[20px] items-stretch">
               We're here to help you harness the power of the sun and provide
               reliable energy storage options. Whether you have questions, need
               a quote, or want to learn more about our products and services,
@@ -49,7 +49,7 @@ export function PopUp() {
             <Textarea placeholder="Message" className="bg-white" />
           </div>
           <Button
-            className="bg-orange-600 w-full hover:bg-slate-500"
+            className="bg-[#1045AD] w-full hover:bg-slate-500"
             type="submit"
           >
             Submit
@@ -57,10 +57,10 @@ export function PopUp() {
         </div>
         <DialogClose asChild>
           <button
-            className="absolute top-8 right-8 p-2 rounded-full bg-[rgba(255,255,255,0.25)] hover:bg-white hover:bg-opacity-40 text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200"
+            className="absolute top-8 right-8 p-2 rounded-full bg-[rgba(0,0,0,0.25)] text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200"
             aria-label="Close"
           >
-            <Cross2Icon color="#FFFF" className="h-4 w-4" />
+            <Cross2Icon color="#FFFF"className="h-4 w-4" />
           </button>
         </DialogClose>
       </DialogContent>
