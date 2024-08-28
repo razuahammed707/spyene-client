@@ -48,7 +48,7 @@ const cards = [
 
 function WhySpyene() {
   return (
-    <div className="w-full max-w-[928px] space-y-4 pt-[128px] pb-[73px]">
+    <div className="w-full max-w-[928px] space-y-4 pb-[128px]">
       <h2 className="text-[30px] text-[#0F172A] font-semibold mb-4">
         Why Choose Spyene Technologies?
       </h2>
