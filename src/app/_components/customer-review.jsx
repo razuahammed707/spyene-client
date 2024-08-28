@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const CustomerReview = () => {
   return (
-    <div className="ps-[256px] w-full max-w-[1440px] text-center my-[128px]">
+    <div className="ps-[256px] w-full max-w-[1440px] text-center mb-[128px]">
       <div className="w-full">
         <h2 className="text-[30px] text-[#0F172A] font-semibold">
           What our customers say about us
