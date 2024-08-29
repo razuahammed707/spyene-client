@@ -1,7 +1,7 @@
 const Importance = () => {
     return (  <>
 
-        <h2 class="self-stretch text-black font-inter text-[30px] font-semibold leading-[36px] tracking-[-0.225px] pt-[72px]">
+        <h2 class="self-stretch text-black font-inter text-[30px] font-semibold leading-[36px] tracking-[-0.225px] pt-[48px]">
         Importance of Air Condition Installation & Repair
         </h2><p className="pt-[16px] text-[14px]">
         
