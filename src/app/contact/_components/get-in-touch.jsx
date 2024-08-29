@@ -8,24 +8,25 @@ const GentInTouch = () => {
   return (
     <>
       <div className="w-full max-w-[928px] space-y-12">
-        <h2 className="text-3xl text-black font-semibold">Get in Touch</h2>
+        <h2 className="text-3xl text-[#0F172A] font-semibold leading-9">
+          Contact with us !
+        </h2>
         <p className="text-sm text-[#0F172A] ">
           We offer a wide range of services that includes but not limited to
           wiring, rewiring, electrical inspection, solar panel installations,
           and advanced battery systems.
         </p>
-        <div className="flex space-x-12 h-[394px]">
+        <div className="flex items-center space-x-12 h-[298px]">
+          <div className="w-full">
+            <ContactUsForm iscall={true} />
+          </div>
           <Image
             src="/locate-map.png"
-            height={394}
-            width={440}
+            height={298}
+            width={496}
             alt="Map Loaction Image"
             className="w-full h-full rouned-lg"
           />
-          <div className="p-8 border-2 border-solid border-[#E2E8F0] shadow-[0px_11px_15px_0px_rgba(169,175,183,0.25)] w-full space-y-[25px]">
-            {/* <h3 className="text-2xl font-semibold">Contact with us</h3> */}
-            <ContactUsForm iscall={true} />
-          </div>
         </div>
         <div className="space-y-4">
           <div className="text-[#0F172A]  text-sm">

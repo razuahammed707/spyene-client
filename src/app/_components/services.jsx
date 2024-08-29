@@ -25,7 +25,7 @@ export const Services = () => {
           wiring, rewiring, electrical inspection, solar panel installations and
           advanced battery systems.
         </p>
-        <div className="flex  space-x-[-1px]">
+        <div className="flex  space-x-2">
           {cards.map(({ title, icon: Icon }, i) => (
             <div
               key={i}
