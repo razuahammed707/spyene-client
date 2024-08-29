@@ -1,6 +1,11 @@
+import Header from "@/components/Header";
+
 const Page = (props) => {
-     
-  return <div>{props.params.slug}</div>;
+  return (
+    <page className="flex w-full flex-col items-center">
+      <Header />
+    </page>
+  );
 };
 
 export default Page;

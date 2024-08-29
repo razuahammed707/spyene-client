@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PopUp from "@/components/popup";
+import GetQuotationModal from "@/components/modals/get-quotation-modal";
 const GetQuotation = () => {
   return (
     <div className="w-full my-[128px] flex justify-center bg-blue-800">
@@ -24,7 +24,7 @@ const GetQuotation = () => {
               Spyene Technology has dedicated, experienced, and trained staff.
               We ensure the best services across the state.
             </div>
-            <PopUp />
+            <GetQuotationModal />
           </div>
         </div>
       </div>
