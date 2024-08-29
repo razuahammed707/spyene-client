@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { DynamicBreadcrumb } from "./dynamic-breadcrumb";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
