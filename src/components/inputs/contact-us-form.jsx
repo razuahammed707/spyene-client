@@ -38,9 +38,9 @@ const ContactUsForm = ({ iscall }) => {
             className="bg-white"
             {...register("email", { required: true })}
           />
-          {errors.email && (
+          {/*  {errors.email && (
             <span className="text-red-500">Email is required</span>
-          )}
+          )} */}
         </div>
 
         <div className="space-y-[6px]">
@@ -57,9 +57,9 @@ const ContactUsForm = ({ iscall }) => {
             className="bg-white"
             {...register("Contact", { required: true })}
           />
-          {errors.Contact && (
+          {/*  {errors.Contact && (
             <span className="text-red-500">Contact number is required</span>
-          )}
+          )} */}
         </div>
         <div className="space-y-[6px]">
           <Label
@@ -73,9 +73,9 @@ const ContactUsForm = ({ iscall }) => {
             className="bg-white min-h-[67px]"
             {...register("message", { required: true })}
           />
-          {errors.message && (
+          {/* {errors.message && (
             <span className="text-red-500">Message is required</span>
-          )}
+          )} */}
         </div>
       </div>
       <div className="flex space-x-2">

@@ -1,7 +1,4 @@
 import ContactUsForm from "@/components/inputs/contact-us-form";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
 
 const GentInTouch = () => {
@@ -16,8 +13,8 @@ const GentInTouch = () => {
           wiring, rewiring, electrical inspection, solar panel installations,
           and advanced battery systems.
         </p>
-        <div className="flex items-center space-x-12 h-[298px]">
-          <div className="w-full">
+        <div className="flex  space-x-12">
+          <div className="flex-1">
             <ContactUsForm iscall={true} />
           </div>
           <Image
@@ -25,7 +22,7 @@ const GentInTouch = () => {
             height={298}
             width={496}
             alt="Map Loaction Image"
-            className="w-full h-full rouned-lg"
+            className="rouned-lg h-[310px]"
           />
         </div>
         <div className="space-y-4">
