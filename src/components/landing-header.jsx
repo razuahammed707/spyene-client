@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Button } from "./ui/button";
+import GetQuotationModal from "./modals/get-quotation-modal";
 
 const LandingHeader = () => {
   return (
@@ -47,9 +47,10 @@ const LandingHeader = () => {
               available across NSW. Experience hassle-free installation, repair,
               and maintenance with our expert solutions.
             </p>
-            <Button className="bg-[#1045AD] text-sm font-medium ">
+            {/* <Button className="bg-[#1045AD] text-sm font-medium ">
               Get a Free Quote
-            </Button>
+            </Button> */}
+            <GetQuotationModal bg_trigger="#1045AD" />
           </div>
           <h3 className="text-2xl text-[#EF8A22] font-semibold">
             For urgent consult: +123456789

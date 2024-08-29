@@ -7,17 +7,23 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { cn } from "@/lib/utils";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import { Mail } from "lucide-react";
 import { Twitter } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { Facebook } from "lucide-react";
 
-export function PopUp() {
+export function GetQuotationModal({ bg_trigger }) {
   return (
     <Dialog className="">
       <DialogTrigger asChild>
-        <Button className="bg-orange-400 max-w-[140px] ">
+        <Button
+          className={cn(
+            "bg-orange-400 max-w-[140px] ",
+            bg_trigger && `bg-[${bg_trigger}]`
+          )}
+        >
           Get a Free Quote
         </Button>
       </DialogTrigger>
@@ -67,4 +73,4 @@ export function PopUp() {
     </Dialog>
   );
 }
-export default PopUp;
+export default GetQuotationModal;

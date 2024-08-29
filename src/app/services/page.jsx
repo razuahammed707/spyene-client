@@ -1,5 +1,11 @@
+import Header from "@/components/Header";
+
 const Page = () => {
-  return <div>Services Page!</div>;
+  return (
+    <>
+      Services Page!
+     </>
+  );
 };
 
 export default Page;
