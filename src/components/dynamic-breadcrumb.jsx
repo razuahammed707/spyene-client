@@ -6,6 +6,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { House } from "lucide-react";
 
 export function DynamicBreadcrumb({ crumbs }) {
   let current_crumb = "";
@@ -17,7 +18,7 @@ export function DynamicBreadcrumb({ crumbs }) {
             className="text-sm text-white hover:text-[#EF8A22] font-medium"
             href="/"
           >
-            Home
+            <House className="h-[13.5px] w-[13.5px]"/>
           </BreadcrumbLink>
         </BreadcrumbItem>
         {crumbs?.map((crumb, i) => (
