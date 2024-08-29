@@ -13,6 +13,7 @@ import { Mail } from "lucide-react";
 import { Twitter } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { Facebook } from "lucide-react";
+import ContactUsForm from "../inputs/contact-us-form";
 
 export function GetQuotationModal({ bg_trigger }) {
   return (
@@ -27,7 +28,7 @@ export function GetQuotationModal({ bg_trigger }) {
           Get a Free Quote
         </Button>
       </DialogTrigger>
-      <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[370px] space-x-[48px] border-none justify-between rounded-md bg-[#ffffff]">
+      <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[415px] space-x-[48px] border-none justify-between rounded-md bg-[#ffffff]">
         <div className="w-full  flex flex-col justify-between">
           <div className="space-y-6">
             <h3 className="text-[64748B] text-[24px] font-semibold leading-[20px] font-inter items-stretch gap-2">
@@ -48,18 +49,7 @@ export function GetQuotationModal({ bg_trigger }) {
           </div>
         </div>
         <div className="w-full">
-          <div className="space-y-2 mb-[25px]">
-            <Input id="name" placeholder="Name" className="  bg-white" />
-            <Input id="Email" placeholder="Email" className="  bg-white" />
-            <Input id="mobile" placeholder="Mobile" className="  bg-white" />
-            <Textarea placeholder="Message" className="bg-white" />
-          </div>
-          <Button
-            className="bg-[#1045AD] w-full hover:bg-slate-500"
-            type="submit"
-          >
-            Submit
-          </Button>
+          <ContactUsForm />
         </div>
         <DialogClose asChild>
           <button

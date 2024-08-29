@@ -1,3 +1,4 @@
+import ContactUsForm from "@/components/inputs/contact-us-form";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -22,19 +23,8 @@ const GentInTouch = () => {
             className="w-full h-full rouned-lg"
           />
           <div className="p-8 border-2 border-solid border-[#E2E8F0] shadow-[0px_11px_15px_0px_rgba(169,175,183,0.25)] w-full space-y-[25px]">
-            <h3 className="text-2xl font-semibold">Contact wih us</h3>
-            <div className="space-y-2 mb-[25px]">
-              <Input id="name" placeholder="Name" className="  bg-white" />
-              <Input id="Email" placeholder="Email" className="  bg-white" />
-              <Input id="mobile" placeholder="Mobile" className="  bg-white" />
-              <Textarea placeholder="Message" className="bg-white min-h-[76px]" />
-            </div>
-            <Button
-              className="bg-[#1045AD] w-full hover:bg-slate-500"
-              type="submit"
-            >
-              Submit
-            </Button>
+            {/* <h3 className="text-2xl font-semibold">Contact with us</h3> */}
+            <ContactUsForm iscall={true} />
           </div>
         </div>
         <div className="space-y-4">
