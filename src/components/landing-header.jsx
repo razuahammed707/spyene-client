@@ -7,7 +7,7 @@ import { PhoneCall } from "lucide-react";
 const LandingHeader = () => {
   return (
     <>
-      <div className="w-full flex space-x-[46px] max-w-[928px] mt-[72px] mb-[128px] ">
+      <div className="w-full flex space-x-[46px] max-w-[928px] mt-[72px] mb-[128px] px-4 lg:px-0">
         <div className="w-full space-y-8">
           <div className="flex space-x-[14px] h-[36px]">
             <div className="flex space-x-[-7px] items-center">

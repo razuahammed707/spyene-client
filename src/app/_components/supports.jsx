@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Supports = () => {
   return (
-    <div className="flex max-w-[918px] pt-[128px] justify-between items-center space-x-[48px]">
+    <div className="flex max-w-[928px] px-4 lg:px-0 pt-[128px] justify-between items-center space-x-[48px]">
       <div className="w-full">
         <div className="mb-[21px] flex space-x-2 items-center">
           <Image src="/palm.svg" width={24} height={24} alt="svg icon" />
