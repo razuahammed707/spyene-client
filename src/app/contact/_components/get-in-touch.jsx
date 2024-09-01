@@ -4,7 +4,7 @@ import Image from "next/image";
 const GentInTouch = () => {
   return (
     <>
-      <div className="w-full max-w-[928px] space-y-6 md:space-y-12 p-4 md:p-0 mx-auto">
+      <div className="w-full max-w-[928px] px-4 lg:px-0 space-y-6 md:space-y-12  mx-auto">
         <h2 className="text-2xl md:text-3xl text-[#0F172A] font-semibold leading-7 md:leading-9">
           Contact with us !
         </h2>
@@ -14,7 +14,7 @@ const GentInTouch = () => {
           and advanced battery systems.
         </p>
         <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
-          <div className="w-[384px]">
+          <div className="w-full lg:max-w-[384px]">
             <ContactUsForm iscall={true} />
           </div>
           <Image

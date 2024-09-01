@@ -16,7 +16,7 @@ const cards = [
 export const Services = () => {
   return (
     <>
-      <div className="w-full max-w-[928px]">
+      <div className="w-full max-w-[928px] px-4 lg:px-0">
         <h2 className="text-[30px] text-[#0F172A] mb-4 font-semibold leadding-[36px]">
           Our Services
         </h2>
