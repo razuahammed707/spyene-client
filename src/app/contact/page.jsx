@@ -7,11 +7,11 @@ const ContactPage = () => {
   return (
     <div className="flex w-full flex-col items-center">
       <Header />
-      <div className="w-full max-w-[928px] my-[128px] space-y-4">
-        <h2 className="text-3xl text-black font-semibold">
+      <div className="w-full max-w-[960px] my-12 md:my-[128px] px-4 space-y-4">
+        <h2 className="text-2xl md:text-3xl text-black font-semibold">
           Consult with Our Experts
         </h2>
-        <p className="text-sm text-[#0F172A] ">
+        <p className="text-sm text-[#0F172A]">
           New South Wales is a pioneer in adopting renewable energy. Major
           cities like Sydney, Newcastle, Wollongong, and others are rapidly
           adopting solar and advanced electrical solutions. To help the people
