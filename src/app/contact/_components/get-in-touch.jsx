@@ -4,47 +4,47 @@ import Image from "next/image";
 const GentInTouch = () => {
   return (
     <>
-      <div className="w-full max-w-[928px] space-y-12">
-        <h2 className="text-3xl text-[#0F172A] font-semibold leading-9">
+      <div className="w-full max-w-[928px] space-y-6 md:space-y-12 p-4 md:p-0 mx-auto">
+        <h2 className="text-2xl md:text-3xl text-[#0F172A] font-semibold leading-7 md:leading-9">
           Contact with us !
         </h2>
-        <p className="text-sm text-[#0F172A] ">
+        <p className="text-sm text-[#0F172A]">
           We offer a wide range of services that includes but not limited to
           wiring, rewiring, electrical inspection, solar panel installations,
           and advanced battery systems.
         </p>
-        <div className="flex  space-x-12">
-          <div className="flex-1">
+        <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
+          <div className="w-[384px]">
             <ContactUsForm iscall={true} />
           </div>
           <Image
             src="/locate-map.png"
             height={298}
             width={496}
-            alt="Map Loaction Image"
-            className="rouned-lg h-[310px]"
+            alt="Map Location Image"
+            className="rounded-lg h-[250px] md:h-[310px] w-full object-cover"
           />
         </div>
-        <div className="space-y-4">
-          <div className="text-[#0F172A]  text-sm">
+        <div className="space-y-4 text-sm text-[#0F172A]">
+          <div>
             <b className="font-semibold">Office Hours:</b>
             <p>
               We are available during the following hours: Monday to Friday:
               9:00 AM - 5:00 PM / Saturday: 10:00 AM - 2:00 PM / Sunday: Closed.
             </p>
           </div>
-          <div className="text-[#0F172A]  text-sm">
+          <div>
             <b className="font-semibold">Address:</b>
             <p>
               Visit our office at: 20 Lindsen St, Mount Druitt NSW 2770. ABN: 75
               638 855 211
             </p>
           </div>
-          <div className="text-[#0F172A]  text-sm">
+          <div>
             <b className="font-semibold">Phone:</b>
             <p>For immediate assistance, call us at: +61 458 511 460</p>
           </div>
-          <div className="text-[#0F172A]  text-sm">
+          <div>
             <b className="font-semibold">Email:</b>
             <p>Send us an email at: spyene@gmail.com</p>
           </div>
