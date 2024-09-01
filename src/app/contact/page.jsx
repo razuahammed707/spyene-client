@@ -5,7 +5,7 @@ import GentInTouch from "./_components/get-in-touch";
 
 const ContactPage = () => {
   return (
-    <div className="flex w-full flex-col items-center px-4">
+    <div className="flex w-full flex-col items-center">
       <Header />
       <div className="w-full max-w-[928px] my-[128px] space-y-4">
         <h2 className="text-3xl text-black font-semibold">
