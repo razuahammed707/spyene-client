@@ -1,4 +1,5 @@
 "use client";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,7 +11,7 @@ import { ArrowRight } from "lucide-react";
 import { Fragment, useState } from "react";
 import Link from "next/link";
 
-export function DropdownNavItem(props) {
+export function DropdownNavItem({menus, title}) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -20,13 +21,13 @@ export function DropdownNavItem(props) {
           onMouseEnter={() => setOpen(true)}
           className="outline-none !cursor-pointer"
         >
-          <Link href="/services">{props.title}</Link>
+          <Link href="/services">{title}</Link>
         </DropdownMenuTrigger>
         <DropdownMenuContent
           onMouseLeave={() => setOpen(false)}
           className={`w-56 mt-3 `}
         >
-          {props?.menus?.map((menu) => (
+          {menus?.map((menu) => (
             <Fragment key={menu?.id}>
               <DropdownMenuItem>
                 <Link

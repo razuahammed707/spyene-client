@@ -1,5 +1,5 @@
+"use server";
 import { config } from "@/config";
-import axios from "axios";
 
 export const fetchServices = async () => {
   const reqOptions = {
@@ -9,8 +9,9 @@ export const fetchServices = async () => {
   };
 
   try {
-    const response = await axios.get(`${config.api}/api/services?populate=*`, reqOptions);
-    return response?.data?.data;
+    const response = await fetch(`${config.api}/api/services?populate=*`, reqOptions);
+    const data = await response.json();
+    return data?.data;
   } catch (error) {
     console.error("Error fetching services:", error);
     return [];
