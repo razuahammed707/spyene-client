@@ -3,17 +3,17 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="w-full flex justify-center bg-slate-900 mx-auto">
-      <div className="flex w-full max-w-[928px] px-4 lg:px-0 flex-col justify-center py-12 ">
-        <div className="flex flex-wrap gap-10 justify-between w-full max-md:max-w-full">
-          <div className="flex flex-col items-start min-w-[240px] w-[390px]">
+    <div className="w-full bg-slate-900 mx-auto">
+      <div className="w-full max-w-[1440px] mx-auto px-6 sm:px-12 md:px-[256px] py-[48px]">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-0">
+          {/* Left-aligned div */}
+          <div className="flex-1 max-w-[390px]">
             <Image
-              src="/SPYENE.png" 
-              alt="SPYENE" 
-              width={82} 
-              height={28} 
+              src="/SPYENE.png"
+              alt="SPYENE"
+              width={82}
+              height={28}
             />
-
             <div className="self-stretch mt-4 text-xs leading-5 text-white">
               Solar and Electrical Solutions is a forward-thinking company
               dedicated to providing sustainable energy solutions for
@@ -23,81 +23,25 @@ function Footer() {
               maintenance of solar power systems, energy-efficient electrical
               installations, and smart home automation.
             </div>
-
-            <div className="flex gap-6 items-center mt-4">
-              <Image
-                src="/facebookIcon.png"
-                alt="fb" 
-                width={16} 
-                height={16} 
-              />
-              <Image
-                src="/instagramIcon.png" 
-                alt="fb"
-                width={16} 
-                height={16} 
-              />
-              <Image
-                src="/xIcon.png" 
-                alt="fb" 
-                width={16} 
-                height={16} 
-              />
-              <Image
-                src="/mailIcon.png" 
-                alt="fb" 
-                width={16} 
-                height={16} 
-              />
-            </div>
           </div>
 
-          <div className="flex gap-8 items-start self-start min-w-[240px]">
-            <div className="flex flex-col justify-center w-[101px]">
-              <div className="text-base font-bold leading-none text-orange-500">
-                Services
-              </div>
-              <div className="flex flex-col items-start mt-8 w-full text-xs leading-loose text-white">
-                <div className="gap-2.5 self-stretch whitespace-nowrap">
-                  Residential
-                </div>
-                <div className="gap-2.5 self-stretch mt-2 whitespace-nowrap">
-                  Commercial
-                </div>
-                <div className="gap-2.5 self-stretch mt-2 whitespace-nowrap">
-                  Industrial
-                </div>
-                <div className="gap-2.5 self-stretch mt-2">Solar panels</div>
-                <div className="gap-2.5 self-stretch mt-2">Solar batteries</div>
-              </div>
+          {/* Right-aligned div */}
+          <div className="flex flex-col lg:ml-auto">
+            <div className="text-base font-bold leading-none text-orange-500">
+              Services
             </div>
-            <div className="flex flex-col justify-center w-[102px]">
-              <div className="text-base font-bold leading-none text-orange-500">
-                Company
-              </div>
-              <div className="flex flex-col items-start mt-8 w-full text-xs leading-loose text-white">
-                <div className="gap-2.5 self-stretch whitespace-nowrap">
-                  About
-                </div>
-                <div className="gap-2.5 self-stretch mt-2">Our reviews</div>
-                <div className="gap-2.5 self-stretch mt-2">
-                  License & awards
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center w-[101px]">
-              <div className="text-base font-bold leading-none text-orange-500">
-                Explore
-              </div>
-              <div className="flex flex-col items-start mt-8 w-full text-xs leading-loose text-white">
-                <div className="gap-2.5 self-stretch">Why go solar ?</div>
-                <div className="gap-2.5 self-stretch mt-2">Why chose us ?</div>
-                <div className="gap-2.5 self-stretch mt-2">Our blogs</div>
-              </div>
+            <div className="flex flex-col items-start mt-8 w-full text-xs leading-loose text-white">
+              <div className="whitespace-nowrap">Residential</div>
+              <div className="mt-2 whitespace-nowrap">Commercial</div>
+              <div className="mt-2 whitespace-nowrap">Industrial</div>
+              <div className="mt-2">Solar panels</div>
+              <div className="mt-2">Solar batteries</div>
             </div>
           </div>
         </div>
-        <div className="self-center mt-12 text-xs text-slate-600 max-md:mt-10">
+
+        {/* Centered copyright text */}
+        <div className="flex justify-center items-center mt-12 text-xs text-slate-600 pb-[48px]">
           ©2024 – Copyright Spyene Technologies Fulfillment
         </div>
       </div>
