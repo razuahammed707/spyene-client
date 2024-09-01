@@ -1,5 +1,5 @@
 const Residential = () => {
-  return <>Residential!</>;
+  return <>Commercial!</>;
 };
 
 export default Residential;

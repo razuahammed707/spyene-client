@@ -5,8 +5,6 @@ import {
   DialogContent,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import { Mail } from "lucide-react";
@@ -56,7 +54,7 @@ export function GetQuotationModal({ bg_trigger }) {
             className="absolute top-8 right-8 p-2 rounded-full bg-[rgba(0,0,0,0.25)] text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200"
             aria-label="Close"
           >
-            <Cross2Icon color="#FFFF"className="h-4 w-4" />
+            <Cross2Icon color="#FFFF" className="h-4 w-4" />
           </button>
         </DialogClose>
       </DialogContent>
