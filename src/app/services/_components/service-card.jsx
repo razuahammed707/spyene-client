@@ -1,11 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-const ServiceCard = ({service}) => {
+const ServiceCard = ({ service }) => {
   return (
-    <div
-       className="flex flex-col overflow-hidden rounded-lg shadow-sm"
-    >
+    <div className="flex flex-col overflow-hidden rounded-lg shadow-[0px_1px_3px_0px_rgba(166,175,195,0.40)] ">
       <div className="w-full h-auto">
         <Image
           src={service.src}
