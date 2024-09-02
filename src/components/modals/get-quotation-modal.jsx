@@ -17,14 +17,14 @@ export function GetQuotationModal({ bg_trigger }) {
   return (
     <Dialog className="">
       <DialogTrigger asChild>
-      <Button
-      className={cn(
-        "bg-orange-400 sm:w-[382px] md:w-auto md:max-w-[140px] mx-auto lg:max-w-[140px]:",
-        bg_trigger && `bg-[${bg_trigger}]`
-      )}
-    >
-      Get a Free Quote
-    </Button>
+        <Button
+          className={cn(
+            "bg-orange-400 w-full lg:max-w-[140px] ",
+            bg_trigger && `bg-[${bg_trigger}]`
+          )}
+        >
+          Get a Free Quote
+        </Button>
       </DialogTrigger>
       <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[415px] space-x-[48px] border-none justify-between rounded-md bg-[#ffffff]">
         <div className="w-full  flex flex-col justify-between">

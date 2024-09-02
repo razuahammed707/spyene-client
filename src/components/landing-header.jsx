@@ -51,12 +51,12 @@ const LandingHeader = () => {
             </p>
 
             <div className="flex items-center space-x-2">
-              <GetQuotationModal bg_trigger="#1045AD" />
-              <Button className="bg-[#EF4444] text-sm font-medium ">
-                <PhoneCall className="h-[20px] w-[20px] mr-[10px]" /> Call us:
-                +123456789
-              </Button>
-            </div>
+      <GetQuotationModal bg_trigger="#1045AD" />
+      <Button className="bg-[#EF4444] text-sm font-medium flex items-center">
+        <PhoneCall className="h-[20px] w-[20px] mr-[10px]" />
+        Call us: +123456789
+      </Button>
+    </div>
           </div>
         </div>
         <div className="mt-3 w-full object-cover ">
