@@ -1,25 +1,24 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
 const ServiceCard = ({ service }) => {
   return (
-    <div className="flex flex-col overflow-hidden rounded-lg shadow-[0px_1px_3px_0px_rgba(166,175,195,0.40)] ">
-      <div className="w-full h-auto">
-        <Image
-          src={service.src}
-          alt={service.alt}
-          layout="responsive"
-          width={179}
-          height={160}
-        />
-      </div>
-      <div className="flex flex-col px-2 py-4 w-full bg-white">
-        <div className="leading-6 text-center text-gray-900">
+    <div className="flex flex-col overflow-hidden rounded-lg shadow-[0px_1px_3px_0px_rgba(166,175,195,0.40)] h-[296px]">
+      <Image
+        src={service.src}
+        alt={service.alt}
+        width={179.2}
+        height={160}
+        className="w-full h-[160px]"
+      />
+      <div className="flex h-full flex-col justify-between px-2 py-4 w-full bg-white">
+        <h5 className="leading-6 text-sm text-center text-[#111928]">
           {service.title}
-        </div>
-        <div className="flex items-center justify-center gap-2 self-stretch px-4 py-3 mt-4 w-full font-medium text-white bg-blue-800 rounded-md min-h-[40px]">
+        </h5>
+        <Button className="w-full font-medium text-white bg-blue-800 rounded-md">
           View details
-        </div>
+        </Button>
       </div>
     </div>
   );

@@ -9,9 +9,7 @@ const Navbar = async () => {
       <Link href="/">
         <Image src="/SPYENE.png" alt="SPYENE" width={82} height={28} />
       </Link>
-
-     <NavbarItems/>
-
+      <NavbarItems />
       <Link href="/contact">
         <Button className="bg-[#1045AD] h-[40px] text-sm font-medium">
           Contact us

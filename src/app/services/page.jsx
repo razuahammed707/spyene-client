@@ -6,7 +6,6 @@ const Page = () => {
   return (
     <>
       <CategoryWiseServices />
-      <GetQuotation className="my-0" />
     </>
   );
 };
