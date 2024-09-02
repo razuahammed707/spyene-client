@@ -22,7 +22,7 @@ const Supports = () => {
           Our Services
         </Button>
       </div>
-      <div className="w-full lg:w-1/2">
+      <div className="w-full lg:w-1/2 px-4 lg:px-0">
         <Image
           src="/solar-monitoring.png"
           height={369}

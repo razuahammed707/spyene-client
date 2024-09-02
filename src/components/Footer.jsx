@@ -1,19 +1,15 @@
 import * as React from "react";
 import Image from "next/image";
+import SpyeneLogo from "./spyene-logo";
 
 function Footer() {
   return (
     <div className="w-full bg-slate-900 mx-auto">
       <div className="w-full max-w-[1440px] mx-auto px-6 sm:px-12 md:px-[256px] py-[48px]">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-0">
-          {/* Left-aligned div */}
           <div className="flex-1 max-w-[390px]">
-            <Image
-              src="/SPYENE.png"
-              alt="SPYENE"
-              width={82}
-              height={28}
-            />
+            <SpyeneLogo color="#ED8A22" />
+
             <div className="self-stretch mt-4 text-xs leading-5 text-white">
               Solar and Electrical Solutions is a forward-thinking company
               dedicated to providing sustainable energy solutions for

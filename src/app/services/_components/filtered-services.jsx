@@ -82,7 +82,7 @@ const services = [
 const FilteredServices = () => {
   return (
     <>
-      <div className="my-[128px] space-y-12 max-w-[928px]">
+      <div className="my-[128px] px-4 lg:px-0 space-y-12 max-w-[928px]">
         <div className="space-y-4">
           <h2 className="text-3xl font-semibold tracking-tight leading-tight text-black max-md:max-w-full">
             What we offer
