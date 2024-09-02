@@ -1,18 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import NavbarItems from "./navbar-items";
+import { NavMenus } from "./nav-menus";
 
 export function NavbarMobile({ className }) {
   return (
@@ -23,7 +13,7 @@ export function NavbarMobile({ className }) {
         </Button>
       </SheetTrigger>
       <SheetContent side="left">
-        <NavbarItems className="flex-col" />
+        <NavMenus className="flex-col" />
       </SheetContent>
     </Sheet>
   );

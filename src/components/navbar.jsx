@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
-import NavbarItems from "./navbar-items";
-import { NavbarMobile } from "./navbar-mobile";
+ import { NavbarMobile } from "./navbar-mobile";
+import { NavMenus } from "./nav-menus";
 
 const Navbar = async () => {
   return (
@@ -10,13 +10,13 @@ const Navbar = async () => {
       <Link href="/">
         <Image src="/SPYENE.png" alt="SPYENE" width={82} height={28} />
       </Link>
-      <NavbarItems className="hidden sm:flex " />
+      <NavMenus className="hidden md:flex" />
       <Link href="/contact">
-        <Button className="bg-[#1045AD] h-[40px] text-sm font-medium hidden sm:block">
+        <Button className="bg-[#1045AD] h-[40px] text-sm font-medium hidden md:block">
           Contact us
         </Button>
       </Link>
-      <NavbarMobile className="block sm:hidden" />
+      <NavbarMobile className="block md:hidden" />
     </div>
   );
 };
