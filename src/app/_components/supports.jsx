@@ -3,13 +3,10 @@ import Image from "next/image";
 
 const Supports = () => {
   return (
-    <div className="flex max-w-[928px] px-4 lg:px-0 pt-[128px] justify-between items-center space-x-[48px]">
-      <div className="w-full">
-        <div className="mb-[21px] flex space-x-2 items-center">
-          <Image src="/palm.svg" width={24} height={24} alt="svg icon" />
-          <p className="text-sm text-[#1045AD] font-bold"> Dedicated support</p>
-        </div>
-        <h2 className="text-[30px] font-semibold leading-[36px] text-black">
+    <div className="flex flex-col-reverse lg:flex-row max-w-[928px] px-4 lg:px-0 pt-[128px] justify-between items-center space-x-[48px]">
+      <div className="w-full lg:w-1/2">
+        
+        <h2 className="text-[30px] font-semibold leading-[36px] text-black pt-[48px]">
           Experience Convenient Service Across NSW
         </h2>
         <p className="mt-[16px] text-[#0F172A] text-sm mb-[32px]">
@@ -21,16 +18,17 @@ const Supports = () => {
           services are available for residential, commercial, and small and
           large industrial projects.
         </p>
-        <Button className="rounded-[6px] bg-[#1045AD] text-white">
-          Read more about us
+        <Button className="rounded-[6px] bg-[#1045AD] text-white w-full lg:w-auto">
+          Our Services
         </Button>
       </div>
-      <div className="w-full">
+      <div className="w-full lg:w-1/2">
         <Image
           src="/solar-monitoring.png"
           height={369}
           width={440}
           alt="Supports Image"
+          className="w-full object-cover"
         />
       </div>
     </div>
