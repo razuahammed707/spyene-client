@@ -3,8 +3,7 @@ import Benefits from "../[slug]/_components/benefits";
 import WhyUs from "../[slug]/_components/why-us";
 import ContactUsForm from "@/components/inputs/contact-us-form";
 import Services from "@/app/_components/services";
-
-export default function HorizontalScroll() {
+const ServiceDetail = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row justify-center bg-white mx-auto w-full max-w-[928px] pt-12 md:pt-[128px] px-4">
@@ -14,7 +13,10 @@ export default function HorizontalScroll() {
               Air Condition Installation & Repair
             </h2>
             <p className="pt-4 text-sm md:text-[14px]">
-              The bright summer sun outside the house makes the indoors quite uncomfortable. It affects regular life in the house and productivity at the office. The installation of air conditioning can help to resolve the problem.
+              The bright summer sun outside the house makes the indoors quite
+              uncomfortable. It affects regular life in the house and
+              productivity at the office. The installation of air conditioning
+              can help to resolve the problem.
             </p>
 
             <Importance />
@@ -36,4 +38,6 @@ export default function HorizontalScroll() {
       </div>
     </>
   );
-}
+};
+
+export default ServiceDetail;
