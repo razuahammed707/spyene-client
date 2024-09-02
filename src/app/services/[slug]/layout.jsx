@@ -1,21 +1,17 @@
-"use client";
-import Header from "@/components/header";
-import { useParams } from "next/navigation";
-import Services from "./_components/services";
+import CategoryWiseServices from "../_components/category-wise-services";
 
-const services = ["commercial", "industrial"]
+const services = [
+  "commercial",
+  "industrial",
+  "residential",
+  "solar-panels",
+  "solar-bateries",
+];
 
-export default function ServiceLayout({ children }) {
-  const {slug} = useParams();
+export default function ServiceLayout({ children, params: { slug } }) {
   return (
     <page className="flex w-full flex-col items-center">
-      {<Header />}
-      {
-        services.includes(slug) ?
-        <Services/>
-        :
-        children
-      }
+      {services.includes(slug) ? <CategoryWiseServices /> : children}
     </page>
   );
 }
