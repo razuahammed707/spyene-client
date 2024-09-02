@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ServiceCard from "./service-card";
+import CardsPagination from "./cards-pagination";
 
 const services = [
   {
@@ -93,12 +94,12 @@ const FilteredServices = () => {
             installations.
           </p>
         </div>
-        <div className="grid grid-cols-5 gap-2 mt-12 max-md:mt-10 max-md:grid-cols-2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2">
           {services.map((service, index) => (
             <ServiceCard key={index} service={service} />
           ))}
         </div>
-        <div></div>
+        <CardsPagination />
       </div>
     </>
   );
