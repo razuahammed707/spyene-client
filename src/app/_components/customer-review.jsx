@@ -125,7 +125,7 @@ const CustomerReview = () => {
               </div>
             </SwiperSlide>
           ))}
-        <div className="block sm:hidden text-left mt-4">
+        <div className="block sm:hidden text-center mt-4">
           <SwiperNavButtons />
         </div>
       </Swiper>

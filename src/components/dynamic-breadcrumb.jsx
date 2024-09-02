@@ -10,6 +10,8 @@ import { House } from "lucide-react";
 
 export function DynamicBreadcrumb({ crumbs }) {
   let current_crumb = "";
+  console.log(crumbs);
+
   return (
     <Breadcrumb>
       <BreadcrumbList>
@@ -18,7 +20,7 @@ export function DynamicBreadcrumb({ crumbs }) {
             className="text-sm text-white hover:text-[#EF8A22] font-medium"
             href="/"
           >
-            <House className="h-[13.5px] w-[13.5px]"/>
+            <House className="h-[13.5px] w-[13.5px]" />
           </BreadcrumbLink>
         </BreadcrumbItem>
         {crumbs?.map((crumb, i) => (
@@ -27,14 +29,15 @@ export function DynamicBreadcrumb({ crumbs }) {
             <BreadcrumbItem>
               {crumbs?.length === 1 || i === crumbs.length - 1 ? (
                 <BreadcrumbPage className="text-sm text-white font-medium">
-                  {crumb?.[0].toUpperCase() + crumb?.slice(1)}
+                  {crumb}
                 </BreadcrumbPage>
               ) : (
                 <BreadcrumbLink
                   className="text-sm text-white hover:text-[#EF8A22] font-medium"
-                  href={`${(current_crumb += "/" + crumb)}`}
+                  href={`${(current_crumb +=
+                    "/" + crumb?.[0].toLowerCase() + crumb?.slice(1))}`}
                 >
-                  {crumb?.[0].toUpperCase() + crumb?.slice(1)}
+                  {crumb}
                 </BreadcrumbLink>
               )}
             </BreadcrumbItem>

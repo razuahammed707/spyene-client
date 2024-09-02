@@ -1,9 +1,8 @@
-import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import { useSwiper } from "swiper/react";
-
+import { Button } from "@/components/ui/button";
 export const SwiperNavButtons = () => {
   const swiper = useSwiper();
 
