@@ -56,11 +56,11 @@ function WhySpyene() {
         priority is to satisfy our customers.
       </p>
 
-      <div className="grid  grid-cols-2 md:grid-cols-3 gap-2  ">
+      <div className="grid  grid-cols-2 sm:grid-cols-3 gap-2  ">
         {cards.map((card, index) => (
           <div
             key={index}
-            className="relative rounded-lg h-[215.5px] sm:h-[161.5px] md:h-[215.5px] lg:h-[215.5px] max-sm:h-[215px] group bg-opacity-50 hover:bg-opacity-0"
+            className="relative rounded-lg h-[215.5px] group bg-opacity-50 hover:bg-opacity-0"
           >
             <Image
               src={card.image}

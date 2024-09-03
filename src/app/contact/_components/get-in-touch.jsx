@@ -13,8 +13,8 @@ const GentInTouch = () => {
           wiring, rewiring, electrical inspection, solar panel installations,
           and advanced battery systems.
         </p>
-        <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
-          <div className="w-full lg:max-w-[384px]">
+        <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-12">
+          <div className="w-full lg:flex-1">
             <ContactUsForm iscall={true} />
           </div>
           <Image
@@ -22,7 +22,7 @@ const GentInTouch = () => {
             height={298}
             width={496}
             alt="Map Location Image"
-            className="rounded-lg h-[250px] md:h-[310px] w-full object-cover"
+            className="rounded-lg h-[310px] w-full lg:w-[496px] object-cover"
           />
         </div>
         <div className="space-y-4 text-sm text-[#0F172A]">
