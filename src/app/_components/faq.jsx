@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import React, { useState } from "react";
 
@@ -53,26 +53,28 @@ function FAQ() {
         backgroundImage:
           "linear-gradient(270deg, rgba(255, 255, 255, 0) 11.82%, #FFF 52.49%), url(/bg-faq.png)",
       }}
-      className="max-w-[1440px] ps-4 lg:ps-[256px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 px-5 max-md:bg-none" // No background on small screens
+      className="max-w-[1440px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 max-md:bg-none" // No background on small screens
     >
-      <div className="flex flex-col flex-1 shrink self-stretch space-y-4 w-full basis-0 max-md:max-w-full">
+      <div className="flex px-4 lg:px-0 max-w-[928px] flex-col flex-1 shrink self-stretch space-y-4 w-full basis-0 max-md:max-w-full">
         <h2 className="text-3xl font-semibold text-[#0F172A] tracking-tight leading-tight max-md:max-w-full">
           Frequently asked questions
         </h2>
-        <div className="flex lg:pr-[256px] flex-col items-start w-full text-5xl font-extrabold tracking-tight leading-none max-md:max-w-full max-md:text-4xl">
+        <div className="flex flex-col items-start w-full text-5xl font-extrabold tracking-tight leading-none max-md:max-w-full max-md:text-4xl">
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className="group w-full flex flex-col md:flex-row justify-between items-start md:items-center cursor-pointer"
+              className=" w-full flex flex-col md:flex-row justify-between items-start md:items-center cursor-pointer"
               onClick={() => toggleAnswer(i)} // Toggle answer on click
             >
-              <h1 className="hover:text-[#1045AD] transition-text duration-500 text-[#94A3B8] text-[36px] font-semibold leading-12 max-md:text-[28px]">
+              <h1 className="peer hover:text-[#1045AD] transition-text duration-500 text-[#94A3B8] text-[36px] font-semibold leading-12 max-md:text-[28px]">
                 {faq.question}
               </h1>
               <p
-                className={`text-sm text-[#64748B] font-medium w-[551px] md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-md:w-full max-md:text-[16px] ${
-                  activeIndex === i ? "max-md:block max-md:mt-2" : "max-md:hidden"
-                }`}
+                className={`text-sm text-[#64748B] font-medium w-[551px] md:opacity-0 peer-hover:opacity-100 transition-opacity duration-500 max-md:w-full max-md:text-[16px] ${
+                  activeIndex === i
+                    ? "max-md:block max-md:mt-2"
+                    : "max-md:hidden"
+                } `}
               >
                 {faq.answer}
               </p>
