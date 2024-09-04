@@ -1,5 +1,6 @@
 "use client";
 
+import { useMediaQuery } from "@/shared/hooks/useMediaQuery";
 import React, { useState } from "react";
 
 const faqs = [
@@ -42,7 +43,7 @@ const faqs = [
 
 function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null); // Initialize state
-
+  const matches = useMediaQuery("(min-width: 768px)");
   const toggleAnswer = (index) => {
     setActiveIndex(index === activeIndex ? null : index); // Toggle answer visibility
   };
@@ -50,8 +51,9 @@ function FAQ() {
   return (
     <div
       style={{
-        backgroundImage:
-          "linear-gradient(270deg, rgba(255, 255, 255, 0) 11.82%, #FFF 52.49%), url(/bg-faq.png)",
+        backgroundImage: matches
+          ? "linear-gradient(270deg, rgba(255, 255, 255, 0) 11.82%, #FFF 52.49%), url(/bg-faq.png)"
+          : "none",
       }}
       className="max-w-[1440px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 max-md:bg-none" // No background on small screens
     >

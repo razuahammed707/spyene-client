@@ -1,12 +1,11 @@
 import * as React from "react";
-import Image from "next/image";
 import SpyeneLogo from "./spyene-logo";
 
 function Footer() {
   return (
     <div className="w-full bg-slate-900 mx-auto">
-      <div className="w-full max-w-[1440px] mx-auto px-6 sm:px-12 md:px-[256px] py-[48px]">
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-0">
+      <div className="w-full max-w-[928px] mx-auto px-4 lg:px-0 py-[48px]">
+        <div className="flex justify-between flex-col xs:flex-row  gap-8 lg:gap-0">
           <div className="flex-1 max-w-[390px]">
             <SpyeneLogo color="#ED8A22" />
 
@@ -22,10 +21,10 @@ function Footer() {
           </div>
 
           {/* Right-aligned div */}
-          <div className="flex flex-col lg:ml-auto">
-            <div className="text-base font-bold leading-none text-orange-500">
+          <div className="flex flex-col xs:ml-auto">
+            <h5 className="text-base font-bold leading-none text-orange-500">
               Services
-            </div>
+            </h5>
             <div className="flex flex-col items-start mt-8 w-full text-xs leading-loose text-white">
               <div className="whitespace-nowrap">Residential</div>
               <div className="mt-2 whitespace-nowrap">Commercial</div>
