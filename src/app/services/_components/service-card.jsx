@@ -16,7 +16,7 @@ const ServiceCard = ({ service }) => {
           alt={service.alt}
           width={179.2}
           height={160}
-          style={{ objectFit: "cover", height: "160px" }}
+          style={{ objectFit: "cover", height: "160px", width: "100%" }}
         />
       </div>
       <div className="flex h-full flex-col justify-between px-2 py-4 w-full bg-white">
