@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <>
       <div
-        className={`w-full h-[240px] py-6 flex items-end ${
+        className={`w-full h-[240px] px-4 lg:px-0  py-6 flex items-end ${
           pathname?.includes("contact")
             ? "bg-[linear-gradient(0deg,rgba(10,30,70,0.75)_0%,rgba(10,30,70,0.75)_100%),url('/hdr/bg-contact-new.png')]"
             : "bg-[linear-gradient(0deg,rgba(10,30,70,0.75)_0%,rgba(10,30,70,0.75)_100%),url('/hdr/bg-residential-new.png')]"

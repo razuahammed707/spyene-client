@@ -5,13 +5,13 @@ const services = [
   "industrial",
   "residential",
   "solar-panels",
-  "solar-bateries",
+  "solar-batteries",
 ];
 
 export default function ServiceLayout({ children, params: { slug } }) {
   return (
-    <page className="flex w-full flex-col items-center">
-      {services.includes(slug) ? <CategoryWiseServices /> : children}
-    </page>
+    <div className="flex w-full flex-col items-center">
+      {services.includes(slug) ? <CategoryWiseServices ctg={slug} /> : children}
+    </div>
   );
 }

@@ -6,7 +6,7 @@ import { Zap } from "lucide-react";
 import { Home } from "lucide-react";
 import Image from "next/image";
 
-const cards = [
+export const cards = [
   { title: "Residential", icon: Home },
   { title: "Industrial", icon: Factory },
   { title: "Commercial", icon: Calculator },

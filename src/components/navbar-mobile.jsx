@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { NavMenus } from "./nav-menus";
 
-export function NavbarMobile({ className }) {
+export const NavbarMobile = ({ className }) => {
   return (
     <Sheet>
       <SheetTrigger asChild className={className}>
@@ -17,4 +17,4 @@ export function NavbarMobile({ className }) {
       </SheetContent>
     </Sheet>
   );
-}
+};

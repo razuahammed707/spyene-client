@@ -2,43 +2,43 @@ import Image from "next/image";
 
 const cards = [
   {
-    image: "/faq/solar1.png", 
-    icon: "/faq/icon1.svg", 
+    image: "/faq/solar1.png",
+    icon: "/faq/icon1.svg",
     title: "Expertise and Experience",
     description:
       "Green energy solutions and grid-tied systems, facilitating energy-efficient solar installations and smart home systems.",
   },
   {
-    image: "/faq/solar2.png", 
-    icon: "/faq/icon2.svg", 
+    image: "/faq/solar2.png",
+    icon: "/faq/icon2.svg",
     title: "Tailored Solution",
     description:
       "Reliable and customized solar solutions for industries, reducing energy consumption through pre-efficient energy management for large-scale operations.",
   },
   {
-    image: "/faq/solar3.png", 
-    icon: "/faq/icon3.svg", 
+    image: "/faq/solar3.png",
+    icon: "/faq/icon3.svg",
     title: "Advanced Technology",
     description:
       "Scalable, secure, and efficient solutions designed to optimize energy efficiency and reduce operational costs for businesses.",
   },
   {
-    image: "/faq/solar4.png", 
-    icon: "/faq/icon4.svg", 
+    image: "/faq/solar4.png",
+    icon: "/faq/icon4.svg",
     title: "Local Knowledge",
     description:
       "Reliable and efficient solar solutions for industrial facilities, ensuring consistent power and effective energy management for large-scale operations.",
   },
   {
-    image: "/faq/solar5.png", 
-    icon: "/faq/icon5.svg", 
+    image: "/faq/solar5.png",
+    icon: "/faq/icon5.svg",
     title: "Sustainability",
     description:
       "Top-quality solar panel services, from installation to maintenance, helping you secure clean energy and reduce costs.",
   },
   {
-    image: "/faq/solar6.png", 
-    icon: "/faq/icon6.svg", 
+    image: "/faq/solar6.png",
+    icon: "/faq/icon6.svg",
     title: "Transparency",
     description:
       "Top-quality solar panel services, from installation to maintenance, helping you secure clean energy and reduce costs.",
@@ -56,11 +56,11 @@ function WhySpyene() {
         priority is to satisfy our customers.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-2 max-sm:grid-cols-2">
+      <div className="grid  grid-cols-2 sm:grid-cols-3 gap-2  ">
         {cards.map((card, index) => (
           <div
             key={index}
-            className="relative w-[304px] sm:w-[215px] md:w-[304px] lg:w-[304px] max-sm:w-[187px] rounded-lg h-[215.5px] sm:h-[161.5px] md:h-[215.5px] lg:h-[215.5px] max-sm:h-[215px] group bg-opacity-50 hover:bg-opacity-0"
+            className="relative rounded-lg h-[215.5px] group bg-opacity-50 hover:bg-opacity-0"
           >
             <Image
               src={card.image}
@@ -78,7 +78,9 @@ function WhySpyene() {
                     width={20}
                     alt={`Icon${index + 1}`}
                   />
-                  <h3 className="text-lg font-semibold max-sm:text-xs">{card.title}</h3>
+                  <h3 className="text-lg font-semibold max-sm:text-xs">
+                    {card.title}
+                  </h3>
                 </div>
                 <p className="text-sm group-hover:mt-4 h-0 text-wrap overflow-hidden group-hover:h-auto transition-all ease-linear duration-500 font-medium leading-[20px] max-sm:text-xs">
                   {card.description}
