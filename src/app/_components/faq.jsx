@@ -1,4 +1,6 @@
-import * as React from "react";
+"use client"; 
+
+import React, { useState } from "react";
 
 const faqs = [
   {
@@ -39,28 +41,39 @@ const faqs = [
 ];
 
 function FAQ() {
+  const [activeIndex, setActiveIndex] = useState(null); // Initialize state
+
+  const toggleAnswer = (index) => {
+    setActiveIndex(index === activeIndex ? null : index); // Toggle answer visibility
+  };
+
   return (
     <div
       style={{
         backgroundImage:
           "linear-gradient(270deg, rgba(255, 255, 255, 0) 11.82%, #FFF 52.49%), url(/bg-faq.png)",
       }}
-      className="max-w-[1440px] ps-4 lg:ps-[256px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 max-md:px-5 hidden md:flex"
+      className="max-w-[1440px] ps-4 lg:ps-[256px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 px-5 max-md:bg-none" // No background on small screens
     >
       <div className="flex flex-col flex-1 shrink self-stretch space-y-4 w-full basis-0 max-md:max-w-full">
         <h2 className="text-3xl font-semibold text-[#0F172A] tracking-tight leading-tight max-md:max-w-full">
           Frequently asked questions
         </h2>
-        <div className="flex pr-[256px] flex-col items-start w-full text-5xl font-extrabold tracking-tight leading-none max-md:max-w-full max-md:text-4xl">
+        <div className="flex lg:pr-[256px] flex-col items-start w-full text-5xl font-extrabold tracking-tight leading-none max-md:max-w-full max-md:text-4xl">
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className="group w-full flex justify-between items-center"
+              className="group w-full flex flex-col md:flex-row justify-between items-start md:items-center cursor-pointer"
+              onClick={() => toggleAnswer(i)} // Toggle answer on click
             >
-              <h1 className="cursor-pointer hover:text-[#1045AD] transition-text duration-500 text-[#94A3B8] text-[36px] font-semibold leading-12">
+              <h1 className="hover:text-[#1045AD] transition-text duration-500 text-[#94A3B8] text-[36px] font-semibold leading-12 max-md:text-[28px]">
                 {faq.question}
               </h1>
-              <p className="text-sm text-[#64748B] font-medium w-[551px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <p
+                className={`text-sm text-[#64748B] font-medium w-[551px] md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-md:w-full max-md:text-[16px] ${
+                  activeIndex === i ? "max-md:block max-md:mt-2" : "max-md:hidden"
+                }`}
+              >
                 {faq.answer}
               </p>
             </div>
@@ -70,4 +83,5 @@ function FAQ() {
     </div>
   );
 }
+
 export default FAQ;
