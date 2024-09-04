@@ -21,9 +21,20 @@ const BlockRendererClient = ({ content }) => {
                   {children}
                 </h2>
               );
+            case 3:
+              return (
+                <h3 className=" text-black text-xl md:text-[24px] font-semibold leading-[36px] tracking-[-0.225px] ">
+                  {children}
+                </h3>
+              );
           }
         },
-        list: ({ children }) => <ul className="list-disc pl-6">{children}</ul>,
+        list: ({ children, format }) => {
+          const ListTag = format === "ordered" ? "ol" : "ul";
+          const listStyle =
+            format === "ordered" ? "list-decimal pl-6" : "list-disc pl-6";
+          return <ListTag className={listStyle}>{children}</ListTag>;
+        },
         "list-item": ({ children }) => <li className=" ">{children}</li>,
       }}
     />

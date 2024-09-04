@@ -2,6 +2,8 @@ import ContactUsForm from "@/components/inputs/contact-us-form";
 import Services from "@/app/_components/services";
 import { fetchServices } from "@/shared/helpers/fetch-services";
 import BlockRendererClient from "./_components/blocks-renderer-client";
+import { Button } from "@/components/ui/button";
+import { PhoneCall } from "lucide-react";
 
 const ServiceDetail = async ({ params: { slug } }) => {
   const services = await fetchServices(`filters[Slug][$eq]=${slug}`);
@@ -15,12 +17,15 @@ const ServiceDetail = async ({ params: { slug } }) => {
         <div className="overflow-hidden w-full md:w-auto">
           <div className="max-w-full md:max-w-[496px] ">
             <BlockRendererClient content={service?.attributes?.Description} />
+            <Button className="bg-[#1045AD] hover:bg-slate-500">
+              <PhoneCall className="h-[20px] w-[20px] mr-[10px]" /> Call us
+            </Button>
           </div>
         </div>
 
         <div className="sticky right-0 top-0 mt-8 md:mt-0 md:ml-[48px] w-full md:w-[384px] h-auto md:h-[306px]">
           <div className="h-full bg-white">
-            <ContactUsForm iscall={true} />
+            <ContactUsForm />
           </div>
         </div>
       </div>
