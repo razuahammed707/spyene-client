@@ -18,9 +18,9 @@ const CustomerReview = () => {
       <Swiper
         spaceBetween={15}
         slidesPerView={2.75}
-        onSlideChange={(e) => console.log("slide change", e)}
+       /*  onSlideChange={(e) => console.log("slide change", e)}
         onReachEnd={(e) => console.log("end", e)}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSwiper={(swiper) => console.log(swiper)} */
         className="sm:ps-[336px]   mt-[48px]"
         breakpoints={{
           360: {
