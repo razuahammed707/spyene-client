@@ -2,8 +2,19 @@ import GetQuotation from "@/app/_components/get-quotation";
 import { CategoryFilterTabs } from "./category-filter-tabs";
 import ServiceCards from "./service-cards";
 import CardsPagination from "./cards-pagination";
+import { fetchServices } from "@/shared/helpers/fetch-services";
 
-const CategoryWiseServices = ({ ctg }) => {
+const categoriesMap = {
+  residential: "Residential",
+  industrial: "Industrial",
+  commercial: "Commercial",
+  "solar-panels": "Solar-panels",
+  "solar-batteries": "Solar-batteries",
+};
+const CategoryWiseServices = async ({ ctg }) => {
+  const services = await fetchServices(
+    categoriesMap[ctg] && `filters[Category][$eq]=${categoriesMap[ctg]}`
+  );
   return (
     <>
       <CategoryFilterTabs />
@@ -19,8 +30,7 @@ const CategoryWiseServices = ({ ctg }) => {
             installations.
           </p>
         </div>
-        <ServiceCards ctg={ctg} />
-        <CardsPagination />
+        <ServiceCards services={services} />
       </div>
       <GetQuotation className="my-0" />
     </>

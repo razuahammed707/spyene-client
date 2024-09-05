@@ -8,26 +8,40 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
-const CardsPagination = () => {
+const CardsPagination = ({totalPages, goToPreviousPage, goToNextPage, goToPage, currentPage, }) => {
   return (
     <Pagination>
       <PaginationContent className="flex justify-between w-full">
         <PaginationItem>
-          <PaginationPrevious  />
+          <PaginationPrevious
+            onClick={goToPreviousPage}
+            disabled={currentPage === 1}
+          />
         </PaginationItem>
+
         <div className="flex">
-          <PaginationItem>
-            <PaginationLink isActive>1</PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href="#">2</PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationEllipsis />
-          </PaginationItem>
+          {[...Array(totalPages)].map((_, index) => (
+            <PaginationItem key={index}>
+              <PaginationLink
+                isActive={currentPage === index + 1}
+                onClick={() => goToPage(index + 1)}
+              >
+                {index + 1}
+              </PaginationLink>
+            </PaginationItem>
+          ))}
+          {totalPages > 2 && (
+            <PaginationItem>
+              <PaginationEllipsis />
+            </PaginationItem>
+          )}
         </div>
+
         <PaginationItem>
-          <PaginationNext href="#" />
+          <PaginationNext
+            onClick={goToNextPage}
+            disabled={currentPage === totalPages}
+          />
         </PaginationItem>
       </PaginationContent>
     </Pagination>

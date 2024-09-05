@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const CustomerReview = () => {
   return (
-    <div className="ps-4 lg:ps-[256px] w-full max-w-[1440px] text-center mb-[128px]">
+    <div className="ps-4 xl:ps-[256px] mx-auto w-full max-w-[928px] xl:max-w-[1440px] text-center mb-[128px]">
       <div className="w-full">
         <h2 className="text-[30px] text-[#0F172A] font-semibold">
           What our customers say about us
@@ -23,7 +23,6 @@ const CustomerReview = () => {
         onSwiper={(swiper) => console.log(swiper)}
         className="sm:ps-[336px]   mt-[48px]"
         breakpoints={{
-          // when window width is >= 640px
           360: {
             slidesPerView: 1,
           },
@@ -42,7 +41,6 @@ const CustomerReview = () => {
           837: {
             slidesPerView: 2,
           },
-          // when window width is >= 768px
 
           1024: {
             slidesPerView: 1.75,
@@ -50,7 +48,6 @@ const CustomerReview = () => {
           1046: {
             slidesPerView: 2,
           },
-          // when window width is >= 1024px
           1280: {
             slidesPerView: 2.75,
           },
@@ -62,7 +59,7 @@ const CustomerReview = () => {
               backgroundImage:
                 "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 21.18%, #FFF 87.19%), url(/hardhat.png)",
             }}
-            className="w-[320px] bg-right bg-no-repeat border-[1px solid #FFFF]  h-[393px] flex items-end "
+            className="w-[320px] bg-right bg-no-repeat border-[1px solid #FFFF] h-[393px] flex items-end "
           >
             <div className="space-y-6 text-start">
               <h1 className="text-[48px] text-[#EF8A22] font-extrabold">
