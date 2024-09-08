@@ -4,7 +4,7 @@ import FAQ from "./_components/faq";
 import GetQuotation from "./_components/get-quotation";
 import WhySpyene from "./_components/why-spyene";
 import Supports from "./_components/supports";
-import LandingHeader from "@/components/landing-header";
+import LandingHeader from "./_components/landing-header";
 
 export default function Home() {
   return (

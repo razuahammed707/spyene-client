@@ -37,7 +37,7 @@ function Footer() {
 
         {/* Centered copyright text */}
         <div className="flex justify-center items-center mt-12 text-xs text-slate-600 pb-[48px]">
-          ©2024 – Copyright Spyene Technologies Fulfillment
+          ©2024 Spyene Technologies (ABN: 75 638 855 211). All Rights Reserved
         </div>
       </div>
     </div>

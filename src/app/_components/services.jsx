@@ -7,6 +7,7 @@ import { Home } from "lucide-react";
 import Image from "next/image";
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import { cn } from "@/lib/utils";
 
 export const cards = [
   { title: "Residential", icon: Home },
@@ -16,10 +17,10 @@ export const cards = [
   { title: "Solar batteries", icon: BatteryCharging },
 ];
 
-export const Services = () => {
+export const Services = ({ className }) => {
   return (
     <>
-      <div className="flex w-full max-w-[928px] px-4 lg:px-0 ">
+      <div className={cn("flex w-full max-w-[928px] px-4 lg:px-0 ", className)}>
         <div className="w-full">
           <h2 className="text-[30px] text-[#0F172A] mb-4 font-semibold leading-[36px]">
             Our Services
