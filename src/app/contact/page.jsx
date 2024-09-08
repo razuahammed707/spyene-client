@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import FAQ from "../_components/faq";
 import GetQuotation from "../_components/get-quotation";
 import GentInTouch from "./_components/get-in-touch";
@@ -7,7 +7,7 @@ const ContactPage = () => {
   return (
     <div className="flex w-full flex-col items-center">
       <Header />
-      <div className="w-full max-w-[960px] my-12 md:my-[128px] px-4 space-y-4">
+      <div className="w-full max-w-[960px] my-12 md:my-[128px] px-4 lg:px-0 space-y-4">
         <h2 className="text-2xl md:text-3xl text-black font-semibold">
           Consult with Our Experts
         </h2>
@@ -22,8 +22,8 @@ const ContactPage = () => {
         </p>
       </div>
       <GentInTouch />
-      <GetQuotation />
-      <FAQ />
+      <GetQuotation className="my-12 md:my-[128px]" />
+      <FAQ className="mb-12 md:mb-[128px]" />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Supports = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row max-w-[928px] px-4 lg:px-0 pt-[128px] justify-between items-center space-x-[48px]">
+    <div className="flex flex-col-reverse lg:flex-row max-w-[928px] px-4 lg:px-0 pt-[128px] lg:justify-between items-center lg:space-x-[48px]">
       <div className="w-full lg:w-1/2">
         <h2 className="text-[30px] font-semibold leading-[36px] text-black pt-[48px]">
           Experience Convenient Service Across NSW

@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
-import GetQuotationModal from "./modals/get-quotation-modal";
-import { Button } from "./ui/button";
+import GetQuotationModal from "../../components/modals/get-quotation-modal";
+import { Button } from "../../components/ui/button";
 import { PhoneCall } from "lucide-react";
+import ContactUsButton from "@/components/contact-us-button";
 
 const LandingHeader = () => {
   return (
@@ -52,10 +53,7 @@ const LandingHeader = () => {
 
             <div className="flex items-center space-x-2">
               <GetQuotationModal bg_trigger="#1045AD" />
-              <Button className="bg-[#EF4444] text-sm font-medium flex items-center">
-                <PhoneCall className="h-[20px] w-[20px] mr-[10px]" />
-                Call us: +123456789
-              </Button>
+              <ContactUsButton />
             </div>
           </div>
         </div>

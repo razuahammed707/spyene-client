@@ -59,7 +59,7 @@ const ContactUsForm = ({ iscall }) => {
             </Label>
             <Input
               id="email"
-              placeholder="pietro.schirano@gmail.com"
+              placeholder="Your Email"
               type="email"
               className="bg-white"
               {...register("email", { required: true })}
@@ -78,7 +78,7 @@ const ContactUsForm = ({ iscall }) => {
             </Label>
             <Input
               id="contact"
-              placeholder="+98564555"
+              placeholder="Your Contact"
               type="tel"
               className="bg-white"
               {...register("contact", { required: true })}
@@ -95,7 +95,7 @@ const ContactUsForm = ({ iscall }) => {
               Message
             </Label>
             <Textarea
-              placeholder="Type"
+              placeholder="Leave Message..."
               className="bg-white min-h-[67px]"
               {...register("message", { required: true })}
             />

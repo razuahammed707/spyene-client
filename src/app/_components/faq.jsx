@@ -1,5 +1,6 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import { useMediaQuery } from "@/shared/hooks/useMediaQuery";
 import React, { useState } from "react";
 
@@ -41,7 +42,7 @@ const faqs = [
   },
 ];
 
-function FAQ() {
+function FAQ({ className }) {
   const [activeIndex, setActiveIndex] = useState(null); // Initialize state
   const matches = useMediaQuery("(min-width: 768px)");
   const toggleAnswer = (index) => {
@@ -55,7 +56,10 @@ function FAQ() {
           ? "linear-gradient(270deg, rgba(255, 255, 255, 0) 11.82%, #FFF 52.49%), url(/bg-faq.png)"
           : "none",
       }}
-      className="max-w-[1440px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 max-md:bg-none" // No background on small screens
+      className={cn(
+        "max-w-[1440px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 max-md:bg-none",
+        className
+      )} // No background on small screens
     >
       <div className="flex px-4 lg:px-0 max-w-[928px] flex-col flex-1 shrink self-stretch space-y-4 w-full basis-0 max-md:max-w-full">
         <h2 className="text-3xl font-semibold text-[#0F172A] tracking-tight leading-tight max-md:max-w-full">
