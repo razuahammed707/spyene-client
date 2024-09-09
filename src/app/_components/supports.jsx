@@ -1,10 +1,16 @@
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
-const Supports = () => {
+const Supports = ({ className }) => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row max-w-[928px] px-4 lg:px-0 pt-[128px] lg:justify-between items-center lg:space-x-[48px]">
+    <div
+      className={cn(
+        "flex flex-col-reverse lg:flex-row max-w-[928px] px-4 lg:px-0 pt-[128px] lg:justify-between items-center lg:space-x-[48px]",
+        className
+      )}
+    >
       <div className="w-full lg:w-1/2">
         <h2 className="text-[30px] font-semibold leading-[36px] text-black pt-[48px]">
           Experience Convenient Service Across NSW
@@ -24,7 +30,7 @@ const Supports = () => {
           </Button>
         </Link>
       </div>
-      <div className="w-full lg:w-1/2 px-4 lg:px-0">
+      <div className="w-full lg:w-1/2 ">
         <Image
           src="/solar-monitoring.png"
           height={369}

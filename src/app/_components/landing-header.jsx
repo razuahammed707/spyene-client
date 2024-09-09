@@ -1,8 +1,5 @@
-"use client";
 import Image from "next/image";
 import GetQuotationModal from "../../components/modals/get-quotation-modal";
-import { Button } from "../../components/ui/button";
-import { PhoneCall } from "lucide-react";
 import ContactUsButton from "@/components/contact-us-button";
 
 const LandingHeader = () => {
@@ -16,6 +13,7 @@ const LandingHeader = () => {
                 .fill("")
                 .map((el, i) => (
                   <Image
+                    key={i}
                     src={`/lan-hdr/avatar${i + 1}.png`}
                     width={27}
                     height={26}
@@ -29,6 +27,7 @@ const LandingHeader = () => {
                   .fill("")
                   .map((el, i) => (
                     <Image
+                      key={i}
                       src="/lan-hdr/star.svg"
                       width={17}
                       height={17}

@@ -20,6 +20,10 @@ module.exports = {
       screens: {
         xs: "560px",
       },
+      boxShadow: {
+        custom:
+          "0 10px 15px -3px rgb(203, 213, 225), 0 4px 6px -4px rgb(203, 213, 225)", // This uses #CBD5E1 with transparency
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

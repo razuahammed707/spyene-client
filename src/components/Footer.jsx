@@ -9,7 +9,7 @@ function Footer() {
           <div className="flex-1 max-w-[390px]">
             <SpyeneLogo color="#ED8A22" />
 
-            <div className="self-stretch mt-4 text-xs leading-5 text-white">
+            <p className="self-stretch mt-4 text-xs leading-5 text-white">
               Solar and Electrical Solutions is a forward-thinking company
               dedicated to providing sustainable energy solutions for
               residential, commercial, and industrial clients. With a focus on
@@ -17,7 +17,7 @@ function Footer() {
               range of services, including the design, installation, and
               maintenance of solar power systems, energy-efficient electrical
               installations, and smart home automation.
-            </div>
+            </p>
           </div>
 
           {/* Right-aligned div */}
@@ -25,20 +25,20 @@ function Footer() {
             <h5 className="text-base font-bold leading-none text-orange-500">
               Services
             </h5>
-            <div className="flex flex-col items-start mt-8 w-full text-xs leading-loose text-white">
-              <div className="whitespace-nowrap">Residential</div>
-              <div className="mt-2 whitespace-nowrap">Commercial</div>
-              <div className="mt-2 whitespace-nowrap">Industrial</div>
-              <div className="mt-2">Solar panels</div>
-              <div className="mt-2">Solar batteries</div>
+            <div className="flex [&>*]:cursor-pointer xs:flex-col gap-3 xs:gap-1 justify-between items-start flex-wrap mt-5 w-full text-xs leading-loose text-white">
+              <p>Residential</p>
+              <p>Commercial</p>
+              <p>Industrial</p>
+              <p>Solar panels</p>
+              <p>Solar batteries</p>
             </div>
           </div>
         </div>
 
         {/* Centered copyright text */}
-        <div className="flex justify-center items-center mt-12 text-xs text-slate-600 pb-[48px]">
+        <p className="flex justify-center items-center mt-12 text-xs text-slate-600 pb-[48px]">
           ©2024 Spyene Technologies (ABN: 75 638 855 211). All Rights Reserved
-        </div>
+        </p>
       </div>
     </div>
   );

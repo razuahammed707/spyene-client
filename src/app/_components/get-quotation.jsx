@@ -5,7 +5,7 @@ const GetQuotation = ({ className }) => {
   return (
     <div
       className={cn(
-        "w-full my-[128px] flex justify-center bg-blue-800",
+        "w-full my-12 md:my-[128px] flex justify-center bg-blue-800",
         className
       )}
     >

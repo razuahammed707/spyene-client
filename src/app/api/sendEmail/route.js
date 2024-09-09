@@ -1,35 +1,34 @@
-import { MailSlurp } from "mailslurp-client";
-
-const mailslurp = new MailSlurp({ apiKey: process.env.MAILSLURP_API_KEY });
+// /app/api/sendEmail/route.ts
+import { NextResponse } from 'next/server';
+import emailjs from 'emailjs-com';
 
 export async function POST(request) {
   const { email, contact, message } = await request.json();
 
   try {
-    const inboxId = process.env.MAILSLURP_INBOX_ID;
-    if (!inboxId) {
-      throw new Error("MailSlurp inbox ID is not set in environment variables");
+    const serviceId = process.env.EMAILJS_SERVICE_ID;
+    const templateId = process.env.EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      throw new Error('EmailJS configuration is missing.');
     }
 
-    const sendEmailOptions = {
-      to: [email],
-      subject: `New Contact Request from ${contact}`,
-      body: `Empowering your home and business with reliable solar solutions and electrical expertise. Trust us to handle everything from installation to safety checks — ensuring your peace of mind.`,
-      isHTML: false,
+    const templateParams = {
+      email,
+      contact,
+      message,
     };
 
-    const sendResponse = await mailslurp.sendEmail(inboxId, sendEmailOptions);
+    const response = await emailjs.send(serviceId, templateId, templateParams, publicKey);
 
-    console.log("Email sent:", sendResponse);
-    return new Response(
-      JSON.stringify({ success: true, message: "Email sent successfully" }),
-      { status: 200 }
-    );
+    if (response.status === 200) {
+      return NextResponse.json({ success: true, message: 'Email sent successfully' });
+    } else {
+      return NextResponse.json({ success: false, message: 'Failed to send email' });
+    }
   } catch (error) {
-    console.error("Error sending email:", error);
-    return new Response(
-      JSON.stringify({ success: false, message: "Failed to send email" }),
-      { status: 500 }
-    );
+    console.error('Error sending email:', error);
+    return NextResponse.json({ success: false, message: 'Error occurred while sending email' });
   }
 }
