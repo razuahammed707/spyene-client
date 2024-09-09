@@ -26,8 +26,8 @@ export function GetQuotationModal({ bg_trigger }) {
           Get a Free Quote
         </Button>
       </DialogTrigger>
-      <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[415px] space-x-[48px] border-none justify-between rounded-md bg-[#ffffff]">
-        <div className="w-full  flex flex-col ">
+      <DialogContent className="flex pt-20 pb-8 px-8 max-w-[913px] h-[415px] sm:space-x-[48px] border-none justify-between rounded-md bg-[#ffffff]">
+        <div className="w-full hidden sm:flex flex-col ">
           <div className="space-y-6">
             <h3 className="text-[64748B] text-[24px] font-semibold leading-[20px] font-inter items-stretch gap-2">
               Get a free quote !

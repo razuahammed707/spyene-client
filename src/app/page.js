@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className="flex w-full flex-col items-center mx-auto">
       <LandingHeader />
-      <Services />
-      <Supports />
+      <Services  />
+      <Supports className="pt-12 md:pt-[128px]" />
       <GetQuotation />
       <WhySpyene />
       <FAQ />

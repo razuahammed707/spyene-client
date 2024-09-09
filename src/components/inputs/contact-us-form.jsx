@@ -24,14 +24,14 @@ const ContactUsForm = ({ iscall }) => {
         },
         body: JSON.stringify(data),
       });
-      console.log(response);
-      
+
+      const result = await response.json();
 
       if (response.ok) {
-        toast.success("Email sent successfully!");
-        reset();  
+        toast.success(result.message);
+        reset();
       } else {
-        toast.error("Failed to send email.");
+        toast.error(result.message);
       }
     } catch (error) {
       console.error("Error:", error);
@@ -40,87 +40,66 @@ const ContactUsForm = ({ iscall }) => {
   };
 
   return (
-    <>
-      <form onSubmit={handleSubmit(onSubmit)}>
-        <div className="space-y-2 mb-[25px]">
-          {/*  <Input
-          id="name"
-          placeholder="Name"
-          className="bg-white"
-          {...register("name", { required: true })}
-        />
-        {errors.name && <span className="text-red-500">Name is required</span>} */}
-          <div className="space-y-[6px]">
-            <Label
-              className="text-sm text-[#0F172A] font-medium"
-              htmlFor="email"
-            >
-              Email
-            </Label>
-            <Input
-              id="email"
-              placeholder="Your Email"
-              type="email"
-              className="bg-white"
-              {...register("email", { required: true })}
-            />
-            {/*  {errors.email && (
-            <span className="text-red-500">Email is required</span>
-          )} */}
-          </div>
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <div className="space-y-2 mb-[25px]">
+        <div className="space-y-[6px]">
+          <Label className="text-sm text-[#0F172A] font-medium" htmlFor="email">
+            Email
+          </Label>
+          <Input
+            id="email"
+            placeholder="Your Email"
+            type="email"
+            className="bg-white"
+            {...register("email", { required: true })}
+          />
+        </div>
 
-          <div className="space-y-[6px]">
-            <Label
-              className="text-sm text-[#0F172A] font-medium"
-              htmlFor="contact"
-            >
-              Contact
-            </Label>
-            <Input
-              id="contact"
-              placeholder="Your Contact"
-              type="tel"
-              className="bg-white"
-              {...register("contact", { required: true })}
-            />
-            {/*  {errors.Contact && (
-            <span className="text-red-500">Contact number is required</span>
-          )} */}
-          </div>
-          <div className="space-y-[6px]">
-            <Label
-              className="text-sm text-[#0F172A] font-medium"
-              htmlFor="message"
-            >
-              Message
-            </Label>
-            <Textarea
-              placeholder="Leave Message..."
-              className="bg-white min-h-[67px]"
-              {...register("message", { required: true })}
-            />
-            {/* {errors.message && (
-            <span className="text-red-500">Message is required</span>
-          )} */}
-          </div>
-        </div>
-        <div className="flex space-x-2">
-          <Button
-            className="bg-[#1045AD] w-full hover:bg-slate-500"
-            type="submit"
+        <div className="space-y-[6px]">
+          <Label
+            className="text-sm text-[#0F172A] font-medium"
+            htmlFor="contact"
           >
-            Submit
-          </Button>
-          <Button
-            className={`bg-[#1045AD] ${
-              !iscall && "hidden"
-            }   hover:bg-slate-500" type="submit`}
-          >
-            <PhoneCall className="h-[20px] w-[20px] mr-[10px]" /> Call us
-          </Button>
+            Contact
+          </Label>
+          <Input
+            id="contact"
+            placeholder="Your Contact"
+            type="tel"
+            className="bg-white"
+            {...register("contact", { required: true })}
+          />
         </div>
-      </form>
-    </>
+
+        <div className="space-y-[6px]">
+          <Label
+            className="text-sm text-[#0F172A] font-medium"
+            htmlFor="message"
+          >
+            Message
+          </Label>
+          <Textarea
+            placeholder="Leave Message..."
+            className="bg-white min-h-[67px]"
+            {...register("message", { required: true })}
+          />
+        </div>
+      </div>
+      <div className="flex space-x-2">
+        <Button
+          className="bg-[#1045AD] w-full hover:bg-slate-500"
+          type="submit"
+        >
+          Submit
+        </Button>
+        <Button
+          className={`bg-[#1045AD] ${!iscall && "hidden"} hover:bg-slate-500`}
+          type="button"
+        >
+          <PhoneCall className="h-[20px] w-[20px] mr-[10px]" /> Call us
+        </Button>
+      </div>
+    </form>
   );
 };
 

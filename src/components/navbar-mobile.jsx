@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { NavMenus } from "./nav-menus";
-
+ 
 export const NavbarMobile = ({ className }) => {
   return (
     <Sheet>
@@ -13,7 +13,7 @@ export const NavbarMobile = ({ className }) => {
         </Button>
       </SheetTrigger>
       <SheetContent side="left">
-        <NavMenus className="flex-col" />
+        <NavMenus className="flex-col" withSheetClose />
       </SheetContent>
     </Sheet>
   );

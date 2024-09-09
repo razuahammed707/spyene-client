@@ -19,7 +19,7 @@ const ServiceDetail = async ({ params: { slug } }) => {
         <div className="w-full">
           <BlockRendererClient content={service?.attributes?.Description} />
         </div>
-        <ContactUsButton className="mt-4" color="#1045AD" />
+        <ContactUsButton className="mt-4 w-[223px]" color="#1045AD" />
       </div>
       <GetQuotation className="my-12 md:my-[128px]" />
       <Services className="mb-12 md:mb-[128px] " />
