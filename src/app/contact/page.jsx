@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import FAQ from "../_components/faq";
 import GetQuotation from "../_components/get-quotation";
 import GentInTouch from "./_components/get-in-touch";
