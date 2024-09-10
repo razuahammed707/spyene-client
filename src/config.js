@@ -1,5 +1,4 @@
 export const config = {
-    // api: 'http://localhost:1338'
-    api: 'https://55ed-59-153-103-142.ngrok-free.app'
-    
-}
+  /*   api: process.env.NEXT_PUBLIC_API_URL,
+   */ api: "https://9682-59-153-103-129.ngrok-free.app",
+};

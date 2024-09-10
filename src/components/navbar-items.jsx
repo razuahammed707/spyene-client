@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { DropdownNavItem } from "./dropdown-nav-item"
+ import { DropdownNavItem } from "./dropdown-nav-item"
 import { fetchServices } from "@/shared/helpers/fetch-services";
 
 const NavbarItems = async () => {

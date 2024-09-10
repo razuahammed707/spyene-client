@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { config } from "@/config";
- import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";

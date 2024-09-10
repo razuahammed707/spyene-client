@@ -1,11 +1,15 @@
-import ContactUsForm from "@/components/inputs/contact-us-form";
 import { fetchServices } from "@/shared/helpers/fetch-services";
 import BlockRendererClient from "./_components/blocks-renderer-client";
-import { Button } from "@/components/ui/button";
-import { PhoneCall } from "lucide-react";
 import Services from "@/app/_components/services";
 import GetQuotation from "@/app/_components/get-quotation";
 import ContactUsButton from "@/components/contact-us-button";
+
+export async function generateStaticParams() {
+  const services = await fetchServices();
+  return services.map((service) => ({
+    slug: service.attributes.Slug,
+  }));
+}
 
 const ServiceDetail = async ({ params: { slug } }) => {
   const services = await fetchServices(`filters[Slug][$eq]=${slug}`);

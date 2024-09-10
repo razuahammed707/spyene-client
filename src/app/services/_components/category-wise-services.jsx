@@ -1,7 +1,6 @@
 import GetQuotation from "@/app/_components/get-quotation";
 import { CategoryFilterTabs } from "./category-filter-tabs";
 import ServiceCards from "./service-cards";
-import CardsPagination from "./cards-pagination";
 import { fetchServices } from "@/shared/helpers/fetch-services";
 
 const categoriesMap = {
@@ -11,6 +10,7 @@ const categoriesMap = {
   "solar-panels": "Solar-panels",
   "solar-batteries": "Solar-batteries",
 };
+
 const CategoryWiseServices = async ({ ctg }) => {
   const services = await fetchServices(
     categoriesMap[ctg] && `filters[Category][$eq]=${categoriesMap[ctg]}`

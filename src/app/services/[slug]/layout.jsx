@@ -8,10 +8,6 @@ const services = [
   "solar-batteries",
 ];
 
-export default function ServiceLayout({ children, params: { slug } }) {
-  return (
-    <div className="flex w-full flex-col items-center">
-      {services.includes(slug) ? <CategoryWiseServices ctg={slug} /> : children}
-    </div>
-  );
+export default function ServiceLayout({ children }) {
+  return <div className="flex w-full flex-col items-center">{children}</div>;
 }
