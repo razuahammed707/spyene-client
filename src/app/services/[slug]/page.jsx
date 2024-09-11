@@ -19,7 +19,7 @@ const ServiceDetail = async ({ params: { slug } }) => {
 
   return (
     <>
-      <div className="bg-white mx-auto w-full max-w-[928px] pt-12 md:pt-[128px] px-4 md:px-0">
+      <div className="bg-white mx-auto w-full max-w-[928px] pt-12 md:pt-[128px] px-4 lg:px-0">
         <div className="w-full">
           <BlockRendererClient content={service?.attributes?.Description} />
         </div>

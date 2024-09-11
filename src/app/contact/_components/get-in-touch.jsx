@@ -29,13 +29,6 @@ const GentInTouch = () => {
         </div>
         <div className="space-y-4 text-sm text-[#0F172A]">
           <div>
-            <b className="font-semibold">Office Hours:</b>
-            <p>
-              We are available during the following hours: Monday to Friday:
-              9:00 AM - 5:00 PM / Saturday: 10:00 AM - 2:00 PM / Sunday: Closed.
-            </p>
-          </div>
-          <div>
             <b className="font-semibold">Address:</b>
             <p>
               Visit our office at: 20 Lindsen St, Mount Druitt NSW 2770. ABN: 75
