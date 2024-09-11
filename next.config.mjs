@@ -14,6 +14,7 @@ const nextConfig = {
         hostname: "aa27-59-153-103-142.ngrok-free.app",
         port: "",
         pathname: "/**",
+        
       },
     ],
   },
