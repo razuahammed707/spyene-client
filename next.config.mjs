@@ -11,7 +11,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "9682-59-153-103-129.ngrok-free.app",
+        hostname: "6818-59-153-103-138.ngrok-free.app",
         port: "",
         pathname: "/**",
       },
