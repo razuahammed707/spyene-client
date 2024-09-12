@@ -7,12 +7,15 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 const ServiceCard = ({ service }) => {
+  console.log(service.attributes.Thumbnail.data.attributes.url);
+
   const pathname = usePathname();
   return (
     <div className="flex flex-col overflow-hidden rounded-lg shadow-[0px_1px_3px_0px_rgba(166,175,195,0.40)] h-[296px]">
       <div className="h-[160px]">
         <Image
-          src={`${config.api}${service.attributes.Thumbnail.data.attributes.url}`}
+          // src={`${config.api}${service.attributes.Thumbnail.data.attributes.url}`} was for strapi images
+          src={`${service.attributes.Thumbnail.data.attributes.url}`}
           alt={service.alt}
           width={179.2}
           height={160}
