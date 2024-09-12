@@ -1,20 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    /* domains: ["localhost", "127.0.0.1"], */
+    domains: ["localhost", "127.0.0.1"],
     remotePatterns: [
       {
-        protocol: "http",
-        hostname: "localhost",
-        port: "1338",
-        pathname: "/**",
-      },
-      {
         protocol: "https",
-        hostname: "d5ad-59-153-103-131.ngrok-free.app",
-        port: "",
+        hostname: "invoiceflow.s3.us-east-1.amazonaws.com",
         pathname: "/**",
-        
       },
     ],
   },

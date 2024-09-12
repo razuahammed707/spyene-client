@@ -36,7 +36,7 @@ const LandingHeader = () => {
                   ))}
               </div>
               <p className="text-[10px] text-[#0F172A] font-medium ">
-                Loved by <span>100</span>+ Clients
+                Loved by <span>1000</span>+ Clients
               </p>
             </div>
           </div>

@@ -12,7 +12,7 @@ const CustomerReview = () => {
           What our customers say about us
         </h2>
         <p className="text-sm text-[#0F172A] mt-4">
-          Trusted and loved by over 100+ people in Australia
+          Trusted and loved by over 1000+ people in Australia
         </p>
       </div>
 
