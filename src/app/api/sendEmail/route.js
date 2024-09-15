@@ -1,34 +1,34 @@
-// /app/api/sendEmail/route.ts
-import { NextResponse } from 'next/server';
-import emailjs from 'emailjs-com';
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
-export async function POST(request) {
-  const { email, contact, message } = await request.json();
+export async function POST(req, res) {
+  if (req.method === "POST") {
+    const { email, contact, message } = await req.body;
 
-  try {
-    const serviceId = process.env.EMAILJS_SERVICE_ID;
-    const templateId = process.env.EMAILJS_TEMPLATE_ID;
-    const publicKey = process.env.EMAILJS_PUBLIC_KEY;
-
-    if (!serviceId || !templateId || !publicKey) {
-      throw new Error('EmailJS configuration is missing.');
+    let transporter = nodemailer.createTransport({
+      service: "Gmail",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
+    });
+    try {
+      let info = await transporter.sendMail({
+        from: process.env.EMAIL_USER,
+        to: email,
+        subject: "Quotation for Spyene Services",
+        text: message,
+      });
+      console.success("Message Sent: %s", info.messageId);
+      NextResponse.json({
+        success: true,
+      });
+    } catch (error) {
+      console.error("Error sending email:", error);
+      NextResponse.json({
+        success: false,
+        error: error.message,
+      });
     }
-
-    const templateParams = {
-      email,
-      contact,
-      message,
-    };
-
-    const response = await emailjs.send(serviceId, templateId, templateParams, publicKey);
-
-    if (response.status === 200) {
-      return NextResponse.json({ success: true, message: 'Email sent successfully' });
-    } else {
-      return NextResponse.json({ success: false, message: 'Failed to send email' });
-    }
-  } catch (error) {
-    console.error('Error sending email:', error);
-    return NextResponse.json({ success: false, message: 'Error occurred while sending email' });
   }
 }

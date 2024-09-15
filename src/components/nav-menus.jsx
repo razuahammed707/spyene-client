@@ -22,7 +22,7 @@ const items = [
   { title: "Industrial", icon: Factory, slug: "industrial" },
   { title: "Commercial", icon: Calculator, slug: "commercial" },
   { title: "Solar panels", icon: Zap, slug: "solar-panels" },
-  { title: "Solar batteries", icon: BatteryCharging, slug: "solar-batteries" },
+  { title: "Batteries", icon: BatteryCharging, slug: "batteries" },
 ];
 
 export const NavMenus = async ({ className, withSheetClose }) => {
@@ -30,7 +30,7 @@ export const NavMenus = async ({ className, withSheetClose }) => {
     ? [SheetClose, { asChild: true }]
     : [React.Fragment, {}];
 
-  const [residentials, industrials, commercials, solarpanels, solarbatteries] =
+  const [residentials, industrials, commercials, solarpanels, batteries] =
     await Promise.all([
       await fetchServices(
         "filters[Category][$eq]=Residential&pagination[pageSize]=5"
@@ -45,7 +45,7 @@ export const NavMenus = async ({ className, withSheetClose }) => {
         "filters[Category][$eq]=Solar-panels&pagination[pageSize]=5"
       ),
       await fetchServices(
-        "filters[Category][$eq]=Solar-batteries&pagination[pageSize]=5"
+        "filters[Category][$eq]=Batteries&pagination[pageSize]=5"
       ),
     ]);
   const getServicesByTitle = (title) => {
@@ -54,7 +54,7 @@ export const NavMenus = async ({ className, withSheetClose }) => {
       Industrial: industrials,
       Commercial: commercials,
       "Solar panels": solarpanels,
-      "Solar batteries": solarbatteries,
+      Batteries: batteries,
     };
 
     return servicesMap[title] || [];

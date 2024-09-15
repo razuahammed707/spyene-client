@@ -35,7 +35,7 @@ const ContactUsForm = ({ iscall }) => {
       }
     } catch (error) {
       console.error("Error:", error);
-      toast.error("Error occurred while sending email.");
+      toast.error("Error occurred while getting quotation!.");
     }
   };
 

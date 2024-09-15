@@ -16,7 +16,7 @@ export const cards = [
   { title: "Industrial", icon: Factory },
   { title: "Commercial", icon: Calculator },
   { title: "Solar panels", icon: Zap },
-  { title: "Solar batteries", icon: BatteryCharging },
+  { title: "Batteries", icon: BatteryCharging },
 ];
 
 export const Services = ({ className }) => {

@@ -19,8 +19,8 @@ function Footer() {
               residential, commercial, and industrial clients. With a focus on
               harnessing the power of the sun, Spyene Technologies offers a wide
               range of services, including the design, installation, and
-              maintenance of solar power systems, energy-efficient electrical
-              installations, and smart home automation.
+              maintenance of solar power systems and energy-efficient electrical
+              installations.
             </p>
           </div>
 
@@ -73,12 +73,12 @@ function Footer() {
               <Link
                 href={
                   pathname?.split("/")?.[1] === "services"
-                    ? "solar-batteries"
-                    : "services/solar-batteries"
+                    ? "batteries"
+                    : "services/batteries"
                 }
               >
                 {" "}
-                Solar batteries
+                Batteries
               </Link>
             </div>
           </div>
