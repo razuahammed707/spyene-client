@@ -8,7 +8,7 @@ const categoriesMap = {
   industrial: "Industrial",
   commercial: "Commercial",
   "solar-panels": "Solar-panels",
-  "solar-batteries": "Solar-batteries",
+  "batteries": "Batteries",
 };
 
 const CategoryWiseServices = async ({ ctg }) => {

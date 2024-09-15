@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Spyene",
   description:
-    "Get sustainable solar and electrical services for residential, commercial, and industrial spaces provided by expert, licensed electricians across NSW",
+    "Spyene Technology offers solar and electrical services for residential, commercial, and industrial spaces provided by expert electricians across NSW.",
 };
 
 export default function RootLayout({ children }) {

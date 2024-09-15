@@ -26,32 +26,36 @@ export const CategoryFilterTabs = () => {
             value="residential"
             className=" px-4 py-3 text-white font-medium data-[state=active]:bg-[#1045AD] data-[state=active]:text-white"
           >
-            <House className="h-[20px] w-[20px] mr-2  hidden md:block" /> Residential
+            <House className="h-[20px] w-[20px] mr-2  hidden md:block" />{" "}
+            Residential
           </TabsTrigger>
           <TabsTrigger
             value="industrial"
             className=" px-4 py-3 text-white font-medium data-[state=active]:bg-[#1045AD] data-[state=active]:text-white"
           >
-            <Factory className="h-[20px] w-[20px] mr-2 hidden md:block" /> Industrial
+            <Factory className="h-[20px] w-[20px] mr-2 hidden md:block" />{" "}
+            Industrial
           </TabsTrigger>
           <TabsTrigger
             value="commercial"
             className=" px-4 py-3 text-white font-medium data-[state=active]:bg-[#1045AD] data-[state=active]:text-white"
           >
-            <Calculator className="h-[20px] w-[20px] mr-2 hidden md:block" /> Commercial
+            <Calculator className="h-[20px] w-[20px] mr-2 hidden md:block" />{" "}
+            Commercial
           </TabsTrigger>
           <TabsTrigger
             value="solar-panels"
             className=" px-4 py-3 text-white font-medium data-[state=active]:bg-[#1045AD] data-[state=active]:text-white"
           >
-            <Zap className="h-[20px] w-[20px] mr-2 hidden md:block" /> Solar panels
+            <Zap className="h-[20px] w-[20px] mr-2 hidden md:block" /> Solar
+            panels
           </TabsTrigger>
           <TabsTrigger
-            value="solar-batteries"
+            value="batteries"
             className=" px-4 py-3 text-white font-medium data-[state=active]:bg-[#1045AD] data-[state=active]:text-white"
           >
             <BatteryCharging className="h-[20px] w-[20px] mr-2 hidden md:block" />
-            Solar batteries
+            Batteries
           </TabsTrigger>
         </div>
       </TabsList>
