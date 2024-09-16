@@ -1,5 +1,5 @@
 export const config = {
-  api: "http://localhost:1338",
-  // api: "https://42d9-59-153-103-141.ngrok-free.app",
+  //api: "http://localhost:1338",
+   api: "https://75bd-59-153-103-128.ngrok-free.app",
   
 };
