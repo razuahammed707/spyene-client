@@ -8,6 +8,8 @@ import { generateSplittedPath } from "@/shared/helpers/generate-splitted-path";
 const Header = () => {
   const [crumbs, setCrumbs] = useState([]);
   const [title, setTitle] = useState("");
+  console.log("title", title);
+
   const pathname = usePathname();
   useEffect(() => {
     const splitted_path = generateSplittedPath(pathname);
@@ -26,7 +28,7 @@ const Header = () => {
       >
         <div className="w-full max-w-[928px] mx-auto ">
           <h1 className="text-[36px] font-semibold text-white leading-12">
-            {title ? title[0].toUpperCase() + title.slice(1) : <span>...</span>}
+            {title ? title.replace("And", "&") : <span>...</span>}
           </h1>
           <DynamicBreadcrumb crumbs={crumbs} />
         </div>

@@ -14,13 +14,13 @@ function Footer() {
             <SpyeneLogo color="#ED8A22" />
 
             <p className="self-stretch mt-4 text-xs leading-5 text-white">
-              Solar and Electrical Solutions is a forward-thinking company
-              dedicated to providing sustainable energy solutions for
-              residential, commercial, and industrial clients. With a focus on
-              harnessing the power of the sun, Spyene Technologies offers a wide
-              range of services, including the design, installation, and
-              maintenance of solar power systems and energy-efficient electrical
-              installations.
+              Spyene Technology is committed to delivering sustainable energy
+              solutions for residential, commercial, and industrial sectors.
+              Specializing in solar power systems, we offer a comprehensive
+              range of services, including design, installation, and
+              maintenance. Our focus is on providing energy-efficient electrical
+              installations to help reduce energy consumption and promote a
+              cleaner future.
             </p>
           </div>
 

@@ -1,10 +1,5 @@
 "use client";
-
-import { ListBulletIcon } from "@radix-ui/react-icons";
 import { BlocksRenderer } from "@strapi/blocks-react-renderer";
-import { PointerIcon } from "lucide-react";
-import { Dot } from "lucide-react";
-
 const BlockRendererClient = ({ content }) => {
   return (
     <BlocksRenderer
@@ -17,13 +12,13 @@ const BlockRendererClient = ({ content }) => {
           switch (level) {
             case 2:
               return (
-                <h2 className=" text-black text-2xl md:text-[30px] font-semibold leading-[36px] tracking-[-0.225px] ">
+                <h2 className=" text-black text-xl md:text-2xl font-semibold leading-[36px] tracking-[-0.225px] ">
                   {children}
                 </h2>
               );
             case 3:
               return (
-                <h3 className=" text-black text-xl md:text-[24px] font-semibold leading-[36px] tracking-[-0.225px] ">
+                <h3 className=" text-black text-lg md:text-xl font-semibold leading-[36px] tracking-[-0.225px] ">
                   {children}
                 </h3>
               );

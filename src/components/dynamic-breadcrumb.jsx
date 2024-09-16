@@ -10,7 +10,7 @@ import { House } from "lucide-react";
 
 export function DynamicBreadcrumb({ crumbs }) {
   let current_crumb = "";
-  // console.log(crumbs);
+  //console.log(crumbs);
 
   return (
     <Breadcrumb>
@@ -29,7 +29,7 @@ export function DynamicBreadcrumb({ crumbs }) {
             <BreadcrumbItem>
               {crumbs?.length === 1 || i === crumbs.length - 1 ? (
                 <BreadcrumbPage className="text-sm text-white font-medium">
-                  {crumb}
+                  {crumb.replace('And', '&')}
                 </BreadcrumbPage>
               ) : (
                 <BreadcrumbLink

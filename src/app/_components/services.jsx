@@ -21,7 +21,7 @@ export const cards = [
 
 export const Services = ({ className }) => {
   const pathname = usePathname();
- 
+
   return (
     <>
       <div className={cn("flex w-full max-w-[928px] px-4 lg:px-0 ", className)}>
@@ -30,7 +30,7 @@ export const Services = ({ className }) => {
             Our Services
           </h2>
           <p className="text-sm text-[#0F172A] mb-4">
-            We offer a wide range of services that includes but is not limited
+            We offer a wide range of services that include but are not limited
             to wiring, rewiring, electrical inspection, solar panel
             installations, and advanced battery systems.
           </p>

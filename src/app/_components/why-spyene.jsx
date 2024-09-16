@@ -6,42 +6,42 @@ const cards = [
     icon: "/faq/icon1.svg",
     title: "Expertise and Experience",
     description:
-      "Green energy solutions and grid-tied systems, facilitating energy-efficient solar installations and smart home systems.",
+      "Highly skilled and extensively experienced professional in electrical and solar solutions",
   },
   {
     image: "/faq/solar2.png",
     icon: "/faq/icon2.svg",
     title: "Tailored Solution",
     description:
-      "Reliable and customized solar solutions for industries, reducing energy consumption through pre-efficient energy management for large-scale operations.",
+      "Customised services to meet the unique needs of residential, commercial, and industrial clients",
   },
   {
     image: "/faq/solar3.png",
     icon: "/faq/icon3.svg",
     title: "Advanced Technology",
     description:
-      "Scalable, secure, and efficient solutions designed to optimize energy efficiency and reduce operational costs for businesses.",
+      "Utilisation of the latest technology and innovative approaches for optimal performance and efficiency",
   },
   {
     image: "/faq/solar4.png",
     icon: "/faq/icon4.svg",
     title: "Local Knowledge",
     description:
-      "Reliable and efficient solar solutions for industrial facilities, ensuring consistent power and effective energy management for large-scale operations.",
+      "We have an in-depth understanding of NSW’s unique energy needs and regulations",
   },
   {
     image: "/faq/solar5.png",
     icon: "/faq/icon5.svg",
     title: "Sustainability",
     description:
-      "Top-quality solar panel services, from installation to maintenance, helping you secure clean energy and reduce costs.",
+      "We are focused on eco-friendly and energy-efficient solutions to promote a greener future",
   },
   {
     image: "/faq/solar6.png",
     icon: "/faq/icon6.svg",
     title: "Transparency",
     description:
-      "Top-quality solar panel services, from installation to maintenance, helping you secure clean energy and reduce costs.",
+      "Clear communication and honest practices are ensured at every step of our service to maintain trust",
   },
 ];
 

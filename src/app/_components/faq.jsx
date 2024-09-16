@@ -59,11 +59,11 @@ function FAQ({ className }) {
       className={cn(
         "max-w-[1440px] bg-fit bg-no-repeat mb-[128px] bg-right w-full flex gap-10 justify-center items-center text-slate-900 max-md:bg-none",
         className
-      )}  
+      )}
     >
       <div className="flex px-4 lg:px-0 max-w-[928px] flex-col flex-1 shrink self-stretch space-y-4 w-full basis-0 max-md:max-w-full">
         <h2 className="text-3xl font-semibold text-[#0F172A] tracking-tight leading-tight max-md:max-w-full">
-          Frequently asked questions
+          Frequently Asked Questions
         </h2>
         <div className="flex flex-col items-start w-full text-5xl font-extrabold tracking-tight leading-none max-md:max-w-full max-md:text-4xl">
           {faqs.map((faq, i) => (
