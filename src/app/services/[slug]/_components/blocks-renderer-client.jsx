@@ -30,7 +30,7 @@ const BlockRendererClient = ({ content }) => {
             format === "ordered" ? "list-decimal pl-6" : "list-disc pl-6";
           return <ListTag className={listStyle}>{children}</ListTag>;
         },
-        "list-item": ({ children }) => <li className=" ">{children}</li>,
+        "list-item": ({ children }) => <li className="text-sm">{children}</li>,
       }}
     />
   );

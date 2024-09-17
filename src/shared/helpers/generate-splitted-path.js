@@ -1,24 +1,37 @@
-const isFormatted = (str) => {
-  return (
-    !str.includes("-") &&
-    str
-      .split(" ")
-      .every((word) => word.charAt(0) === word.charAt(0).toUpperCase())
-  );
+export const formatCrumb = (crumb, services) => {
+  if (crumb === "solar-panels") {
+    return crumb
+      .split("-")
+      .map((str) => str?.[0].toUpperCase() + str?.slice(1))
+      .join(" ");
+  } else if (crumb?.includes("-")) {
+    const service = services.find(
+      (service) => service.attributes.Slug === crumb
+    );
+    return service?.attributes?.Title;
+  }
+  return crumb?.[0].toUpperCase() + crumb?.slice(1);
 };
 
-const formatUrlString = (str) => {
-  if (isFormatted(str)) {
-    return str;
+export const formatTitle = (splitedPath, services) => {
+  const lastPath = splitedPath.at(-1);
+  if (lastPath === "solar-panels") {
+    return lastPath
+      .split("-")
+      .map((str) => str?.[0].toUpperCase() + str?.slice(1))
+      .join(" ");
+  } else if (lastPath?.includes("-")) {
+    const service = services.find(
+      (service) => service.attributes.Slug === lastPath
+    );
+    return service?.attributes.Title || "";
   }
-  return str
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+  return lastPath?.[0].toUpperCase() + lastPath?.slice(1);
 };
+
 export const generateSplittedPath = (url_string) => {
   return url_string
     ?.split("/")
     ?.filter((crumb) => crumb !== "")
-    ?.map((string) => formatUrlString(string));
+    ?.map((crum) => crum);
 };
