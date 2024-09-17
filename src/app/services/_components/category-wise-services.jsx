@@ -8,12 +8,12 @@ const categoriesMap = {
   industrial: "Industrial",
   commercial: "Commercial",
   "solar-panels": "Solar-panels",
-  "batteries": "Batteries",
+  batteries: "Batteries",
 };
 
 const CategoryWiseServices = async ({ ctg }) => {
   const services = await fetchServices(
-    categoriesMap[ctg] && `filters[Category][$eq]=${categoriesMap[ctg]}`
+    categoriesMap[ctg] && `filters[Category][$contains]=${categoriesMap[ctg]}`
   );
   return (
     <>

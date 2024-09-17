@@ -33,19 +33,19 @@ export const NavMenus = async ({ className, withSheetClose }) => {
   const [residentials, industrials, commercials, solarpanels, batteries] =
     await Promise.all([
       await fetchServices(
-        "filters[Category][$eq]=Residential&pagination[pageSize]=5"
+        "filters[Category][$contains]=Residential&pagination[pageSize]=5"
       ),
       await fetchServices(
-        "filters[Category][$eq]=Industrial&pagination[pageSize]=5"
+        "filters[Category][$contains]=Industrial&pagination[pageSize]=5"
       ),
       await fetchServices(
-        "filters[Category][$eq]=Commercial&pagination[pageSize]=5"
+        "filters[Category][$contains]=Commercial&pagination[pageSize]=5"
       ),
       await fetchServices(
-        "filters[Category][$eq]=Solar-panels&pagination[pageSize]=5"
+        "filters[Category][$contains]=Solar-panels&pagination[pageSize]=5"
       ),
       await fetchServices(
-        "filters[Category][$eq]=Batteries&pagination[pageSize]=5"
+        "filters[Category][$contains]=Batteries&pagination[pageSize]=5"
       ),
     ]);
   const getServicesByTitle = (title) => {
