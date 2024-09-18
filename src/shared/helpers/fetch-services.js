@@ -10,7 +10,7 @@ export const fetchServices = async (filters) => {
 
   try {
     const response = await fetch(
-      `${config.api}/api/services?populate=*&${filters}`,
+      `${config.api}/api/services?populate=*${filters}`,
       reqOptions
     );
     const data = await response.json();

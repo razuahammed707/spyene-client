@@ -16,11 +16,12 @@ import {
   formatTitle,
   generateSplittedPath,
 } from "@/shared/helpers/generate-splitted-path";
+import { Fragment } from "react";
 
 export function DynamicBreadcrumb({ services }) {
   let current_crumb = "";
   const [crumbs, setCrumbs] = useState([]);
-  console.log(crumbs);
+  //console.log(crumbs);
 
   const [title, setTitle] = useState("");
 
@@ -54,8 +55,8 @@ export function DynamicBreadcrumb({ services }) {
               </BreadcrumbLink>
             </BreadcrumbItem>
             {crumbs?.map((crumb, i) => (
-              <>
-                <BreadcrumbSeparator key={i} className="text-white" />
+              <Fragment key={i}>
+                <BreadcrumbSeparator className="text-white" />
                 <BreadcrumbItem>
                   {crumbs?.length === 1 || i === crumbs.length - 1 ? (
                     <BreadcrumbPage className="text-sm text-white font-medium">
@@ -70,7 +71,7 @@ export function DynamicBreadcrumb({ services }) {
                     </BreadcrumbLink>
                   )}
                 </BreadcrumbItem>
-              </>
+              </Fragment>
             ))}
           </BreadcrumbList>
         </Breadcrumb>

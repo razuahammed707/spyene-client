@@ -1,13 +1,12 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { config } from "@/config";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
 const ServiceCard = ({ service }) => {
-  console.log(service.attributes.Thumbnail.data.attributes.url);
+  //console.log("service__",service);
 
   const pathname = usePathname();
   return (
@@ -16,7 +15,7 @@ const ServiceCard = ({ service }) => {
         <Image
           // src={`${config.api}${service.attributes.Thumbnail.data.attributes.url}`} was for strapi images
           src={`${service.attributes.Thumbnail.data.attributes.url}`}
-          alt={service.alt}
+          alt={`${service.attributes.Title} image`}
           width={179.2}
           height={160}
           style={{ objectFit: "cover", height: "160px", width: "100%" }}

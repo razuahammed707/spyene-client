@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 }
 
 const ServiceDetail = async ({ params: { slug } }) => {
-  const services = await fetchServices(`filters[Slug][$eq]=${slug}`);
+  const services = await fetchServices(`&filters[Slug][$eq]=${slug}`);
   if (services.length === 0) return null;
   const service = services[0];
   // console.log("service", service);

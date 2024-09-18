@@ -11,7 +11,7 @@ const SpyeneLogo = ({ color = "orange" }) => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g clip-path="url(#clip0_820_387)">
+          <g clipPath="url(#clip0_820_387)">
             <path
               d="M32.3856 21.4682H31.9231L32.5024 17.3478H30.9795L31.0449 16.9253H34.5509L34.4878 17.3478H32.9649L32.388 21.4682H32.3856Z"
               fill="#254BA0"
@@ -114,8 +114,8 @@ const SpyeneLogo = ({ color = "orange" }) => {
               y2="4.43555"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#E37427" />
-              <stop offset="1" stop-color="#F79E25" />
+              <stop stopColor="#E37427" />
+              <stop offset="1" stopColor="#F79E25" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_820_387"
@@ -125,8 +125,8 @@ const SpyeneLogo = ({ color = "orange" }) => {
               y2="11.8103"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#2C2E72" />
-              <stop offset="1" stop-color="#254492" />
+              <stop stopColor="#2C2E72" />
+              <stop offset="1" stopColor="#254492" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_820_387"
@@ -136,8 +136,8 @@ const SpyeneLogo = ({ color = "orange" }) => {
               y2="0"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#283984" />
-              <stop offset="1" stop-color="#254BA0" />
+              <stop stopColor="#283984" />
+              <stop offset="1" stopColor="#254BA0" />
             </linearGradient>
             <clipPath id="clip0_820_387">
               <rect width="82" height="28" fill="white" />
@@ -152,7 +152,7 @@ const SpyeneLogo = ({ color = "orange" }) => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g clip-path="url(#clip0_820_1150)">
+          <g clipPath="url(#clip0_820_1150)">
             <path
               d="M32.3856 21.4681H31.9231L32.5024 17.3477H30.9795L31.0449 16.9251H34.5509L34.4878 17.3477H32.9649L32.388 21.4681H32.3856Z"
               fill="#EF8A22"

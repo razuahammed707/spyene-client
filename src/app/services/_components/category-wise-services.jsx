@@ -13,7 +13,9 @@ const categoriesMap = {
 
 const CategoryWiseServices = async ({ ctg }) => {
   const services = await fetchServices(
-    categoriesMap[ctg] && `filters[Category][$contains]=${categoriesMap[ctg]}`
+    categoriesMap[ctg]
+      ? `&filters[Category][$contains]=${categoriesMap[ctg]}`
+      : "&pagination[limit]=-1"
   );
   return (
     <>

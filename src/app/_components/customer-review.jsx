@@ -114,7 +114,7 @@ const CustomerReview = () => {
         </div>
         {reviews.map((review, i) => (
           <SwiperSlide key={i} className="h-[393px]">
-            <div class="bg-[#1045AD] h-full relative box-border text-white py-[53px] px-[32px] rounded-[8px_70px_8px_8px] flex flex-col">
+            <div className="bg-[#1045AD] h-full relative box-border text-white py-[53px] px-[32px] rounded-[8px_70px_8px_8px] flex flex-col">
               <div
                 style={{
                   position: "absolute",
@@ -128,27 +128,27 @@ const CustomerReview = () => {
                 }}
               ></div>
 
-              <div class="flex items-center mb-4">
+              <div className="flex items-center mb-4">
                 <span>5.0</span>
-                <span class="text-yellow-400 ml-1">★★★★★</span>
+                <span className="text-yellow-400 ml-1">★★★★★</span>
               </div>
               <hr />
               <div className="h-full flex w-full flex-col justify-between">
-                <p class="text-xs font-semibold mt-4 max-w-[235px] text-left ">
+                <p className="text-xs font-semibold mt-4 max-w-[235px] text-left ">
                   {review.message}
                 </p>
 
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <Image
                     src={`/lan-hdr/avatar${i + 1}.png`}
                     width={40}
                     height={40}
                     alt="User Image"
-                    class="w-10 h-10 rounded-full mr-3"
+                    className="w-10 h-10 rounded-full mr-3"
                   />
                   <div className="text-left">
-                    <div class="font-bold text-sm">{review.name}</div>
-                    <div class="text-sm"> {`@${review.twitter_profile}`}</div>
+                    <div className="font-bold text-sm">{review.name}</div>
+                    <div className="text-sm"> {`@${review.twitter_profile}`}</div>
                   </div>
                 </div>
               </div>

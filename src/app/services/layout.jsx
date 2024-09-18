@@ -2,10 +2,10 @@ import Header from "@/components/Header";
 
 const ServicesLayout = ({ children }) => {
   return (
-    <page className="flex w-full flex-col items-center">
+    <div className="flex w-full flex-col items-center">
       <Header />
       {children}
-    </page>
+    </div>
   );
 };
 export default ServicesLayout;
