@@ -1,15 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import ServiceCard from "./service-card";
-import {
-  Pagination,
-  PaginationContent,
-  PaginationEllipsis,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination";
 import CardsPagination from "./cards-pagination";
 
 const ITEMS_PER_PAGE = 10;

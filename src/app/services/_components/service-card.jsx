@@ -1,9 +1,9 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
+// import DynamicImage from "./dynamic-image";
 
 const ServiceCard = ({ service }) => {
   //console.log("service__",service);
@@ -16,12 +16,16 @@ const ServiceCard = ({ service }) => {
           // src={`${config.api}${service.attributes.Thumbnail.data.attributes.url}`} was for strapi images
           src={service?.attributes?.Thumbnail?.data?.attributes?.url}
           placeholder="blur"
-          blurDataURL="/service/card_placeholder.png"
+          blurDataURL="/service/place_holder.png"
           alt={`${service?.attributes?.Title || "Service"} Image`}
           width={179.2}
           height={160}
           style={{ objectFit: "cover", height: "160px", width: "100%" }}
         />
+        {/* <DynamicImage
+          url={service?.attributes?.Thumbnail?.data?.attributes?.url}
+          alt={`${service?.attributes?.Title || "Service"} Image`}
+        /> */}
       </div>
       <div className="flex h-full flex-col justify-between px-2 py-4 w-full bg-white">
         <h5 className="leading-6 text-sm text-center text-[#111928] line-clamp-2">
