@@ -14,8 +14,10 @@ const ServiceCard = ({ service }) => {
       <div className="h-[160px]">
         <Image
           // src={`${config.api}${service.attributes.Thumbnail.data.attributes.url}`} was for strapi images
-          src={`${service.attributes.Thumbnail.data.attributes.url}`}
-          alt={`${service.attributes.Title} image`}
+          src={service?.attributes?.Thumbnail?.data?.attributes?.url}
+          placeholder="blur"
+          blurDataURL="/service/card_placeholder.png"
+          alt={`${service?.attributes?.Title || "Service"} Image`}
           width={179.2}
           height={160}
           style={{ objectFit: "cover", height: "160px", width: "100%" }}
