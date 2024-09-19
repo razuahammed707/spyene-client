@@ -35,7 +35,7 @@ const ContactUsForm = ({ iscall }) => {
       }
     } catch (error) {
       console.error("Error:", error);
-      toast.error("Error occurred while getting quotation!.");
+      toast.error("Error occurred while receiving quotation!.");
     }
   };
 
