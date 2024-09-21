@@ -23,7 +23,7 @@ const LandingHeader = () => {
             </div>
             <div>
               <div className="flex">
-                {Array(6)
+                {Array(5)
                   .fill("")
                   .map((el, i) => (
                     <Image
