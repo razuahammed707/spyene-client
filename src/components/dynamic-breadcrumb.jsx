@@ -41,7 +41,7 @@ export function DynamicBreadcrumb({ services }) {
       } bg-lightgray bg-center bg-cover bg-no-repeat`}
     >
       <div className="w-full max-w-[928px] mx-auto ">
-        <h1 className="text-[36px] font-semibold text-white leading-12">
+        <h1 className="text-3xl md:text-[36px] font-semibold text-white leading-12">
           {title ? title : <span>...</span>}
         </h1>
         <Breadcrumb>
