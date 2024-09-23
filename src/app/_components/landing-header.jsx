@@ -46,8 +46,8 @@ const LandingHeader = () => {
             </h1>
             <p className="text-sm text-[#0F172A]">
               Our innovative and reliable solar and electrical services are
-              available across NSW. Experience hassle-free installation, repair,
-              and maintenance with our expert solutions.
+              available across NSW. Experience hassle-free solar installation,
+              repair, and maintenance with our expert solutions.
             </p>
 
             <div className="flex items-center space-x-2">
@@ -58,7 +58,7 @@ const LandingHeader = () => {
         </div>
         <div className="mt-3 hidden sm:block w-full object-cover ">
           <Image
-            src="/lan-hdr/bg.svg"
+            src="/lan-hdr/bg.jpg"
             height={318}
             width={605}
             alt="backgroundImage"

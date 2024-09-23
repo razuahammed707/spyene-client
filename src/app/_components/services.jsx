@@ -30,9 +30,10 @@ export const Services = ({ className }) => {
             Our Services
           </h2>
           <p className="text-sm text-[#0F172A] mb-4">
-            We offer a wide range of services that include but are not limited
-            to wiring, rewiring, electrical inspection, solar panel
-            installations, and advanced battery systems.
+            We offer comprehensive solar solutions, including advanced battery
+            systems, with a focus on sustainable energy. We also provide
+            electrical services, so solar technology can be fully integrated for
+            effective energy management.
           </p>
           <Swiper
             spaceBetween={10}

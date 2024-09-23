@@ -13,14 +13,14 @@ const Supports = ({ className }) => {
     >
       <div className="w-full lg:w-1/2">
         <h2 className="text-[30px] font-semibold leading-[36px] text-black pt-[48px]">
-          Experience Convenient Service Across NSW
+          Experience Convenient Solar Services Across NSW
         </h2>
         <p className="mt-[16px] text-[#0F172A] text-sm mb-[32px]">
           New South Wales is a pioneer in adopting renewable energy. Major
           cities like Sydney, Newcastle, Wollongong, and others are rapidly
           adopting solar and advanced electrical solutions. To help the people
           with this change, Spyene Technology has dedicated, experienced, and
-          trained staff. We ensure the best services across the state. Our
+          trained staff. We ensure the best services across the state. Our solar
           services are available for residential, commercial, and small and
           large industrial projects.
         </p>

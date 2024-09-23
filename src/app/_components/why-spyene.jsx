@@ -6,42 +6,42 @@ const cards = [
     icon: "/faq/icon1.svg",
     title: "Expertise and Experience",
     description:
-      "Highly skilled and extensively experienced professional in electrical and solar solutions",
+      "Highly skilled and extensively experienced professional in electrical and solar solutions.",
   },
   {
     image: "/faq/solar2.png",
     icon: "/faq/icon2.svg",
     title: "Tailored Solution",
     description:
-      "Customised services to meet the unique needs of residential, commercial, and industrial clients",
+      "Customised services to meet the unique needs of residential, commercial, and industrial clients.",
   },
   {
     image: "/faq/solar3.png",
     icon: "/faq/icon3.svg",
     title: "Advanced Technology",
     description:
-      "Utilisation of the latest technology and innovative approaches for optimal performance and efficiency",
+      "Utilisation of the latest technology and innovative approaches for optimal performance and efficiency.",
   },
   {
     image: "/faq/solar4.png",
     icon: "/faq/icon4.svg",
     title: "Local Knowledge",
     description:
-      "We have an in-depth understanding of NSW’s unique energy needs and regulations",
+      "We have an in-depth understanding of NSW’s unique energy needs and regulations.",
   },
   {
     image: "/faq/solar5.png",
     icon: "/faq/icon5.svg",
     title: "Sustainability",
     description:
-      "We are focused on eco-friendly and energy-efficient solutions to promote a greener future",
+      "We are focused on eco-friendly and energy-efficient solutions to promote a greener future.",
   },
   {
     image: "/faq/solar6.png",
     icon: "/faq/icon6.svg",
     title: "Transparency",
     description:
-      "Clear communication and honest practices are ensured at every step of our service to maintain trust",
+      "Clear communication and honest practices are needed at every step of our service to maintain trust.",
   },
 ];
 
@@ -53,7 +53,9 @@ function WhySpyene() {
       </h2>
       <p className="text-sm text-[#0F172A]">
         Experience the difference with Spyene Technologies, where the first
-        priority is to satisfy our customers.
+        priority is to satisfy our customers. We're committed to providing
+        solutions that enrich your life and contribute to a brighter, more
+        sustainable future.
       </p>
 
       <div className="grid  grid-cols-2 sm:grid-cols-3 gap-2  ">
