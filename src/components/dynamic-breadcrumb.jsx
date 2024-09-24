@@ -40,7 +40,7 @@ export function DynamicBreadcrumb({ services }) {
           : "bg-[linear-gradient(0deg,rgba(10,30,70,0.75)_0%,rgba(10,30,70,0.75)_100%),url('/hdr/bg-residential-new.png')]"
       } bg-lightgray bg-center bg-cover bg-no-repeat`}
     >
-      <div className="w-full max-w-[928px] mx-auto ">
+      <div className="w-full max-w-[928px] mx-auto space-y-2">
         <h1 className="text-3xl md:text-[36px] font-semibold text-white leading-12">
           {title ? title : <span>...</span>}
         </h1>
