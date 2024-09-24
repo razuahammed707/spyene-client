@@ -21,8 +21,7 @@ import { Fragment } from "react";
 export function DynamicBreadcrumb({ services }) {
   let current_crumb = "";
   const [crumbs, setCrumbs] = useState([]);
-  //console.log(crumbs);
-
+ 
   const [title, setTitle] = useState("");
 
   const pathname = usePathname();
