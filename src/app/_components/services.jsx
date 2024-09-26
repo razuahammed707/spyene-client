@@ -10,13 +10,15 @@ import { Pagination } from "swiper/modules";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Eclipse } from "lucide-react";
 
 export const cards = [
-  { title: "Residential", icon: Home },
-  { title: "Industrial", icon: Factory },
-  { title: "Commercial", icon: Calculator },
-  { title: "Solar panels", icon: Zap },
-  { title: "Batteries", icon: BatteryCharging },
+  { title: "Residential Solar", icon: Home, slug: "solar-residential" },
+  // { title: "Industrial", icon: Factory },
+  { title: "Commercial Solar", icon: Calculator, slug: "solar-commercial" },
+  { title: "Solar panels", icon: Eclipse, slug: "solar-panels" },
+  { title: "Batteries", icon: BatteryCharging, slug: "batteries" },
+  { title: "Electrical", icon: Zap, slug: "residential" },
 ];
 
 export const Services = ({ className }) => {
@@ -62,13 +64,13 @@ export const Services = ({ className }) => {
               },
             }}
           >
-            {cards.map(({ title, icon: Icon }, i) => (
+            {cards.map(({ title, icon: Icon, slug }, i) => (
               <SwiperSlide key={i} className=" ">
                 <Link
                   href={
                     pathname?.split("/")?.[1] === "services"
-                      ? title.toLowerCase().split(" ").join("-")
-                      : `services/${title.toLowerCase().split(" ").join("-")}`
+                      ? slug
+                      : `services/${slug}`
                   }
                 >
                   <div className="rounded-[8px] border border-[#CBD5E1] group overflow-hidden  hover:shadow-custom   ">

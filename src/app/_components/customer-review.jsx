@@ -6,35 +6,34 @@ import { Pagination } from "swiper/modules";
 const reviews = [
   {
     message:
-      "Absolutely thrilled with our new solar panel system! The installation team was professional, and the entire process was seamless. We've already noticed a significant drop in our energy bills. Highly recommend for anyone looking to go  green and save money.",
-
-    name: "Darin Nguyen",
+      "Cheap affordable service.Proffesional very knowledgeable Highly recommend.",
+    name: "Freddy Zarbee",
     twitter_profile: "staking",
   },
   {
     message:
-      "I ran into some trouble with my electrical wiring and items. Thanks to Spyene Technology for their services. It was quick, efficient, and the technicians were very knowledgeable and friendly. It was a fully satisfying service.",
-    name: "Lachlan Smith",
-    twitter_profile: "LachlanSmithAU",
+      "I had Mohammed install a 13kW solar system on my roof and an associate inverter. He was careful and considerate of how and where installed the system, asking me for my preferences regarding the position of the inverter, and associated cabling. He attempted to hide all of the cabling in our wall cavity, but the cavity wasn't suitable. Because of this the cables had to be in plain view, but he was exceptionally tidy in how he laid them out.",
+    name: "Lucas T",
+    twitter_profile: "LucasTAU",
   },
-  {
-    message:
-      "The air conditioning service from Spyene Technologies was outstanding. Their team was prompt, professional, and efficient. The system now runs perfectly. Highly recommended for anyone seeking reliable and high-quality air conditioning solutions.",
-    name: "Jasper Clarke",
-    twitter_profile: "JasperClarke88",
-  },
-  {
-    message:
-      "Highly satisfied with the industrial smoke alarm service. The team was professional, efficient, and thorough. Installation was seamless, and testing confirmed all systems worked perfectly. Highly recommended!",
-    name: "Dylan Harris",
-    twitter_profile: "DylHarris23",
-  },
-  {
-    message:
-      "The RCD installation and testing service was excellent. The process was straightforward and thorough, with all checks completed efficiently. The system works perfectly, and I feel confident in using their services again for any future electrical issues.",
-    name: "Sophie Brown",
-    twitter_profile: "SophieBrown87",
-  },
+  // {
+  //   message:
+  //     "The air conditioning service from Spyene Technologies was outstanding. Their team was prompt, professional, and efficient. The system now runs perfectly. Highly recommended for anyone seeking reliable and high-quality air conditioning solutions.",
+  //   name: "Jasper Clarke",
+  //   twitter_profile: "JasperClarke88",
+  // },
+  // {
+  //   message:
+  //     "Highly satisfied with the industrial smoke alarm service. The team was professional, efficient, and thorough. Installation was seamless, and testing confirmed all systems worked perfectly. Highly recommended!",
+  //   name: "Dylan Harris",
+  //   twitter_profile: "DylHarris23",
+  // },
+  // {
+  //   message:
+  //     "The RCD installation and testing service was excellent. The process was straightforward and thorough, with all checks completed efficiently. The system works perfectly, and I feel confident in using their services again for any future electrical issues.",
+  //   name: "Sophie Brown",
+  //   twitter_profile: "SophieBrown87",
+  // },
 ];
 const CustomerReview = () => {
   return (
@@ -134,7 +133,7 @@ const CustomerReview = () => {
               </div>
               <hr />
               <div className="h-full flex w-full flex-col justify-between">
-                <p className="text-xs font-semibold mt-4 max-w-[235px] text-left ">
+                <p className="text-xs font-semibold mt-4 max-w-[235px] text-left max-h-[146px] overflow-scroll scrollbar-hide">
                   {review.message}
                 </p>
 
@@ -148,7 +147,10 @@ const CustomerReview = () => {
                   />
                   <div className="text-left">
                     <div className="font-bold text-sm">{review.name}</div>
-                    <div className="text-sm"> {`@${review.twitter_profile}`}</div>
+                    <div className="text-sm">
+                      {" "}
+                      {`@${review.twitter_profile}`}
+                    </div>
                   </div>
                 </div>
               </div>

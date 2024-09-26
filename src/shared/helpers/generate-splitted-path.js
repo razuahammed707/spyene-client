@@ -20,6 +20,18 @@ export const formatTitle = (splitedPath, services) => {
       .split("-")
       .map((str) => str?.[0].toUpperCase() + str?.slice(1))
       .join(" ");
+  } else if (lastPath === "solar-residential") {
+    return lastPath
+      .split("-")
+      .reverse()
+      .map((str) => str?.[0].toUpperCase() + str?.slice(1))
+      .join(" ");
+  }else if (lastPath === "solar-commercial") {
+    return lastPath
+      .split("-")
+      .reverse()
+      .map((str) => str?.[0].toUpperCase() + str?.slice(1))
+      .join(" ");
   } else if (lastPath?.includes("-")) {
     const service = services.find(
       (service) => service.attributes.Slug === lastPath

@@ -3,6 +3,7 @@ import * as React from "react";
 import SpyeneLogo from "./spyene-logo";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { cards } from "@/app/_components/services";
 
 function Footer() {
   const pathname = usePathname();
@@ -30,56 +31,18 @@ function Footer() {
               Services
             </h5>
             <div className="flex xs:flex-col gap-3 xs:gap-1 justify-between items-start flex-wrap mt-5 w-full text-xs leading-loose text-white">
-              <Link
-                href={
-                  pathname?.split("/")?.[1] === "services"
-                    ? "residential"
-                    : "services/residential"
-                }
-              >
-                {" "}
-                Residential
-              </Link>
-              <Link
-                href={
-                  pathname?.split("/")?.[1] === "services"
-                    ? "commercial"
-                    : "services/commercial"
-                }
-              >
-                {" "}
-                Commercial
-              </Link>
-              <Link
-                href={
-                  pathname?.split("/")?.[1] === "services"
-                    ? "industrial"
-                    : "services/industrial"
-                }
-              >
-                {" "}
-                Industrial
-              </Link>
-              <Link
-                href={
-                  pathname?.split("/")?.[1] === "services"
-                    ? "solar-panels"
-                    : "services/solar-panels"
-                }
-              >
-                {" "}
-                Solar panels
-              </Link>
-              <Link
-                href={
-                  pathname?.split("/")?.[1] === "services"
-                    ? "batteries"
-                    : "services/batteries"
-                }
-              >
-                {" "}
-                Batteries
-              </Link>
+              {cards.map((ctg, i) => (
+                <Link
+                key={i}
+                  href={
+                    pathname?.split("/")?.[1] === "services"
+                      ? ctg.slug
+                      : `services/${ctg.slug}`
+                  }
+                >
+                  {ctg.title}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
