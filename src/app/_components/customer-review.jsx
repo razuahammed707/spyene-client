@@ -139,7 +139,8 @@ const CustomerReview = () => {
 
                 <div className="flex items-center">
                   <Image
-                    src={`/lan-hdr/avatar${i + 1}.png`}
+                    // src={`/lan-hdr/avatar${i + 1}.png`}
+                    src={`/lan-hdr/avatar.png`}
                     width={40}
                     height={40}
                     alt="User Image"
@@ -147,10 +148,10 @@ const CustomerReview = () => {
                   />
                   <div className="text-left">
                     <div className="font-bold text-sm">{review.name}</div>
-                    <div className="text-sm">
+                    {/* <p className="text-sm">
                       {" "}
                       {`@${review.twitter_profile}`}
-                    </div>
+                    </p> */}
                   </div>
                 </div>
               </div>
