@@ -6,7 +6,7 @@ import { Pagination } from "swiper/modules";
 import { useState, useEffect } from "react";
 
 
-const INITIAL_CHARS = 189;
+const INITIAL_CHARS = 185;
 
 
 const ReviewContent = ({ review }) => {
