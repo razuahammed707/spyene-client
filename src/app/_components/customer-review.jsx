@@ -59,7 +59,7 @@ const ReviewContent = ({ review }) => {
   return (
     <div
       className={`text-xs font-semibold mt-4 max-w-[235px] text-left overflow-y-auto scrollbar-hide transition-all duration-300 ${
-        isExpanded ? 'max-h-[146px]' : 'max-h-[146px]'
+        isExpanded ? 'max-h-[150px]' : 'max-h-[150px]'
       }`}
       style={{ height: contentHeight }}
     >
