@@ -53,7 +53,7 @@ function WhySpyene() {
       </h2>
       <p className="text-sm text-[#0F172A]">
         Experience the difference with Spyene Technologies, where the first
-        priority is to satisfy our customers. We're committed to providing
+        priority is to satisfy our customers. We&apos;re committed to providing
         solutions that enrich your life and contribute to a brighter, more
         sustainable future.
       </p>

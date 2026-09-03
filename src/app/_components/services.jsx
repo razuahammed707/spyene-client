@@ -40,9 +40,7 @@ export const Services = ({ className }) => {
           <Swiper
             spaceBetween={10}
             slidesPerView={1}
-            /*  onSlideChange={(e) => console.log("slide change", e)}
-            onReachEnd={(e) => console.log("end", e)}
-            onSwiper={(swiper) => console.log(swiper)} */
+
             pagination={{
               el: ".custom-pagination",
               clickable: true,

@@ -58,44 +58,49 @@ export const NavMenus = async ({ className, withSheetClose }) => {
     batteries,
     rest_batteries,
   ] = await Promise.all([
-    await fetchServices(
-      "&filters[Category][$contains]=Residential&pagination[pageSize]=5"
+    fetchServices(
+      "&filters[Category][$contains]=Residential&pagination[pageSize]=5",
     ),
-    await fetchServices(
-      "&filters[Category][$contains]=SolarResidential&pagination[pageSize]=5"
+    fetchServices(
+      "&filters[Category][$contains]=SolarResidential&pagination[pageSize]=5",
     ),
-    await fetchServices(
-      "&filters[Category][$contains]=Industrial&pagination[pageSize]=5"
+    fetchServices(
+      "&filters[Category][$contains]=Industrial&pagination[pageSize]=5",
     ),
-    await fetchServices(
-      "&filters[Category][$contains]=Commercial&pagination[pageSize]=5"
+    fetchServices(
+      "&filters[Category][$contains]=Commercial&pagination[pageSize]=5",
     ),
-    await fetchServices(
-      "&filters[Category][$contains]=SolarCommercial&pagination[pageSize]=5"
+    fetchServices(
+      "&filters[Category][$contains]=SolarCommercial&pagination[pageSize]=5",
     ),
-    await fetchServices(
-      "&filters[Category][$contains]=SolarPanels&pagination[pageSize]=5"
+    fetchServices(
+      "&filters[Category][$contains]=SolarPanels&pagination[pageSize]=5",
     ),
-    await fetchServices(
-      "&filters[Category][$contains]=Batteries&filters[$or][0][Title][$in]=Sungrow High Voltage Battery&filters[$or][1][Title][$in]=Alpha ESS Batteries&filters[$or][2][Title][$in]=Tesla Powerwall Installation and Maintenance"
+    fetchServices(
+      "&filters[Category][$contains]=Batteries&filters[$or][0][Title][$in]=Sungrow High Voltage Battery&filters[$or][1][Title][$in]=Alpha ESS Batteries&filters[$or][2][Title][$in]=Tesla Powerwall Installation and Maintenance",
     ),
-    await fetchServices(
-      "&filters[Category][$contains]=Batteries&filters[$or][0][Title][$notIn]=Sungrow High Voltage Battery&filters[$or][1][Title][$notIn]=Alpha ESS Batteries&filters[$or][2][Title][$notIn]=Tesla Powerwall Installation and Maintenance&pagination[pageSize]=2"
+    fetchServices(
+      "&filters[Category][$contains]=Batteries&filters[$or][0][Title][$notIn]=Sungrow High Voltage Battery&filters[$or][1][Title][$notIn]=Alpha ESS Batteries&filters[$or][2][Title][$notIn]=Tesla Powerwall Installation and Maintenance&pagination[pageSize]=2",
     ),
   ]);
-  //console.log("solar_commercials__",solar_commercials);
-  
+
   const getServicesByTitle = (title) => {
     // Ensure all values are arrays to prevent spread operator errors
     const safeBatteries = Array.isArray(batteries) ? batteries : [];
-    const safeRestBatteries = Array.isArray(rest_batteries) ? rest_batteries : [];
-    
+    const safeRestBatteries = Array.isArray(rest_batteries)
+      ? rest_batteries
+      : [];
+
     const servicesMap = {
       Residential: Array.isArray(residentials) ? residentials : [],
-      "Residential Solar": Array.isArray(solar_residentials) ? solar_residentials : [],
+      "Residential Solar": Array.isArray(solar_residentials)
+        ? solar_residentials
+        : [],
       Industrial: Array.isArray(industrials) ? industrials : [],
       Commercial: Array.isArray(commercials) ? commercials : [],
-      "Commercial Solar": Array.isArray(solar_commercials) ? solar_commercials : [],
+      "Commercial Solar": Array.isArray(solar_commercials)
+        ? solar_commercials
+        : [],
       "Solar panels": Array.isArray(solarpanels) ? solarpanels : [],
       Batteries: [...safeBatteries, ...safeRestBatteries],
     };

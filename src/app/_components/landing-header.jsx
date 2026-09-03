@@ -62,7 +62,7 @@ const LandingHeader = () => {
             height={318}
             width={605}
             alt="backgroundImage"
-            className="h-[318px] object-fit"
+            className="h-[318px] w-full object-cover"
           />
         </div>
       </div>

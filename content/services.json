@@ -567,61 +567,12 @@
             "caption": null,
             "width": 1920,
             "height": 1280,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_AdobeStock_289084407.png",
-                "hash": "thumbnail_Adobe_Stock_289084407_3dcaae5b83",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 234,
-                "height": 156,
-                "size": 90.16,
-                "sizeInBytes": 90157,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_Adobe_Stock_289084407_3dcaae5b83.png"
-              },
-              "small": {
-                "name": "small_AdobeStock_289084407.png",
-                "hash": "small_Adobe_Stock_289084407_3dcaae5b83",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 333,
-                "size": 364.76,
-                "sizeInBytes": 364761,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_Adobe_Stock_289084407_3dcaae5b83.png"
-              },
-              "medium": {
-                "name": "medium_AdobeStock_289084407.png",
-                "hash": "medium_Adobe_Stock_289084407_3dcaae5b83",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 500,
-                "size": 782.29,
-                "sizeInBytes": 782286,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_Adobe_Stock_289084407_3dcaae5b83.png"
-              },
-              "large": {
-                "name": "large_AdobeStock_289084407.png",
-                "hash": "large_Adobe_Stock_289084407_3dcaae5b83",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 1000,
-                "height": 667,
-                "size": 1360.26,
-                "sizeInBytes": 1360264,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_Adobe_Stock_289084407_3dcaae5b83.png"
-              }
-            },
+            "formats": null,
             "hash": "Adobe_Stock_289084407_3dcaae5b83",
             "ext": ".png",
             "mime": "image/png",
             "size": 921.66,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/Adobe_Stock_289084407_3dcaae5b83.png",
+            "url": "/uploads/Air-Condition-Installation-&-Repair.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -1154,42 +1105,17 @@
         "data": {
           "id": 70,
           "attributes": {
-            "name": "1520103343552.jpeg",
+            "name": "Power-Distribution-System-Design-&-Installation.jpeg",
             "alternativeText": null,
             "caption": null,
             "width": 627,
             "height": 337,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_1520103343552.jpeg",
-                "hash": "thumbnail_1520103343552_7cd69cf802",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 132,
-                "size": 8.63,
-                "sizeInBytes": 8625,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_1520103343552_7cd69cf802.jpeg"
-              },
-              "small": {
-                "name": "small_1520103343552.jpeg",
-                "hash": "small_1520103343552_7cd69cf802",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 269,
-                "size": 25.92,
-                "sizeInBytes": 25915,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_1520103343552_7cd69cf802.jpeg"
-              }
-            },
+            "formats": null,
             "hash": "1520103343552_7cd69cf802",
             "ext": ".jpeg",
             "mime": "image/jpeg",
             "size": 38.51,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/1520103343552_7cd69cf802.jpeg",
+            "url": "/uploads/Power-Distribution-System-Design-&-Installation.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -1563,49 +1489,12 @@
             "caption": null,
             "width": 1000,
             "height": 583,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_Technician-installing-CCTV-Camer.png",
-                "hash": "thumbnail_Technician_installing_CCTV_Camer_71df595c5d",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 245,
-                "height": 143,
-                "size": 77.01,
-                "sizeInBytes": 77005,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_Technician_installing_CCTV_Camer_71df595c5d.png"
-              },
-              "small": {
-                "name": "small_Technician-installing-CCTV-Camer.png",
-                "hash": "small_Technician_installing_CCTV_Camer_71df595c5d",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 292,
-                "size": 267.52,
-                "sizeInBytes": 267523,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_Technician_installing_CCTV_Camer_71df595c5d.png"
-              },
-              "medium": {
-                "name": "medium_Technician-installing-CCTV-Camer.png",
-                "hash": "medium_Technician_installing_CCTV_Camer_71df595c5d",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 437,
-                "size": 557.16,
-                "sizeInBytes": 557156,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_Technician_installing_CCTV_Camer_71df595c5d.png"
-              }
-            },
+            "formats": null,
             "hash": "Technician_installing_CCTV_Camer_71df595c5d",
             "ext": ".png",
             "mime": "image/png",
             "size": 214.19,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/Technician_installing_CCTV_Camer_71df595c5d.png",
+            "url": "/uploads/Technician_installing_CCTV_Camer.png",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -2081,66 +1970,17 @@
         "data": {
           "id": 84,
           "attributes": {
-            "name": "A007537.jpg",
+            "name": "Generator_Installation_&_Maintenance.jpeg",
             "alternativeText": null,
             "caption": null,
             "width": 1600,
             "height": 1067,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_A007537.jpg",
-                "hash": "thumbnail_A007537_e739122874",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 235,
-                "height": 156,
-                "size": 13.24,
-                "sizeInBytes": 13243,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_A007537_e739122874.jpg"
-              },
-              "small": {
-                "name": "small_A007537.jpg",
-                "hash": "small_A007537_e739122874",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 333,
-                "size": 43.98,
-                "sizeInBytes": 43976,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_A007537_e739122874.jpg"
-              },
-              "medium": {
-                "name": "medium_A007537.jpg",
-                "hash": "medium_A007537_e739122874",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 500,
-                "size": 82.39,
-                "sizeInBytes": 82388,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_A007537_e739122874.jpg"
-              },
-              "large": {
-                "name": "large_A007537.jpg",
-                "hash": "large_A007537_e739122874",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 667,
-                "size": 126.95,
-                "sizeInBytes": 126953,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_A007537_e739122874.jpg"
-              }
-            },
+            "formats": null,
             "hash": "A007537_e739122874",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 259.01,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/A007537_e739122874.jpg",
+            "url": "/uploads/Generator_Installation_&_Maintenance.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -2660,49 +2500,12 @@
             "caption": null,
             "width": 1000,
             "height": 750,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_ups-installation-services.jpeg",
-                "hash": "thumbnail_ups_installation_services_16f1e46085",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 208,
-                "height": 156,
-                "size": 7.7,
-                "sizeInBytes": 7702,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_ups_installation_services_16f1e46085.jpeg"
-              },
-              "medium": {
-                "name": "medium_ups-installation-services.jpeg",
-                "hash": "medium_ups_installation_services_16f1e46085",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 563,
-                "size": 71.4,
-                "sizeInBytes": 71397,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_ups_installation_services_16f1e46085.jpeg"
-              },
-              "small": {
-                "name": "small_ups-installation-services.jpeg",
-                "hash": "small_ups_installation_services_16f1e46085",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 375,
-                "size": 34.06,
-                "sizeInBytes": 34060,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_ups_installation_services_16f1e46085.jpeg"
-              }
-            },
+            "formats": null,
             "hash": "ups_installation_services_16f1e46085",
             "ext": ".jpeg",
             "mime": "image/jpeg",
             "size": 120.54,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/ups_installation_services_16f1e46085.jpeg",
+            "url": "/uploads/ups_installation_services.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -3303,37 +3106,12 @@
             "caption": null,
             "width": 715,
             "height": 280,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_ev-chargers-installed-at-downtown-hq-715x280.jpg",
-                "hash": "thumbnail_ev_chargers_installed_at_downtown_hq_715x280_c3c6a08764",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 96,
-                "size": 8.21,
-                "sizeInBytes": 8205,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_ev_chargers_installed_at_downtown_hq_715x280_c3c6a08764.jpg"
-              },
-              "small": {
-                "name": "small_ev-chargers-installed-at-downtown-hq-715x280.jpg",
-                "hash": "small_ev_chargers_installed_at_downtown_hq_715x280_c3c6a08764",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 196,
-                "size": 28.38,
-                "sizeInBytes": 28380,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_ev_chargers_installed_at_downtown_hq_715x280_c3c6a08764.jpg"
-              }
-            },
+            "formats": null,
             "hash": "ev_chargers_installed_at_downtown_hq_715x280_c3c6a08764",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 42.26,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/ev_chargers_installed_at_downtown_hq_715x280_c3c6a08764.jpg",
+            "url": "/uploads/ev_chargers_installed_at_downtown_hq_715x280.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -3802,61 +3580,12 @@
             "caption": null,
             "width": 1200,
             "height": 800,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_Solar-Panel-Cleaning-6-1.jpg",
-                "hash": "thumbnail_Solar_Panel_Cleaning_6_1_17a2858f15",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 234,
-                "height": 156,
-                "size": 10.22,
-                "sizeInBytes": 10218,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_Solar_Panel_Cleaning_6_1_17a2858f15.jpg"
-              },
-              "medium": {
-                "name": "medium_Solar-Panel-Cleaning-6-1.jpg",
-                "hash": "medium_Solar_Panel_Cleaning_6_1_17a2858f15",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 500,
-                "size": 75.14,
-                "sizeInBytes": 75141,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_Solar_Panel_Cleaning_6_1_17a2858f15.jpg"
-              },
-              "small": {
-                "name": "small_Solar-Panel-Cleaning-6-1.jpg",
-                "hash": "small_Solar_Panel_Cleaning_6_1_17a2858f15",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 333,
-                "size": 37.75,
-                "sizeInBytes": 37753,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_Solar_Panel_Cleaning_6_1_17a2858f15.jpg"
-              },
-              "large": {
-                "name": "large_Solar-Panel-Cleaning-6-1.jpg",
-                "hash": "large_Solar_Panel_Cleaning_6_1_17a2858f15",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 667,
-                "size": 119.08,
-                "sizeInBytes": 119081,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_Solar_Panel_Cleaning_6_1_17a2858f15.jpg"
-              }
-            },
+            "formats": null,
             "hash": "Solar_Panel_Cleaning_6_1_17a2858f15",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 159.42,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/Solar_Panel_Cleaning_6_1_17a2858f15.jpg",
+            "url": "/uploads/Solar_Panel_Cleaning.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -4513,61 +4242,12 @@
             "caption": null,
             "width": 1600,
             "height": 560,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_explosion-proof-equipment-rack.jpg",
-                "hash": "thumbnail_explosion_proof_equipment_rack_a80f3f1552",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 86,
-                "size": 6.66,
-                "sizeInBytes": 6663,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_explosion_proof_equipment_rack_a80f3f1552.jpg"
-              },
-              "small": {
-                "name": "small_explosion-proof-equipment-rack.jpg",
-                "hash": "small_explosion_proof_equipment_rack_a80f3f1552",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 175,
-                "size": 18.33,
-                "sizeInBytes": 18330,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_explosion_proof_equipment_rack_a80f3f1552.jpg"
-              },
-              "large": {
-                "name": "large_explosion-proof-equipment-rack.jpg",
-                "hash": "large_explosion_proof_equipment_rack_a80f3f1552",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 350,
-                "size": 52.18,
-                "sizeInBytes": 52175,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_explosion_proof_equipment_rack_a80f3f1552.jpg"
-              },
-              "medium": {
-                "name": "medium_explosion-proof-equipment-rack.jpg",
-                "hash": "medium_explosion_proof_equipment_rack_a80f3f1552",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 263,
-                "size": 33.49,
-                "sizeInBytes": 33487,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_explosion_proof_equipment_rack_a80f3f1552.jpg"
-              }
-            },
+            "formats": null,
             "hash": "explosion_proof_equipment_rack_a80f3f1552",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 107.31,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/explosion_proof_equipment_rack_a80f3f1552.jpg",
+            "url": "/uploads/Explosion-Proof-Electrical-Installations.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -5207,61 +4887,12 @@
             "caption": null,
             "width": 1280,
             "height": 719,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_network-cable-installation-2.jpg",
-                "hash": "thumbnail_network_cable_installation_2_4b25fdc9a8",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 137,
-                "size": 14.86,
-                "sizeInBytes": 14864,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_network_cable_installation_2_4b25fdc9a8.jpg"
-              },
-              "small": {
-                "name": "small_network-cable-installation-2.jpg",
-                "hash": "small_network_cable_installation_2_4b25fdc9a8",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 281,
-                "size": 51.65,
-                "sizeInBytes": 51651,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_network_cable_installation_2_4b25fdc9a8.jpg"
-              },
-              "medium": {
-                "name": "medium_network-cable-installation-2.jpg",
-                "hash": "medium_network_cable_installation_2_4b25fdc9a8",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 421,
-                "size": 99.27,
-                "sizeInBytes": 99267,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_network_cable_installation_2_4b25fdc9a8.jpg"
-              },
-              "large": {
-                "name": "large_network-cable-installation-2.jpg",
-                "hash": "large_network_cable_installation_2_4b25fdc9a8",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 562,
-                "size": 155.81,
-                "sizeInBytes": 155805,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_network_cable_installation_2_4b25fdc9a8.jpg"
-              }
-            },
+            "formats": null,
             "hash": "network_cable_installation_2_4b25fdc9a8",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 220.93,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/network_cable_installation_2_4b25fdc9a8.jpg",
+            "url": "/uploads/Data_Cabling_&_Network_Wiring.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -5742,49 +5373,12 @@
             "caption": null,
             "width": 800,
             "height": 400,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_Blown-Fuse-How-To-Check-And-Fix.png",
-                "hash": "thumbnail_Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 245,
-                "height": 122,
-                "size": 78.64,
-                "sizeInBytes": 78635,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4.png"
-              },
-              "small": {
-                "name": "small_Blown-Fuse-How-To-Check-And-Fix.png",
-                "hash": "small_Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 250,
-                "size": 301,
-                "sizeInBytes": 301000,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4.png"
-              },
-              "medium": {
-                "name": "medium_Blown-Fuse-How-To-Check-And-Fix.png",
-                "hash": "medium_Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 375,
-                "size": 625.45,
-                "sizeInBytes": 625452,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4.png"
-              }
-            },
+            "formats": null,
             "hash": "Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4",
             "ext": ".png",
             "mime": "image/png",
             "size": 162.93,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/Blown_Fuse_How_To_Check_And_Fix_d1b1b3dda4.png",
+            "url": "/uploads/Blown_Fuse_How_To_Check_And_Fix.png",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -6316,37 +5910,12 @@
             "caption": null,
             "width": 644,
             "height": 356,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_VRD-testing.jpg",
-                "hash": "thumbnail_VRD_testing_b88a88a2d6",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 135,
-                "size": 7.13,
-                "sizeInBytes": 7133,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_VRD_testing_b88a88a2d6.jpg"
-              },
-              "small": {
-                "name": "small_VRD-testing.jpg",
-                "hash": "small_VRD_testing_b88a88a2d6",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 276,
-                "size": 20.4,
-                "sizeInBytes": 20396,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_VRD_testing_b88a88a2d6.jpg"
-              }
-            },
+            "formats": null,
             "hash": "VRD_testing_b88a88a2d6",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 28.91,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/VRD_testing_b88a88a2d6.jpg",
+            "url": "/uploads/VRD_Testing.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -6956,25 +6525,12 @@
             "caption": null,
             "width": 275,
             "height": 183,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_images (2).jpeg",
-                "hash": "thumbnail_images_2_48e19f6222",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 234,
-                "height": 156,
-                "size": 12.38,
-                "sizeInBytes": 12383,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_images_2_48e19f6222.jpeg"
-              }
-            },
+            "formats": null,
             "hash": "images_2_48e19f6222",
             "ext": ".jpeg",
             "mime": "image/jpeg",
             "size": 15.04,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/images_2_48e19f6222.jpeg",
+            "url": "/uploads/Power_Factor_Correction_Systems.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -7558,37 +7114,12 @@
             "caption": null,
             "width": 650,
             "height": 366,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_rcdtest-1.jpg",
-                "hash": "thumbnail_rcdtest_1_93827ae008",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 138,
-                "size": 8.8,
-                "sizeInBytes": 8800,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_rcdtest_1_93827ae008.jpg"
-              },
-              "small": {
-                "name": "small_rcdtest-1.jpg",
-                "hash": "small_rcdtest_1_93827ae008",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 282,
-                "size": 28.43,
-                "sizeInBytes": 28427,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_rcdtest_1_93827ae008.jpg"
-              }
-            },
+            "formats": null,
             "hash": "rcdtest_1_93827ae008",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 43.83,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/rcdtest_1_93827ae008.jpg",
+            "url": "/uploads/RCD_Installation_&_Verification.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -8125,37 +7656,12 @@
             "caption": null,
             "width": 680,
             "height": 357,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_a47c80ed-1b98-4b00-92ea-0bfbfc2f250c_IRThermography_cover_680x357_06272019_extra_large.jpeg",
-                "hash": "thumbnail_a47c80ed_1b98_4b00_92ea_0bfbfc2f250c_IR_Thermography_cover_680x357_06272019_extra_large_f7b9169119",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 129,
-                "size": 7.9,
-                "sizeInBytes": 7902,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_a47c80ed_1b98_4b00_92ea_0bfbfc2f250c_IR_Thermography_cover_680x357_06272019_extra_large_f7b9169119.jpeg"
-              },
-              "small": {
-                "name": "small_a47c80ed-1b98-4b00-92ea-0bfbfc2f250c_IRThermography_cover_680x357_06272019_extra_large.jpeg",
-                "hash": "small_a47c80ed_1b98_4b00_92ea_0bfbfc2f250c_IR_Thermography_cover_680x357_06272019_extra_large_f7b9169119",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 263,
-                "size": 22.17,
-                "sizeInBytes": 22169,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_a47c80ed_1b98_4b00_92ea_0bfbfc2f250c_IR_Thermography_cover_680x357_06272019_extra_large_f7b9169119.jpeg"
-              }
-            },
+            "formats": null,
             "hash": "a47c80ed_1b98_4b00_92ea_0bfbfc2f250c_IR_Thermography_cover_680x357_06272019_extra_large_f7b9169119",
             "ext": ".jpeg",
             "mime": "image/jpeg",
             "size": 33.14,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/a47c80ed_1b98_4b00_92ea_0bfbfc2f250c_IR_Thermography_cover_680x357_06272019_extra_large_f7b9169119.jpeg",
+            "url": "/uploads/a47c80ed_1b98_4b00_92ea_0bfbfc2f250c_IR_Thermography_cover_680x357_06272019_extra_large.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -8617,37 +8123,12 @@
             "caption": null,
             "width": 628,
             "height": 355,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_electrical-panel-box (1).png",
-                "hash": "thumbnail_electrical_panel_box_1_c0211ddf11",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 245,
-                "height": 138,
-                "size": 82.48,
-                "sizeInBytes": 82475,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_electrical_panel_box_1_c0211ddf11.png"
-              },
-              "small": {
-                "name": "small_electrical-panel-box (1).png",
-                "hash": "small_electrical_panel_box_1_c0211ddf11",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 283,
-                "size": 300.54,
-                "sizeInBytes": 300542,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_electrical_panel_box_1_c0211ddf11.png"
-              }
-            },
+            "formats": null,
             "hash": "electrical_panel_box_1_c0211ddf11",
             "ext": ".png",
             "mime": "image/png",
             "size": 129.51,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/electrical_panel_box_1_c0211ddf11.png",
+            "url": "/uploads/electrical_panel_box_1.png",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -9264,25 +8745,12 @@
             "caption": null,
             "width": 300,
             "height": 168,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_off-grid-battery-solution.jpeg",
-                "hash": "thumbnail_off_grid_battery_solution_c6b8923636",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 137,
-                "size": 9.19,
-                "sizeInBytes": 9189,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_off_grid_battery_solution_c6b8923636.jpeg"
-              }
-            },
+            "formats": null,
             "hash": "off_grid_battery_solution_c6b8923636",
             "ext": ".jpeg",
             "mime": "image/jpeg",
             "size": 11.28,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/off_grid_battery_solution_c6b8923636.jpeg",
+            "url": "/uploads/Off-Grid-Battery-Solutions.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -9850,25 +9318,12 @@
             "caption": null,
             "width": 259,
             "height": 194,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_solar-energy-storage.jpeg",
-                "hash": "thumbnail_solar_energy_storage_9626ac8a75",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 208,
-                "height": 156,
-                "size": 9.66,
-                "sizeInBytes": 9657,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_solar_energy_storage_9626ac8a75.jpeg"
-              }
-            },
+            "formats": null,
             "hash": "solar_energy_storage_9626ac8a75",
             "ext": ".jpeg",
             "mime": "image/jpeg",
             "size": 13.11,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/solar_energy_storage_9626ac8a75.jpeg",
+            "url": "/uploads/solar_energy_storage.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -10483,30 +9938,17 @@
         "data": {
           "id": 76,
           "attributes": {
-            "name": "images.jpeg",
+            "name": "Solar_Panel_Monitoring_&_Performance_Analysis.jpeg",
             "alternativeText": null,
             "caption": null,
             "width": 297,
             "height": 170,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_images.jpeg",
-                "hash": "thumbnail_images_08405a4327",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 140,
-                "size": 13.26,
-                "sizeInBytes": 13257,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_images_08405a4327.jpeg"
-              }
-            },
+            "formats": null,
             "hash": "images_08405a4327",
             "ext": ".jpeg",
             "mime": "image/jpeg",
             "size": 17.33,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/images_08405a4327.jpeg",
+            "url": "/uploads/Solar_Panel_Monitoring_&_Performance_Analysis.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -10998,49 +10440,12 @@
             "caption": null,
             "width": 1000,
             "height": 667,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_shutterstock_1380341720-1.jpg",
-                "hash": "thumbnail_shutterstock_1380341720_1_11ba6248d0",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 234,
-                "height": 156,
-                "size": 11.59,
-                "sizeInBytes": 11589,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_shutterstock_1380341720_1_11ba6248d0.jpg"
-              },
-              "medium": {
-                "name": "medium_shutterstock_1380341720-1.jpg",
-                "hash": "medium_shutterstock_1380341720_1_11ba6248d0",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 500,
-                "size": 72.98,
-                "sizeInBytes": 72984,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_shutterstock_1380341720_1_11ba6248d0.jpg"
-              },
-              "small": {
-                "name": "small_shutterstock_1380341720-1.jpg",
-                "hash": "small_shutterstock_1380341720_1_11ba6248d0",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 334,
-                "size": 39.04,
-                "sizeInBytes": 39037,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_shutterstock_1380341720_1_11ba6248d0.jpg"
-              }
-            },
+            "formats": null,
             "hash": "shutterstock_1380341720_1_11ba6248d0",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 59.88,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/shutterstock_1380341720_1_11ba6248d0.jpg",
+            "url": "/uploads/Electrical-Safety-Inspections.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -11541,49 +10946,12 @@
             "caption": null,
             "width": 800,
             "height": 600,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_Commercial-Solar-Battery-Albury.png",
-                "hash": "thumbnail_Commercial_Solar_Battery_Albury_9d55c1ffcf",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 208,
-                "height": 156,
-                "size": 77.83,
-                "sizeInBytes": 77832,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_Commercial_Solar_Battery_Albury_9d55c1ffcf.png"
-              },
-              "small": {
-                "name": "small_Commercial-Solar-Battery-Albury.png",
-                "hash": "small_Commercial_Solar_Battery_Albury_9d55c1ffcf",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 375,
-                "size": 401.54,
-                "sizeInBytes": 401538,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_Commercial_Solar_Battery_Albury_9d55c1ffcf.png"
-              },
-              "medium": {
-                "name": "medium_Commercial-Solar-Battery-Albury.png",
-                "hash": "medium_Commercial_Solar_Battery_Albury_9d55c1ffcf",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 563,
-                "size": 847.77,
-                "sizeInBytes": 847765,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_Commercial_Solar_Battery_Albury_9d55c1ffcf.png"
-              }
-            },
+            "formats": null,
             "hash": "Commercial_Solar_Battery_Albury_9d55c1ffcf",
             "ext": ".png",
             "mime": "image/png",
             "size": 257.65,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/Commercial_Solar_Battery_Albury_9d55c1ffcf.png",
+            "url": "/uploads/Commercial_Solar_Battery_Albury.png",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -12191,49 +11559,12 @@
             "caption": null,
             "width": 900,
             "height": 474,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_underground-power-cable-blog.jpg",
-                "hash": "thumbnail_underground_power_cable_blog_b5bf980d6b",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 129,
-                "size": 11.9,
-                "sizeInBytes": 11903,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_underground_power_cable_blog_b5bf980d6b.jpg"
-              },
-              "small": {
-                "name": "small_underground-power-cable-blog.jpg",
-                "hash": "small_underground_power_cable_blog_b5bf980d6b",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 263,
-                "size": 49.87,
-                "sizeInBytes": 49867,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_underground_power_cable_blog_b5bf980d6b.jpg"
-              },
-              "medium": {
-                "name": "medium_underground-power-cable-blog.jpg",
-                "hash": "medium_underground_power_cable_blog_b5bf980d6b",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 395,
-                "size": 100.88,
-                "sizeInBytes": 100875,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_underground_power_cable_blog_b5bf980d6b.jpg"
-              }
-            },
+            "formats": null,
             "hash": "underground_power_cable_blog_b5bf980d6b",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 130.97,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/underground_power_cable_blog_b5bf980d6b.jpg",
+            "url": "/uploads/underground_power_cable_blog.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -12725,61 +12056,12 @@
             "caption": null,
             "width": 1280,
             "height": 640,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_advanced-solar-how-a-grid-tied-s.png",
-                "hash": "thumbnail_advanced_solar_how_a_grid_tied_s_edb170651a",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 245,
-                "height": 123,
-                "size": 38.06,
-                "sizeInBytes": 38056,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_advanced_solar_how_a_grid_tied_s_edb170651a.png"
-              },
-              "small": {
-                "name": "small_advanced-solar-how-a-grid-tied-s.png",
-                "hash": "small_advanced_solar_how_a_grid_tied_s_edb170651a",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 250,
-                "size": 134.93,
-                "sizeInBytes": 134926,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_advanced_solar_how_a_grid_tied_s_edb170651a.png"
-              },
-              "large": {
-                "name": "large_advanced-solar-how-a-grid-tied-s.png",
-                "hash": "large_advanced_solar_how_a_grid_tied_s_edb170651a",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 1000,
-                "height": 500,
-                "size": 461.62,
-                "sizeInBytes": 461616,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_advanced_solar_how_a_grid_tied_s_edb170651a.png"
-              },
-              "medium": {
-                "name": "medium_advanced-solar-how-a-grid-tied-s.png",
-                "hash": "medium_advanced_solar_how_a_grid_tied_s_edb170651a",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 375,
-                "size": 277.05,
-                "sizeInBytes": 277048,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_advanced_solar_how_a_grid_tied_s_edb170651a.png"
-              }
-            },
+            "formats": null,
             "hash": "advanced_solar_how_a_grid_tied_s_edb170651a",
             "ext": ".png",
             "mime": "image/png",
             "size": 226.3,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/advanced_solar_how_a_grid_tied_s_edb170651a.png",
+            "url": "/uploads/advanced_solar_how_a_grid_tied_s.png",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -13343,37 +12625,12 @@
             "caption": null,
             "width": 600,
             "height": 450,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_evault-battery.png",
-                "hash": "thumbnail_evault_battery_c18dc03be9",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 208,
-                "height": 156,
-                "size": 55.55,
-                "sizeInBytes": 55550,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_evault_battery_c18dc03be9.png"
-              },
-              "small": {
-                "name": "small_evault-battery.png",
-                "hash": "small_evault_battery_c18dc03be9",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 375,
-                "size": 278.34,
-                "sizeInBytes": 278339,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_evault_battery_c18dc03be9.png"
-              }
-            },
+            "formats": null,
             "hash": "evault_battery_c18dc03be9",
             "ext": ".png",
             "mime": "image/png",
             "size": 96.01,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/evault_battery_c18dc03be9.png",
+            "url": "/uploads/Emergency-Battery-Backup-Installation.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -13859,30 +13116,17 @@
         "data": {
           "id": 77,
           "attributes": {
-            "name": "images.png",
+            "name": "Integration-of-Battery-Storage-with-Solar-Panels.jpeg",
             "alternativeText": null,
             "caption": null,
             "width": 259,
             "height": 194,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_images.png",
-                "hash": "thumbnail_images_0d2ba616bd",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 208,
-                "height": 156,
-                "size": 22.55,
-                "sizeInBytes": 22552,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_images_0d2ba616bd.png"
-              }
-            },
+            "formats": null,
             "hash": "images_0d2ba616bd",
             "ext": ".png",
             "mime": "image/png",
             "size": 7.32,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/images_0d2ba616bd.png",
+            "url": "/uploads/Integration-of-Battery-Storage-with-Solar-Panels.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -14319,61 +13563,12 @@
             "caption": null,
             "width": 1920,
             "height": 1080,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_solar-panel-installation.jpg",
-                "hash": "thumbnail_solar_panel_installation_12899df9fb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 138,
-                "size": 10.67,
-                "sizeInBytes": 10671,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_solar_panel_installation_12899df9fb.jpg"
-              },
-              "small": {
-                "name": "small_solar-panel-installation.jpg",
-                "hash": "small_solar_panel_installation_12899df9fb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 281,
-                "size": 38.39,
-                "sizeInBytes": 38388,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_solar_panel_installation_12899df9fb.jpg"
-              },
-              "medium": {
-                "name": "medium_solar-panel-installation.jpg",
-                "hash": "medium_solar_panel_installation_12899df9fb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 422,
-                "size": 80.28,
-                "sizeInBytes": 80283,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_solar_panel_installation_12899df9fb.jpg"
-              },
-              "large": {
-                "name": "large_solar-panel-installation.jpg",
-                "hash": "large_solar_panel_installation_12899df9fb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 563,
-                "size": 134.44,
-                "sizeInBytes": 134438,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_solar_panel_installation_12899df9fb.jpg"
-              }
-            },
+            "formats": null,
             "hash": "solar_panel_installation_12899df9fb",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 304.61,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/solar_panel_installation_12899df9fb.jpg",
+            "url": "/uploads/solar_panel_installation.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -14933,61 +14128,12 @@
             "caption": null,
             "width": 1080,
             "height": 675,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_solar-inverter.jpg",
-                "hash": "thumbnail_solar_inverter_b747c96e93",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 153,
-                "size": 6.43,
-                "sizeInBytes": 6431,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_solar_inverter_b747c96e93.jpg"
-              },
-              "small": {
-                "name": "small_solar-inverter.jpg",
-                "hash": "small_solar_inverter_b747c96e93",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 313,
-                "size": 20.05,
-                "sizeInBytes": 20046,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_solar_inverter_b747c96e93.jpg"
-              },
-              "medium": {
-                "name": "medium_solar-inverter.jpg",
-                "hash": "medium_solar_inverter_b747c96e93",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 469,
-                "size": 39.17,
-                "sizeInBytes": 39173,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_solar_inverter_b747c96e93.jpg"
-              },
-              "large": {
-                "name": "large_solar-inverter.jpg",
-                "hash": "large_solar_inverter_b747c96e93",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 625,
-                "size": 62.05,
-                "sizeInBytes": 62054,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_solar_inverter_b747c96e93.jpg"
-              }
-            },
+            "formats": null,
             "hash": "solar_inverter_b747c96e93",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 71.92,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/solar_inverter_b747c96e93.jpg",
+            "url": "/uploads/solar_inverter.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -15505,61 +14651,12 @@
             "caption": null,
             "width": 4928,
             "height": 3280,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_solar-panel-repair.jpg",
-                "hash": "thumbnail_solar_panel_repair_fe3115f5cb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 234,
-                "height": 156,
-                "size": 10.13,
-                "sizeInBytes": 10134,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_solar_panel_repair_fe3115f5cb.jpg"
-              },
-              "small": {
-                "name": "small_solar-panel-repair.jpg",
-                "hash": "small_solar_panel_repair_fe3115f5cb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 333,
-                "size": 34.34,
-                "sizeInBytes": 34337,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_solar_panel_repair_fe3115f5cb.jpg"
-              },
-              "large": {
-                "name": "large_solar-panel-repair.jpg",
-                "hash": "large_solar_panel_repair_fe3115f5cb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 666,
-                "size": 107.57,
-                "sizeInBytes": 107572,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_solar_panel_repair_fe3115f5cb.jpg"
-              },
-              "medium": {
-                "name": "medium_solar-panel-repair.jpg",
-                "hash": "medium_solar_panel_repair_fe3115f5cb",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 499,
-                "size": 67.07,
-                "sizeInBytes": 67074,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_solar_panel_repair_fe3115f5cb.jpg"
-              }
-            },
+            "formats": null,
             "hash": "solar_panel_repair_fe3115f5cb",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 1208.75,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/solar_panel_repair_fe3115f5cb.jpg",
+            "url": "/uploads/solar_panel_repair.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -16037,61 +15134,12 @@
             "caption": null,
             "width": 1920,
             "height": 1080,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_brid-proofing-solar.jpg",
-                "hash": "thumbnail_brid_proofing_solar_0bc3e1c60a",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 138,
-                "size": 6.79,
-                "sizeInBytes": 6785,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_brid_proofing_solar_0bc3e1c60a.jpg"
-              },
-              "small": {
-                "name": "small_brid-proofing-solar.jpg",
-                "hash": "small_brid_proofing_solar_0bc3e1c60a",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 281,
-                "size": 19.24,
-                "sizeInBytes": 19236,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_brid_proofing_solar_0bc3e1c60a.jpg"
-              },
-              "medium": {
-                "name": "medium_brid-proofing-solar.jpg",
-                "hash": "medium_brid_proofing_solar_0bc3e1c60a",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 422,
-                "size": 34.46,
-                "sizeInBytes": 34464,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_brid_proofing_solar_0bc3e1c60a.jpg"
-              },
-              "large": {
-                "name": "large_brid-proofing-solar.jpg",
-                "hash": "large_brid_proofing_solar_0bc3e1c60a",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 563,
-                "size": 53.33,
-                "sizeInBytes": 53326,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_brid_proofing_solar_0bc3e1c60a.jpg"
-              }
-            },
+            "formats": null,
             "hash": "brid_proofing_solar_0bc3e1c60a",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 145.62,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/brid_proofing_solar_0bc3e1c60a.jpg",
+            "url": "/uploads/brid_proofing_solar.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -16363,7 +15411,7 @@
           "image": {
             "name": "alpha-ess.jpg",
             "alternativeText": "alpha-ess.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/alpha_ess_88412714d3.jpg",
+            "url": "/uploads/alpha_ess.jpg",
             "caption": null,
             "width": 1024,
             "height": 1024,
@@ -16378,7 +15426,7 @@
                 "height": 156,
                 "size": 2.21,
                 "sizeInBytes": 2209,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_alpha_ess_88412714d3.jpg"
+                "url": "/uploads/alpha_ess.jpg"
               },
               "small": {
                 "name": "small_alpha-ess.jpg",
@@ -16390,7 +15438,7 @@
                 "height": 500,
                 "size": 10.23,
                 "sizeInBytes": 10233,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_alpha_ess_88412714d3.jpg"
+                "url": "/uploads/alpha_ess.jpg"
               },
               "medium": {
                 "name": "medium_alpha-ess.jpg",
@@ -16402,7 +15450,7 @@
                 "height": 750,
                 "size": 18.21,
                 "sizeInBytes": 18213,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_alpha_ess_88412714d3.jpg"
+                "url": "/uploads/alpha_ess.jpg"
               },
               "large": {
                 "name": "large_alpha-ess.jpg",
@@ -16414,7 +15462,7 @@
                 "height": 1000,
                 "size": 28.37,
                 "sizeInBytes": 28368,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_alpha_ess_88412714d3.jpg"
+                "url": "/uploads/alpha_ess.jpg"
               }
             },
             "hash": "alpha_ess_88412714d3",
@@ -16603,61 +15651,12 @@
             "caption": null,
             "width": 1024,
             "height": 1024,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_alpha-ess.jpg",
-                "hash": "thumbnail_alpha_ess_88412714d3",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 156,
-                "height": 156,
-                "size": 2.21,
-                "sizeInBytes": 2209,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_alpha_ess_88412714d3.jpg"
-              },
-              "small": {
-                "name": "small_alpha-ess.jpg",
-                "hash": "small_alpha_ess_88412714d3",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 500,
-                "size": 10.23,
-                "sizeInBytes": 10233,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_alpha_ess_88412714d3.jpg"
-              },
-              "medium": {
-                "name": "medium_alpha-ess.jpg",
-                "hash": "medium_alpha_ess_88412714d3",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 750,
-                "size": 18.21,
-                "sizeInBytes": 18213,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_alpha_ess_88412714d3.jpg"
-              },
-              "large": {
-                "name": "large_alpha-ess.jpg",
-                "hash": "large_alpha_ess_88412714d3",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 1000,
-                "size": 28.37,
-                "sizeInBytes": 28368,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_alpha_ess_88412714d3.jpg"
-              }
-            },
+            "formats": null,
             "hash": "alpha_ess_88412714d3",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 28.2,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/alpha_ess_88412714d3.jpg",
+            "url": "/uploads/alpha_ess.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -17148,61 +16147,12 @@
             "caption": null,
             "width": 1600,
             "height": 892,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_tesla-powerwall.jpg",
-                "hash": "thumbnail_tesla_powerwall_646278ab04",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 137,
-                "size": 7.31,
-                "sizeInBytes": 7311,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_tesla_powerwall_646278ab04.jpg"
-              },
-              "small": {
-                "name": "small_tesla-powerwall.jpg",
-                "hash": "small_tesla_powerwall_646278ab04",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 279,
-                "size": 21.68,
-                "sizeInBytes": 21682,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_tesla_powerwall_646278ab04.jpg"
-              },
-              "medium": {
-                "name": "medium_tesla-powerwall.jpg",
-                "hash": "medium_tesla_powerwall_646278ab04",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 418,
-                "size": 42.19,
-                "sizeInBytes": 42193,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_tesla_powerwall_646278ab04.jpg"
-              },
-              "large": {
-                "name": "large_tesla-powerwall.jpg",
-                "hash": "large_tesla_powerwall_646278ab04",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 1000,
-                "height": 558,
-                "size": 68.53,
-                "sizeInBytes": 68525,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_tesla_powerwall_646278ab04.jpg"
-              }
-            },
+            "formats": null,
             "hash": "tesla_powerwall_646278ab04",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 152.42,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/tesla_powerwall_646278ab04.jpg",
+            "url": "/uploads/tesla_powerwall.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -17575,25 +16525,12 @@
             "caption": null,
             "width": 490,
             "height": 470,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_sungrow-wall.jpg",
-                "hash": "thumbnail_sungrow_wall_8e880b9254",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 163,
-                "height": 156,
-                "size": 3.68,
-                "sizeInBytes": 3682,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_sungrow_wall_8e880b9254.jpg"
-              }
-            },
+            "formats": null,
             "hash": "sungrow_wall_8e880b9254",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 20.43,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/sungrow_wall_8e880b9254.jpg",
+            "url": "/uploads/Sungrow-High-Voltage-Battery.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -17798,7 +16735,7 @@
           "image": {
             "name": "saving-with-6.6-kW-solar-system.jpg",
             "alternativeText": "saving-with-6.6-kW-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/saving_with_6_6_k_W_solar_system_6ad65863b3.jpg",
+            "url": "/uploads/saving_with_6_kw_solar_system.jpeg",
             "caption": null,
             "width": 768,
             "height": 552,
@@ -17813,7 +16750,7 @@
                 "height": 156,
                 "size": 14.06,
                 "sizeInBytes": 14060,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_saving_with_6_6_k_W_solar_system_6ad65863b3.jpg"
+                "url": "/uploads/saving_with_6_kw_solar_system.jpeg"
               },
               "small": {
                 "name": "small_saving-with-6.6-kW-solar-system.jpg",
@@ -17825,7 +16762,7 @@
                 "height": 359,
                 "size": 67.11,
                 "sizeInBytes": 67107,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_saving_with_6_6_k_W_solar_system_6ad65863b3.jpg"
+                "url": "/uploads/saving_with_6_kw_solar_system.jpeg"
               },
               "medium": {
                 "name": "medium_saving-with-6.6-kW-solar-system.jpg",
@@ -17837,7 +16774,7 @@
                 "height": 539,
                 "size": 131.95,
                 "sizeInBytes": 131945,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_saving_with_6_6_k_W_solar_system_6ad65863b3.jpg"
+                "url": "/uploads/saving_with_6_kw_solar_system.jpeg"
               }
             },
             "hash": "saving_with_6_6_k_W_solar_system_6ad65863b3",
@@ -17926,7 +16863,7 @@
           "image": {
             "name": "why_us_6.6kw_solar_power_system.jpg",
             "alternativeText": "why_us_6.6kw_solar_power_system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/why_us_6_6kw_solar_power_system_59d1f3e124.jpg",
+            "url": "/uploads/why_us_6_kw_solar_power_system.jpeg",
             "caption": null,
             "width": 1170,
             "height": 725,
@@ -17941,7 +16878,7 @@
                 "height": 152,
                 "size": 12.7,
                 "sizeInBytes": 12700,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_why_us_6_6kw_solar_power_system_59d1f3e124.jpg"
+                "url": "/uploads/why_us_6_kw_solar_power_system.jpeg"
               },
               "small": {
                 "name": "small_why_us_6.6kw_solar_power_system.jpg",
@@ -17953,7 +16890,7 @@
                 "height": 310,
                 "size": 48.62,
                 "sizeInBytes": 48617,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_why_us_6_6kw_solar_power_system_59d1f3e124.jpg"
+                "url": "/uploads/why_us_6_kw_solar_power_system.jpeg"
               },
               "medium": {
                 "name": "medium_why_us_6.6kw_solar_power_system.jpg",
@@ -17965,7 +16902,7 @@
                 "height": 465,
                 "size": 95.01,
                 "sizeInBytes": 95012,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_why_us_6_6kw_solar_power_system_59d1f3e124.jpg"
+                "url": "/uploads/why_us_6_kw_solar_power_system.jpeg"
               },
               "large": {
                 "name": "large_why_us_6.6kw_solar_power_system.jpg",
@@ -17977,7 +16914,7 @@
                 "height": 620,
                 "size": 150.39,
                 "sizeInBytes": 150394,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_why_us_6_6kw_solar_power_system_59d1f3e124.jpg"
+                "url": "/uploads/why_us_6_kw_solar_power_system.jpeg"
               }
             },
             "hash": "why_us_6_6kw_solar_power_system_59d1f3e124",
@@ -18101,37 +17038,12 @@
             "caption": null,
             "width": 750,
             "height": 351,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_6.6kW-solar-systems.jpg",
-                "hash": "thumbnail_6_6k_W_solar_systems_13aae9387a",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 114,
-                "size": 9.81,
-                "sizeInBytes": 9807,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_6_6k_W_solar_systems_13aae9387a.jpg"
-              },
-              "small": {
-                "name": "small_6.6kW-solar-systems.jpg",
-                "hash": "small_6_6k_W_solar_systems_13aae9387a",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 234,
-                "size": 36.94,
-                "sizeInBytes": 36935,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_6_6k_W_solar_systems_13aae9387a.jpg"
-              }
-            },
+            "formats": null,
             "hash": "6_6k_W_solar_systems_13aae9387a",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 83.67,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/6_6k_W_solar_systems_13aae9387a.jpg",
+            "url": "/uploads/6_6k_W_solar_systems.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -18335,15 +17247,15 @@
         {
           "type": "image",
           "image": {
-            "name": "benifit_of_20kw_solar_system.jpg",
-            "alternativeText": "benifit_of_20kw_solar_system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_20kw_solar_system_730d37bf06.jpg",
+            "name": "benifit_of_20kw_solar_system.jpeg",
+            "alternativeText": "benifit_of_20kw_solar_system.jpeg",
+            "url": "/uploads/Benefits_of_Using_a_20kw_Solar_System.jpeg",
             "caption": null,
             "width": 276,
             "height": 183,
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_benifit_of_20kw_solar_system.jpg",
+                "name": "benifit_of_20kw_solar_system.jpeg",
                 "hash": "thumbnail_benifit_of_20kw_solar_system_730d37bf06",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -18352,7 +17264,7 @@
                 "height": 156,
                 "size": 10.92,
                 "sizeInBytes": 10916,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_20kw_solar_system_730d37bf06.jpg"
+                "url": "/uploads/Benefits_of_Using_a_20kw_Solar_System.jpeg"
               }
             },
             "hash": "benifit_of_20kw_solar_system_730d37bf06",
@@ -18449,15 +17361,15 @@
         {
           "type": "image",
           "image": {
-            "name": "why_us_20kw_system.jpg",
-            "alternativeText": "why_us_20kw_system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/why_us_20kw_system_f522f6f173.jpg",
+            "name": "why_us_20kw_system.jpeg",
+            "alternativeText": "why_us_20kw_system.jpeg",
+            "url": "/uploads/Why_Choose_Using_a_20kw_Solar_System.jpeg",
             "caption": null,
             "width": 1000,
             "height": 667,
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_why_us_20kw_system.jpg",
+                "name": "why_us_20kw_system.jpeg",
                 "hash": "thumbnail_why_us_20kw_system_f522f6f173",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -18466,10 +17378,10 @@
                 "height": 156,
                 "size": 11.79,
                 "sizeInBytes": 11787,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_why_us_20kw_system_f522f6f173.jpg"
+                "url": "/uploads/Why_Choose_Using_a_20kw_Solar_System.jpeg"
               },
               "small": {
-                "name": "small_why_us_20kw_system.jpg",
+                "name": "why_us_20kw_system.jpeg",
                 "hash": "small_why_us_20kw_system_f522f6f173",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -18478,10 +17390,10 @@
                 "height": 334,
                 "size": 54.04,
                 "sizeInBytes": 54040,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_why_us_20kw_system_f522f6f173.jpg"
+                "url": "/uploads/Why_Choose_Using_a_20kw_Solar_System.jpeg"
               },
               "medium": {
-                "name": "medium_why_us_20kw_system.jpg",
+                "name": "why_us_20kw_system.jpeg",
                 "hash": "medium_why_us_20kw_system_f522f6f173",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -18490,7 +17402,7 @@
                 "height": 500,
                 "size": 121.04,
                 "sizeInBytes": 121037,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_why_us_20kw_system_f522f6f173.jpg"
+                "url": "/uploads/Why_Choose_Using_a_20kw_Solar_System.jpeg"
               }
             },
             "hash": "why_us_20kw_system_f522f6f173",
@@ -18605,25 +17517,12 @@
             "caption": null,
             "width": 437,
             "height": 400,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_20kW-Solar-System.jpg",
-                "hash": "thumbnail_20k_W_Solar_System_9b48357322",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 170,
-                "height": 156,
-                "size": 7.32,
-                "sizeInBytes": 7324,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_20k_W_Solar_System_9b48357322.jpg"
-              }
-            },
+            "formats": null,
             "hash": "20k_W_Solar_System_9b48357322",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 39.58,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/20k_W_Solar_System_9b48357322.jpg",
+            "url": "/uploads/20kW-Solar-System.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -18829,7 +17728,7 @@
           "image": {
             "name": "benifit-of-8kw--solar-system.jpg",
             "alternativeText": "benifit-of-8kw--solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_8kw_solar_system_c3aa8b3a15.jpg",
+            "url": "/uploads/benifit_of_8kw_solar_system.jpeg",
             "caption": null,
             "width": 500,
             "height": 500,
@@ -18844,7 +17743,7 @@
                 "height": 156,
                 "size": 4.46,
                 "sizeInBytes": 4464,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_8kw_solar_system_c3aa8b3a15.jpg"
+                "url": "/uploads/benifit_of_8kw_solar_system.jpeg"
               }
             },
             "hash": "benifit_of_8kw_solar_system_c3aa8b3a15",
@@ -18968,15 +17867,15 @@
         {
           "type": "image",
           "image": {
-            "name": "why_us_8kw_solar_system.jpg",
-            "alternativeText": "why_us_8kw_solar_system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/why_us_8kw_solar_system_5c8e2811ff.jpg",
+            "name": "why_us_8kw_solar_system.jpeg",
+            "alternativeText": "why_us_8kw_solar_system.jpeg",
+            "url": "/uploads/why_us_8kw_solar_system.jpeg",
             "caption": null,
             "width": 686,
             "height": 386,
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_why_us_8kw_solar_system.jpg",
+                "name": "why_us_8kw_solar_system.jpeg",
                 "hash": "thumbnail_why_us_8kw_solar_system_5c8e2811ff",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -18985,10 +17884,10 @@
                 "height": 138,
                 "size": 11.84,
                 "sizeInBytes": 11842,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_why_us_8kw_solar_system_5c8e2811ff.jpg"
+                "url": "/uploads/why_us_8kw_solar_system.jpeg"
               },
               "small": {
-                "name": "small_why_us_8kw_solar_system.jpg",
+                "name": "why_us_8kw_solar_system.jpeg",
                 "hash": "small_why_us_8kw_solar_system_5c8e2811ff",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -18997,7 +17896,7 @@
                 "height": 281,
                 "size": 50.43,
                 "sizeInBytes": 50429,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_why_us_8kw_solar_system_5c8e2811ff.jpg"
+                "url": "/uploads/why_us_8kw_solar_system.jpeg"
               }
             },
             "hash": "why_us_8kw_solar_system_5c8e2811ff",
@@ -19112,37 +18011,12 @@
             "caption": null,
             "width": 600,
             "height": 313,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_8kW_solar_system.jpg",
-                "hash": "thumbnail_8k_W_solar_system_62fc248c00",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 128,
-                "size": 9.22,
-                "sizeInBytes": 9220,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_8k_W_solar_system_62fc248c00.jpg"
-              },
-              "small": {
-                "name": "small_8kW_solar_system.jpg",
-                "hash": "small_8k_W_solar_system_62fc248c00",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 261,
-                "size": 36.41,
-                "sizeInBytes": 36406,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_8k_W_solar_system_62fc248c00.jpg"
-              }
-            },
+            "formats": null,
             "hash": "8k_W_solar_system_62fc248c00",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 50.34,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/8k_W_solar_system_62fc248c00.jpg",
+            "url": "/uploads/8k_W_solar_system.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -19348,7 +18222,7 @@
           "image": {
             "name": "benifit-of-9.9kW-solar-system.jpg",
             "alternativeText": "benifit-of-9.9kW-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_9_9k_W_solar_system_c6bc930d9c.jpg",
+            "url": "/uploads/benifit_of_9.9kw_solar_system.jpeg",
             "caption": null,
             "width": 400,
             "height": 342,
@@ -19363,7 +18237,7 @@
                 "height": 156,
                 "size": 10.97,
                 "sizeInBytes": 10968,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_9_9k_W_solar_system_c6bc930d9c.jpg"
+                "url": "/uploads/benifit_of_9.9kw_solar_system.jpeg"
               }
             },
             "hash": "benifit_of_9_9k_W_solar_system_c6bc930d9c",
@@ -19480,7 +18354,7 @@
           "image": {
             "name": "why_us_9.9kw_solar_system.jpg",
             "alternativeText": "why_us_9.9kw_solar_system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/why_us_9_9kw_solar_system_fdc5fee02a.jpg",
+            "url": "/uploads/why_us_9.9kw_solar_system.jpeg",
             "caption": null,
             "width": 640,
             "height": 640,
@@ -19495,7 +18369,7 @@
                 "height": 156,
                 "size": 4.62,
                 "sizeInBytes": 4621,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_why_us_9_9kw_solar_system_fdc5fee02a.jpg"
+                "url": "/uploads/why_us_9.9kw_solar_system.jpeg"
               },
               "small": {
                 "name": "small_why_us_9.9kw_solar_system.jpg",
@@ -19507,7 +18381,7 @@
                 "height": 500,
                 "size": 38.52,
                 "sizeInBytes": 38524,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_why_us_9_9kw_solar_system_fdc5fee02a.jpg"
+                "url": "/uploads/why_us_9.9kw_solar_system.jpeg"
               }
             },
             "hash": "why_us_9_9kw_solar_system_fdc5fee02a",
@@ -19641,25 +18515,12 @@
             "caption": null,
             "width": 342,
             "height": 398,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_9.9kW-solar-system.jpg",
-                "hash": "thumbnail_9_9k_W_solar_system_8e40fa2760",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 134,
-                "height": 156,
-                "size": 5.07,
-                "sizeInBytes": 5066,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_9_9k_W_solar_system_8e40fa2760.jpg"
-              }
-            },
+            "formats": null,
             "hash": "9_9k_W_solar_system_8e40fa2760",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 18.79,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/9_9k_W_solar_system_8e40fa2760.jpg",
+            "url": "/uploads/9_9k_W_solar_system.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -19885,7 +18746,7 @@
           "image": {
             "name": "benifit-of-10kW-solar-system.jpg",
             "alternativeText": "benifit-of-10kW-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_10k_W_solar_system_42cf208f1b.jpg",
+            "url": "/uploads/benifit_of_10kw_solar_system.jpeg",
             "caption": null,
             "width": 2048,
             "height": 1151,
@@ -19900,7 +18761,7 @@
                 "height": 137,
                 "size": 9.33,
                 "sizeInBytes": 9331,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_10k_W_solar_system_42cf208f1b.jpg"
+                "url": "/uploads/benifit_of_10kw_solar_system.jpeg"
               },
               "large": {
                 "name": "large_benifit-of-10kW-solar-system.jpg",
@@ -19912,7 +18773,7 @@
                 "height": 562,
                 "size": 127.75,
                 "sizeInBytes": 127747,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_benifit_of_10k_W_solar_system_42cf208f1b.jpg"
+                "url": "/uploads/benifit_of_10kw_solar_system.jpeg"
               },
               "small": {
                 "name": "small_benifit-of-10kW-solar-system.jpg",
@@ -19924,7 +18785,7 @@
                 "height": 281,
                 "size": 36.33,
                 "sizeInBytes": 36325,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_benifit_of_10k_W_solar_system_42cf208f1b.jpg"
+                "url": "/uploads/benifit_of_10kw_solar_system.jpeg"
               },
               "medium": {
                 "name": "medium_benifit-of-10kW-solar-system.jpg",
@@ -19936,7 +18797,7 @@
                 "height": 422,
                 "size": 76.52,
                 "sizeInBytes": 76515,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_benifit_of_10k_W_solar_system_42cf208f1b.jpg"
+                "url": "/uploads/benifit_of_10kw_solar_system.jpeg"
               }
             },
             "hash": "benifit_of_10k_W_solar_system_42cf208f1b",
@@ -20051,15 +18912,15 @@
         {
           "type": "image",
           "image": {
-            "name": "why_us_10kw_solar_system.jpg",
-            "alternativeText": "why_us_10kw_solar_system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/why_us_10kw_solar_system_a534703e6d.jpg",
+            "name": "why_us_10kw_solar_system.jpeg",
+            "alternativeText": "why_us_10kw_solar_system.jpeg",
+            "url": "/uploads/why_us_10kw_solar_system.jpeg",
             "caption": null,
             "width": 700,
             "height": 500,
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_why_us_10kw_solar_system.jpg",
+                "name": "why_us_10kw_solar_system.jpeg",
                 "hash": "thumbnail_why_us_10kw_solar_system_a534703e6d",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -20068,10 +18929,10 @@
                 "height": 156,
                 "size": 9.53,
                 "sizeInBytes": 9531,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_why_us_10kw_solar_system_a534703e6d.jpg"
+                "url": "/uploads/why_us_10kw_solar_system.jpeg"
               },
               "small": {
-                "name": "small_why_us_10kw_solar_system.jpg",
+                "name": "why_us_10kw_solar_system.jpeg",
                 "hash": "small_why_us_10kw_solar_system_a534703e6d",
                 "ext": ".jpg",
                 "mime": "image/jpeg",
@@ -20080,7 +18941,7 @@
                 "height": 357,
                 "size": 43.32,
                 "sizeInBytes": 43316,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_why_us_10kw_solar_system_a534703e6d.jpg"
+                "url": "/uploads/why_us_10kw_solar_system.jpeg"
               }
             },
             "hash": "why_us_10kw_solar_system_a534703e6d",
@@ -20195,25 +19056,12 @@
             "caption": null,
             "width": 500,
             "height": 500,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_10kw-solar-system.jpg",
-                "hash": "thumbnail_10kw_solar_system_d4979dfbda",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 156,
-                "height": 156,
-                "size": 4.83,
-                "sizeInBytes": 4828,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_10kw_solar_system_d4979dfbda.jpg"
-              }
-            },
+            "formats": null,
             "hash": "10kw_solar_system_d4979dfbda",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 33.59,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/10kw_solar_system_d4979dfbda.jpg",
+            "url": "/uploads/10kw_solar_system.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -20443,7 +19291,7 @@
           "image": {
             "name": "benifit-of-30kW-solar-system.jpg",
             "alternativeText": "benifit-of-30kW-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_30k_W_solar_system_c85951627e.jpg",
+            "url": "/uploads/Benefits-of-Using-a-30-kW-Solar-System-for-Commercial-Space.jpeg",
             "caption": null,
             "width": 300,
             "height": 168,
@@ -20458,7 +19306,7 @@
                 "height": 137,
                 "size": 9.54,
                 "sizeInBytes": 9544,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_30k_W_solar_system_c85951627e.jpg"
+                "url": "/uploads/Benefits-of-Using-a-30-kW-Solar-System-for-Commercial-Space.jpeg"
               }
             },
             "hash": "benifit_of_30k_W_solar_system_c85951627e",
@@ -20668,7 +19516,7 @@
           "image": {
             "name": "Why-Us-30kW-Solar-System.jpg",
             "alternativeText": "Why-Us-30kW-Solar-System.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/Why_Us_30k_W_Solar_System_f9114e497b.jpg",
+            "url": "/uploads/Why-Using-a-30-kW-Solar-System-for-Commercial-Space.jpeg",
             "caption": null,
             "width": 700,
             "height": 372,
@@ -20683,7 +19531,7 @@
                 "height": 130,
                 "size": 10.64,
                 "sizeInBytes": 10639,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_Why_Us_30k_W_Solar_System_f9114e497b.jpg"
+                "url": "/uploads/Why-Using-a-30-kW-Solar-System-for-Commercial-Space.jpeg"
               },
               "small": {
                 "name": "small_Why-Us-30kW-Solar-System.jpg",
@@ -20695,7 +19543,7 @@
                 "height": 266,
                 "size": 36.03,
                 "sizeInBytes": 36027,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_Why_Us_30k_W_Solar_System_f9114e497b.jpg"
+                "url": "/uploads/Why-Using-a-30-kW-Solar-System-for-Commercial-Space.jpeg"
               }
             },
             "hash": "Why_Us_30k_W_Solar_System_f9114e497b",
@@ -20810,49 +19658,12 @@
             "caption": null,
             "width": 768,
             "height": 591,
-            "formats": {
-              "medium": {
-                "name": "medium_30kw-solar-system.jpg",
-                "hash": "medium_30kw_solar_system_6bcd35a228",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 577,
-                "size": 72.54,
-                "sizeInBytes": 72540,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_30kw_solar_system_6bcd35a228.jpg"
-              },
-              "small": {
-                "name": "small_30kw-solar-system.jpg",
-                "hash": "small_30kw_solar_system_6bcd35a228",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 385,
-                "size": 37.87,
-                "sizeInBytes": 37871,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_30kw_solar_system_6bcd35a228.jpg"
-              },
-              "thumbnail": {
-                "name": "thumbnail_30kw-solar-system.jpg",
-                "hash": "thumbnail_30kw_solar_system_6bcd35a228",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 203,
-                "height": 156,
-                "size": 8.43,
-                "sizeInBytes": 8431,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_30kw_solar_system_6bcd35a228.jpg"
-              }
-            },
+            "formats": null,
             "hash": "30kw_solar_system_6bcd35a228",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 76.5,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/30kw_solar_system_6bcd35a228.jpg",
+            "url": "/uploads/30kw_solar_system.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -21058,7 +19869,7 @@
           "image": {
             "name": "benifit-of-50kw-solar-system.jpg",
             "alternativeText": "benifit-of-50kw-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_50kw_solar_system_9d896e4085.jpg",
+            "url": "/uploads/benefits_of_using_a_50kW_solar_system.jpeg",
             "caption": null,
             "width": 320,
             "height": 158,
@@ -21073,7 +19884,7 @@
                 "height": 121,
                 "size": 6.43,
                 "sizeInBytes": 6432,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_50kw_solar_system_9d896e4085.jpg"
+                "url": "/uploads/benefits_of_using_a_50kW_solar_system.jpeg"
               }
             },
             "hash": "benifit_of_50kw_solar_system_9d896e4085",
@@ -21448,7 +20259,7 @@
           "image": {
             "name": "why-us-50kw-solar-system.jpeg",
             "alternativeText": "why-us-50kw-solar-system.jpeg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/why_us_50kw_solar_system_102c23e946.jpeg",
+            "url": "/uploads/why_50kW_solar_system.jpeg.jpeg",
             "caption": null,
             "width": 259,
             "height": 194,
@@ -21463,7 +20274,7 @@
                 "height": 156,
                 "size": 13.25,
                 "sizeInBytes": 13248,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_why_us_50kw_solar_system_102c23e946.jpeg"
+                "url": "/uploads/why_50kW_solar_system.jpeg.jpeg"
               }
             },
             "hash": "why_us_50kw_solar_system_102c23e946",
@@ -21606,25 +20417,12 @@
             "caption": null,
             "width": 316,
             "height": 160,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_50kw-solar-system.jpg",
-                "hash": "thumbnail_50kw_solar_system_9c60a22f91",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 124,
-                "size": 8.36,
-                "sizeInBytes": 8355,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_50kw_solar_system_9c60a22f91.jpg"
-              }
-            },
+            "formats": null,
             "hash": "50kw_solar_system_9c60a22f91",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 11.01,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/50kw_solar_system_9c60a22f91.jpg",
+            "url": "/uploads/50kw_solar_system.jpeg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -21815,7 +20613,7 @@
           "image": {
             "name": "benifit-of-100kw-solar-system.jpg",
             "alternativeText": "benifit-of-100kw-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_100kw_solar_system_6f1fc30d3b.jpg",
+            "url": "/uploads/benefits_of_using_a_100kW_solar_system.jpeg",
             "caption": null,
             "width": 853,
             "height": 640,
@@ -21830,7 +20628,7 @@
                 "height": 156,
                 "size": 3.79,
                 "sizeInBytes": 3790,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_100kw_solar_system_6f1fc30d3b.jpg"
+                "url": "/uploads/benefits_of_using_a_100kW_solar_system.jpeg"
               },
               "small": {
                 "name": "small_benifit-of-100kw-solar-system.jpg",
@@ -21842,7 +20640,7 @@
                 "height": 375,
                 "size": 16.74,
                 "sizeInBytes": 16736,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_benifit_of_100kw_solar_system_6f1fc30d3b.jpg"
+                "url": "/uploads/benefits_of_using_a_100kW_solar_system.jpeg"
               },
               "medium": {
                 "name": "medium_benifit-of-100kw-solar-system.jpg",
@@ -21854,7 +20652,7 @@
                 "height": 563,
                 "size": 34.19,
                 "sizeInBytes": 34185,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_benifit_of_100kw_solar_system_6f1fc30d3b.jpg"
+                "url": "/uploads/benefits_of_using_a_100kW_solar_system.jpeg"
               }
             },
             "hash": "benifit_of_100kw_solar_system_6f1fc30d3b",
@@ -22182,7 +20980,7 @@
           "image": {
             "name": "why-us-100kw-solar-system.jpg",
             "alternativeText": "why-us-100kw-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/why_us_100kw_solar_system_96e4e44518.jpg",
+            "url": "/uploads/why_100kW_solar_system.jpeg.jpeg",
             "caption": null,
             "width": 2301,
             "height": 1303,
@@ -22197,7 +20995,7 @@
                 "height": 138,
                 "size": 13.76,
                 "sizeInBytes": 13758,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_why_us_100kw_solar_system_96e4e44518.jpg"
+                "url": "/uploads/why_100kW_solar_system.jpeg.jpeg"
               },
               "small": {
                 "name": "small_why-us-100kw-solar-system.jpg",
@@ -22209,7 +21007,7 @@
                 "height": 283,
                 "size": 51.56,
                 "sizeInBytes": 51557,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_why_us_100kw_solar_system_96e4e44518.jpg"
+                "url": "/uploads/why_100kW_solar_system.jpeg.jpeg"
               },
               "medium": {
                 "name": "medium_why-us-100kw-solar-system.jpg",
@@ -22221,7 +21019,7 @@
                 "height": 425,
                 "size": 104.3,
                 "sizeInBytes": 104301,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_why_us_100kw_solar_system_96e4e44518.jpg"
+                "url": "/uploads/why_100kW_solar_system.jpeg.jpeg"
               },
               "large": {
                 "name": "large_why-us-100kw-solar-system.jpg",
@@ -22233,7 +21031,7 @@
                 "height": 566,
                 "size": 176.21,
                 "sizeInBytes": 176212,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_why_us_100kw_solar_system_96e4e44518.jpg"
+                "url": "/uploads/why_100kW_solar_system.jpeg.jpeg"
               }
             },
             "hash": "why_us_100kw_solar_system_96e4e44518",
@@ -22348,49 +21146,12 @@
             "caption": null,
             "width": 935,
             "height": 516,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_100kw-solar-system.jpg",
-                "hash": "thumbnail_100kw_solar_system_d0ae37216e",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 245,
-                "height": 135,
-                "size": 9.81,
-                "sizeInBytes": 9809,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_100kw_solar_system_d0ae37216e.jpg"
-              },
-              "small": {
-                "name": "small_100kw-solar-system.jpg",
-                "hash": "small_100kw_solar_system_d0ae37216e",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 500,
-                "height": 276,
-                "size": 37.43,
-                "sizeInBytes": 37428,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_100kw_solar_system_d0ae37216e.jpg"
-              },
-              "medium": {
-                "name": "medium_100kw-solar-system.jpg",
-                "hash": "medium_100kw_solar_system_d0ae37216e",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 750,
-                "height": 414,
-                "size": 78.48,
-                "sizeInBytes": 78482,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_100kw_solar_system_d0ae37216e.jpg"
-              }
-            },
+            "formats": null,
             "hash": "100kw_solar_system_d0ae37216e",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 117.45,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/100kw_solar_system_d0ae37216e.jpg",
+            "url": "/uploads/100kw_solar_system.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
@@ -22581,7 +21342,7 @@
           "image": {
             "name": "benifit-of-13kw-solar-system.jpg",
             "alternativeText": "benifit-of-13kw-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/benifit_of_13kw_solar_system_400c71ac24.jpg",
+            "url": "/uploads/benifit_of_13kw_solar_system.jpeg",
             "caption": null,
             "width": 1024,
             "height": 576,
@@ -22596,7 +21357,7 @@
                 "height": 422,
                 "size": 102.25,
                 "sizeInBytes": 102254,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/medium_benifit_of_13kw_solar_system_400c71ac24.jpg"
+                "url": "/uploads/benifit_of_13kw_solar_system.jpeg"
               },
               "thumbnail": {
                 "name": "thumbnail_benifit-of-13kw-solar-system.jpg",
@@ -22608,7 +21369,7 @@
                 "height": 138,
                 "size": 12.42,
                 "sizeInBytes": 12418,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_benifit_of_13kw_solar_system_400c71ac24.jpg"
+                "url": "/uploads/benifit_of_13kw_solar_system.jpeg"
               },
               "small": {
                 "name": "small_benifit-of-13kw-solar-system.jpg",
@@ -22620,7 +21381,7 @@
                 "height": 281,
                 "size": 46.98,
                 "sizeInBytes": 46983,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/small_benifit_of_13kw_solar_system_400c71ac24.jpg"
+                "url": "/uploads/benifit_of_13kw_solar_system.jpeg"
               },
               "large": {
                 "name": "large_benifit-of-13kw-solar-system.jpg",
@@ -22632,7 +21393,7 @@
                 "height": 563,
                 "size": 171.43,
                 "sizeInBytes": 171428,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/large_benifit_of_13kw_solar_system_400c71ac24.jpg"
+                "url": "/uploads/benifit_of_13kw_solar_system.jpeg"
               }
             },
             "hash": "benifit_of_13kw_solar_system_400c71ac24",
@@ -22917,7 +21678,7 @@
           "image": {
             "name": "when-use-13kw-solar-system.jpg",
             "alternativeText": "when-use-13kw-solar-system.jpg",
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/when_use_13kw_solar_system_100730e4e8.jpg",
+            "url": "/uploads/when_use_13kw_solar_system.jpeg",
             "caption": null,
             "width": 500,
             "height": 333,
@@ -22932,7 +21693,7 @@
                 "height": 156,
                 "size": 13.16,
                 "sizeInBytes": 13164,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_when_use_13kw_solar_system_100730e4e8.jpg"
+                "url": "/uploads/when_use_13kw_solar_system.jpeg"
               }
             },
             "hash": "when_use_13kw_solar_system_100730e4e8",
@@ -23075,25 +21836,12 @@
             "caption": null,
             "width": 500,
             "height": 334,
-            "formats": {
-              "thumbnail": {
-                "name": "thumbnail_13kw-solar-system.jpg",
-                "hash": "thumbnail_13kw_solar_system_c0d56979ff",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "path": null,
-                "width": 234,
-                "height": 156,
-                "size": 12.92,
-                "sizeInBytes": 12924,
-                "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/thumbnail_13kw_solar_system_c0d56979ff.jpg"
-              }
-            },
+            "formats": null,
             "hash": "13kw_solar_system_c0d56979ff",
             "ext": ".jpg",
             "mime": "image/jpeg",
             "size": 41.61,
-            "url": "https://invoiceflow.s3.us-east-1.amazonaws.com/13kw_solar_system_c0d56979ff.jpg",
+            "url": "/uploads/13kw_solar_system.jpg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,

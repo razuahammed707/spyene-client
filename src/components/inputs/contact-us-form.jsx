@@ -17,25 +17,26 @@ const ContactUsForm = ({ iscall }) => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch("/api/sendEmail", {
+      // TODO: Replace 'YOUR_FORMSPREE_ID' with your actual Formspree endpoint ID (e.g., 'mqazowry')
+      const response = await fetch("https://formspree.io/f/YOUR_FORMSPREE_ID", {
         method: "POST",
         headers: {
+          Accept: "application/json",
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
       });
 
-      const result = await response.json();
-
       if (response.ok) {
-        toast.success(result.message);
+        toast.success("Thank you for your message. We will get back to you soon!");
         reset();
       } else {
-        toast.error(result.message);
+        const result = await response.json();
+        toast.error(result.error || "Oops! There was a problem submitting your form");
       }
     } catch (error) {
       console.error("Error:", error);
-      toast.error("Error occurred while receiving quotation!.");
+      toast.error("Error occurred while submitting the form!");
     }
   };
 

@@ -33,10 +33,10 @@ export function GetQuotationModal({ bg_trigger }) {
               Get a free quote !
             </h3>
             <p className="text-[64748B] text-[14px] font-normal leading-[20px] items-stretch">
-              We're here to help you harness the power of the sun and provide
+              We&apos;re here to help you harness the power of the sun and provide
               reliable energy storage options. Whether you have questions, need
               a quote, or want to learn more about our products and services,
-              we'd love to hear from you.
+              we&apos;d love to hear from you.
             </p>
           </div>
           {/* <div className="flex space-x-8">
