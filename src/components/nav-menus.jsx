@@ -86,14 +86,18 @@ export const NavMenus = async ({ className, withSheetClose }) => {
   //console.log("solar_commercials__",solar_commercials);
   
   const getServicesByTitle = (title) => {
+    // Ensure all values are arrays to prevent spread operator errors
+    const safeBatteries = Array.isArray(batteries) ? batteries : [];
+    const safeRestBatteries = Array.isArray(rest_batteries) ? rest_batteries : [];
+    
     const servicesMap = {
-      Residential: residentials,
-      "Residential Solar": solar_residentials,
-      Industrial: industrials,
-      Commercial: commercials,
-      "Commercial Solar": solar_commercials,
-      "Solar panels": solarpanels,
-      Batteries: [...batteries, ...rest_batteries],
+      Residential: Array.isArray(residentials) ? residentials : [],
+      "Residential Solar": Array.isArray(solar_residentials) ? solar_residentials : [],
+      Industrial: Array.isArray(industrials) ? industrials : [],
+      Commercial: Array.isArray(commercials) ? commercials : [],
+      "Commercial Solar": Array.isArray(solar_commercials) ? solar_commercials : [],
+      "Solar panels": Array.isArray(solarpanels) ? solarpanels : [],
+      Batteries: [...safeBatteries, ...safeRestBatteries],
     };
 
     return servicesMap[title] || [];
