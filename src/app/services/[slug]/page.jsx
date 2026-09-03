@@ -4,8 +4,9 @@ import Services from "@/app/_components/services";
 import GetQuotation from "@/app/_components/get-quotation";
 import ContactUsButton from "@/components/contact-us-button";
 
-export async function generateStaticParams() {
-  const services = await fetchServices();
+import services from "@/../content/services.json";
+
+export function generateStaticParams() {
   return services.map((service) => ({
     slug: service.attributes.Slug,
   }));
@@ -15,7 +16,7 @@ const ServiceDetail = async ({ params: { slug } }) => {
   const services = await fetchServices(`&filters[Slug][$eq]=${slug}`);
   if (services.length === 0) return null;
   const service = services[0];
-  // console.log("service", service);
+
 
   return (
     <>

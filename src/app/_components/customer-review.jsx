@@ -176,7 +176,7 @@ const CustomerReview = () => {
                 5.00
               </h1>
               <p className="max-w-[280px] text-sm text-[#1045AD] leading-6">
-                Clutch average based on 70+ reviews. All chances are you'll be
+                Clutch average based on 70+ reviews. All chances are you&apos;ll be
                 impressed too.
               </p>
               <SwiperNavButtons />

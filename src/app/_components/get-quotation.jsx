@@ -18,6 +18,7 @@ const GetQuotation = ({ className }) => {
                 alt="explorer" // A description of the image for accessibility
                 width={24} // Set the desired width of the image
                 height={24} // Set the desired height of the image
+                style={{ width: "auto", height: "auto" }}
               />
               <div className="self-stretch my-auto">Explore</div>
             </div>

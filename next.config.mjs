@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
-    domains: ["localhost", "127.0.0.1"],
+    unoptimized: true, // required for static export (no image optimization server)
     remotePatterns: [
       {
         protocol: "https",
