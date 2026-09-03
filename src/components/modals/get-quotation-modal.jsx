@@ -7,10 +7,7 @@ import {
 } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
 import { Cross2Icon } from "@radix-ui/react-icons";
-/* import { Mail } from "lucide-react";
-import { Twitter } from "lucide-react";
-import { Instagram } from "lucide-react";
-import { Facebook } from "lucide-react"; */
+
 import ContactUsForm from "../inputs/contact-us-form";
 
 export function GetQuotationModal({ bg_trigger }) {
@@ -39,12 +36,7 @@ export function GetQuotationModal({ bg_trigger }) {
               we&apos;d love to hear from you.
             </p>
           </div>
-          {/* <div className="flex space-x-8">
-            <Facebook color="#EF8A22" className="h-4 w-4" />{" "}
-            <Instagram color="#EF8A22" className="h-4 w-4" />{" "}
-            <Twitter color="#EF8A22" className="h-4 w-4" />{" "}
-            <Mail color="#EF8A22" className="h-4 w-4" />
-          </div> */}
+
         </div>
         <div className="w-full">
           <ContactUsForm />
